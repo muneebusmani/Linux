@@ -1,0 +1,5 @@
+export LARAVEL="/home/muneeb/vendor/laravel/installer/bin"
+export BREWDIR="/home/linuxbrew/.linuxbrew/bin"
+export PATH="$PATH:$BREWDIR:$LARAVEL"
+export DOTNET_ROOT="/home/linuxbrew/.linuxbrew/opt/dotnet/libexec"
+export POSH_THEMES_PATH="$(brew --prefix oh-my-posh)/themes"
