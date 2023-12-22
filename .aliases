@@ -37,3 +37,4 @@ alias tmx='tmux new -t'
 alias nf='touch'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias ngnp="ng new"

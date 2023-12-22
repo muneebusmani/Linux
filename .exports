@@ -3,3 +3,12 @@ export BREWDIR="/home/linuxbrew/.linuxbrew/bin"
 export PATH="$PATH:$BREWDIR:$LARAVEL"
 export DOTNET_ROOT="/home/linuxbrew/.linuxbrew/opt/dotnet/libexec"
 export POSH_THEMES_PATH="$(brew --prefix oh-my-posh)/themes"
+
+
+
+export LANG=en_US
+export LC_MEASUREMENT=en_US.UTF-8
+export LC_TIME=en_US.UTF-8
+export LC_MONETARY=en_US.UTF-8
+export LC_NUMERIC=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
