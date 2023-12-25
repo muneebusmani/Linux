@@ -2,7 +2,8 @@ alias nv=nvim
 alias vim=nvim
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-alias op='nvim ~/.bashrc'
+# alias op='nvim ~/.bashrc'
+alias op='nvim ~/.zshrc'
 alias ndir='cd ~/.config/nvim/'
 alias cdir='cd ~/munee/source/repos/coding/'
 alias course='nv ~/munee/source/repos/coding/3/Angular\ and\ Dotnet/'
@@ -40,3 +41,6 @@ alias grep='grep --color=auto'
 alias ngnp="ng new"
 alias oe='nvim ~/.exports'
 alias ngc="ng g c"
+alias tmxa="tmux attach"
+alias kdir='cd ~/.config/kitty/'
+alias "c."="code ."

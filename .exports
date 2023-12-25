@@ -1,12 +1,8 @@
 export LARAVEL="/home/muneeb/vendor/laravel/installer/bin"
 export BREWDIR="/home/linuxbrew/.linuxbrew/bin"
-export PATH="$PATH:$BREWDIR:$LARAVEL"
-export DOTNET_ROOT="/home/linuxbrew/.linuxbrew/opt/dotnet/libexec"
+# export DOTNET_ROOT="/home/linuxbrew/.linuxbrew/opt/dotnet/libexec"
+export DOTNET_ROOT="/usr/share/dotnet"
+export GEM_PATH="/home/muneeb/.local/share/gem/ruby/3.0.0/bin"
+export CARGO_PATH="/home/muneeb/.cargo/bin"
+export PATH="$PATH:$BREWDIR:$LARAVEL:$GEM_PATH:$CARGO_PATH"
 export POSH_THEMES_PATH="$(brew --prefix oh-my-posh)/themes"
-
-export LANG=en_US.UTF-8
-export LC_MEASUREMENT=en_US.UTF-8
-export LC_TIME=en_US.UTF-8
-export LC_MONETARY=en_US.UTF-8
-export LC_NUMERIC=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
