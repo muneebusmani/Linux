@@ -2,45 +2,57 @@ alias nv=nvim
 alias vim=nvim
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-# alias op='nvim ~/.bashrc'
 alias op='nvim ~/.zshrc'
 alias ndir='cd ~/.config/nvim/'
-alias cdir='cd ~/munee/source/repos/coding/'
-alias course='nv ~/munee/source/repos/coding/3/Angular\ and\ Dotnet/'
+alias cdir='cd ~/coding/'
 alias oa='nv ~/.aliases'
-alias npmi='npm i'
-alias yayi='yay -S --noconfirm'
-alias yayif='yay -Sy --noconfirm'
-alias yayr='yay -Rns --noconfirm'
-alias yayrf='yay -Rnssd --noconfirm'
-alias yayu='yay -Sy'
-alias yayuu='yay -Syu'
-alias yayuuf='yay -Syyuu'
-alias bri='brew install'
-alias coi='composer require'
-alias ef='dotnet ef'
-alias dt='dotnet'
-alias dtr='dotnet run'
-alias dtw='dotnet watch --no-hot-reload'
-alias dtg='dotnet aspnet-codegenerator'
-alias ngs='ng serve'
-alias rlp='source ~/.zshrc'
+alias dg='dotnet aspnet-codegenerator'
 alias cls='clear'
-alias cl='clear'
 alias q='exit'
-alias wq='exit'
-alias wqa='exit'
-alias :q='exit'
-alias :wq='exit'
-alias :qa='exit'
-alias :wqa='exit'
-alias tmx='tmux new -t'
-alias nf='touch'
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-alias ngnp="ng new"
 alias oe='nvim ~/.exports'
-alias ngc="ng g c"
-alias tmxa="tmux attach"
-alias kdir='cd ~/.config/kitty/'
-alias "c."="code ."
+alias ls='exa -al --color=always --group-directories-first --icons' # preferred listing
+alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first --icons'  # long format
+alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
+alias l.='exa -ald --color=always --group-directories-first --icons .*' # show only dotfiles
+alias cat='bat --style header --style snip --style changes --style header'
+alias grubup="sudo update-grub"
+alias fixpacman="sudo rm /var/lib/pacman/db.lck"
+alias tarnow='tar -acf '
+alias untar='tar -zxvf '
+alias wget='wget -c '
+alias rmpkg="sudo pacman -Rdd"
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+alias upd='/usr/bin/garuda-update'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='ugrep --color=auto'
+alias fgrep='ugrep -F --color=auto'
+alias egrep='ugrep -E --color=auto'
+alias hw='hwinfo --short'                          # Hardware Info
+alias big="expac -H M '%m\t%n' | sort -h | nl"     # Sort installed packages according to size in MB (expac must be installed)
+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
+alias ip='ip -color'
+alias mirror="sudo reflector -f 30 -l 30 --number 10 --verbose --save /etc/pacman.d/mirrorlist"
+alias mirrord="sudo reflector --latest 50 --number 20 --sort delay --save /etc/pacman.d/mirrorlist"
+alias mirrors="sudo reflector --latest 50 --number 20 --sort score --save /etc/pacman.d/mirrorlist"
+alias mirrora="sudo reflector --latest 50 --number 20 --sort age --save /etc/pacman.d/mirrorlist"
+alias apt='man pacman'
+alias apt-get='man pacman'
+alias please='sudo'
+alias tb='nc termbin.com 9999'
+alias helpme='cht.sh --shell'
+alias pacdiff='sudo -H DIFFPROG=meld pacdiff'
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias jctl="journalctl -p 3 -xb"
+alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias mux=tmuxinator
+alias ngc='ng g c'
+alias 'ng new'='ng new --nostandalone'
+

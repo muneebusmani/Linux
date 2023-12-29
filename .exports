@@ -6,3 +6,5 @@ export GEM_PATH="/home/muneeb/.local/share/gem/ruby/3.0.0/bin"
 export CARGO_PATH="/home/muneeb/.cargo/bin"
 export PATH="$PATH:$BREWDIR:$LARAVEL:$GEM_PATH:$CARGO_PATH"
 export POSH_THEMES_PATH="$(brew --prefix oh-my-posh)/themes"
+export BROWSER="/usr/bin/microsoft-edge-stable"
+

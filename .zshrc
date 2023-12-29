@@ -1,32 +1,53 @@
- source ~/.exports
- source ~/.aliases
- source ~/.options
-# oh-my-zsh configuration
+source ~/.exports
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export ZSH="$HOME/.oh-my-zsh"
-export NVM_LAZY_LOAD=true
 export EDITOR='nvim'
-export VISUAL='nvim'
-export ARCHFLAGS="-arch x86_64"
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
-HYPHEN_INSENSITIVE="true"
-DISABLE_MAGIC_FUNCTIONS="true"
-ENABLE_CORRECTION="true"
-COMPLETION_WAITING_DOTS="true"
-HIST_STAMPS="yyyy-mm-dd"
-plugins=(
-  adb 
-  archlinux 
-  bgnotify 
-  command-not-found 
-  systemd 
+export HIST_STAMPS="yyyy-mm-dd"
+export ZSH="$HOME/.oh-my-zsh"
+export ZSH_THEME="agnoster"
+plugins=( 
+  nvm
+  node
+  # git
+  # zsh-autosuggestions
+  fast-syntax-highlighting
+  zsh-syntax-highlighting
+  # zsh-autocomplete
+  # zsh-completions
+  web-search
+  dirhistory
+  history
+  aliases
+  dotnet
+  brew
+  composer
+  adb
+  alias-finder
+  archlinux
   sudo
+  command-not-found
+  copyfile
+  copypath
+  emoji
+  extract
   tmux
-)
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOQUIT=false
+  vscode
+  vi-mode
+  systemd
+  zsh-interactive-cd
+  npm
+  ng
+  flutter
+  )
+# Plugins options
+export NVM_LAZY_LOAD=true
+export ZSH_TMUX_AUTOSTART=true
+export ZSH_TMUX_AUTOQUIT=false
+export VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
+export VI_MODE_SET_CURSOR=true
+source /usr/share/zsh/plugins/zsh-autopair/autopair.zsh
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 source $ZSH/oh-my-zsh.sh
-zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-zstyle ':omz:update' frequency 7
+pokemon-colorscripts --no-title -s -r
+source ~/.aliases
+
