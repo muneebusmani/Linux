@@ -20,3 +20,4 @@ source ~/.aliases
 
 # Misc
 source <(ng completion script)
+git config --global user.name "Muneeb Usmani" && git config --global user.email "muneebusmani8355@gmail.com" 
