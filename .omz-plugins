@@ -1,0 +1,32 @@
+plugins=( 
+  nvm
+  node
+  git
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  web-search
+  dirhistory
+  history
+  aliases
+  dotnet
+  brew
+  composer
+  adb
+  alias-finder
+  archlinux
+  sudo
+  command-not-found
+  copyfile
+  copypath
+  emoji
+  extract
+  tmux
+  vscode
+  vi-mode
+  systemd
+  zsh-interactive-cd
+  npm
+  ng
+  flutter
+  )
+
