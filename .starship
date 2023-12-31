@@ -1,0 +1,4 @@
+if [ "$TERM" != "linux" ]; then
+  export STARSHIP_LOG="error"
+  eval "$(starship init zsh)"
+fi
