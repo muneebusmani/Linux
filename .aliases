@@ -62,4 +62,5 @@ alias rla='source ~/.aliases && echo "Reload Shell aliases!"'
 alias rle='source ~/.exports && echo "Reload Shell exports!"'
 alias rss='eval "$(which $SHELL)"'
 alias kconf="nvim ~/.config/kitty/kitty.conf"
+alias yay=paru
 export VISUAL=nvim
