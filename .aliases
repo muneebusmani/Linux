@@ -55,3 +55,11 @@ alias mux=tmuxinator
 alias ngc='ng g c'
 alias 'ng new'='ng new --nostandalone'
 
+alias open='xdg-open'
+alias ngs='ng serve'
+alias rlp='source ~/.zshrc && echo "Reload Shell Profile!"'
+alias rla='source ~/.aliases && echo "Reload Shell aliases!"'
+alias rle='source ~/.exports && echo "Reload Shell exports!"'
+alias rss='eval "$(which $SHELL)"'
+alias kconf="nvim ~/.config/kitty/kitty.conf"
+export VISUAL=nvim
