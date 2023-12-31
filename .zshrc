@@ -29,3 +29,4 @@ source ~/.zsh_tty
 source ~/.starship
 
 # neofetch
+# fastfetch --load-config dr460nized
