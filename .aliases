@@ -2,8 +2,6 @@ alias nv=nvim
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias op='nvim ~/.zshrc'
-alias ndir='cd ~/.config/nvim/'
-alias cdir='cd ~/coding/'
 alias oa='nv ~/.aliases'
 alias dg='dotnet aspnet-codegenerator'
 alias cls='clear'
@@ -54,13 +52,25 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias mux=tmuxinator
 alias ngc='ng g c'
 alias 'ng new'='ng new --nostandalone'
-
 alias open='xdg-open'
 alias ngs='ng serve'
 alias rlp='source ~/.zshrc && echo "Reload Shell Profile!"'
 alias rla='source ~/.aliases && echo "Reload Shell aliases!"'
 alias rle='source ~/.exports && echo "Reload Shell exports!"'
 alias rss='eval "$(which $SHELL)"'
+alias ld='ls -d */'
+alias lhd='ls -d .*/ */'
+
 alias kconf="nvim ~/.config/kitty/kitty.conf"
 alias yay=paru
-export VISUAL=nvim
+alias kconf='nvim ~/.config/kitty/kitty.conf'
+alias fconf='nvim ~/.config/fish/config.fish'
+
+alias kdir='nvim ~/.config/kitty/'
+alias fdir='nvim ~/.config/fish/'
+alias ndir='cd ~/.config/nvim/'
+alias cdir='cd ~/coding/'
+alias edge="microsoft-edge-stable"
+export GTK_THEME='Catppuccin-Frappe-Standard-Lavender-dark:dark'
+alias i3conf='nvim ~/.config/i3/config'
+alias polyconf='nvim ~/.config/polybar/config.ini'
