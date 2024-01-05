@@ -1,5 +1,5 @@
 # Night mode adjustment
-exec wl-gammarelay
+exec_always wl-gammarelay
 
 # Auth with polkit-gnome:
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -65,20 +65,15 @@ exec_always blueman-applet
 
 
 # CloudFlare Warp icon for tray
-exec systemctl --user enable warp-taskbar --now
+exec_always systemctl --user enable warp-taskbar --now
 
-exec 'scratchpad; exec kitty nvim ~/notepad.md; workspace 1'
+# Start Notepad file in scratchpad
+exec_always 'scratchpad; exec kitty nvim ~/notepad.md; workspace 1'
 for_window [title="^nvim$"] {
     move to scratchpad
 }
-workspace 1
-exec kitty
-workspace 2
-exec whatsapp-for-linux
-exec 'scratchpad; exec kitty nvim ~/notepad.md; workspace 1'
-for_window [title="^nvim$"] {
-    move to scratchpad
-}
-workspace 3
-exec microsoft-edge-stable
+# intel performance profile
 exec powerprofilesctl set performance
+
+# Start apps on workspaces
+exec /home/muneeb/.config/sway/scripts/apps.sh
