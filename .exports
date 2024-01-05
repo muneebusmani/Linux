@@ -9,4 +9,3 @@ export POSH_THEMES_PATH="$(brew --prefix oh-my-posh)/themes"
 export BROWSER="/usr/bin/microsoft-edge-stable"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export VISUAL=nvim
-

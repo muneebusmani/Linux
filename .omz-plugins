@@ -1,32 +1,32 @@
 plugins=( 
+  git
   nvm
   node
-  git
+  npm
+  ng
   zsh-autosuggestions
   zsh-syntax-highlighting
   web-search
-  dirhistory
-  history
+ #dirhistory
+ #history
   aliases
   dotnet
   brew
-  composer
-  adb
-  alias-finder
+ #composer
+ #adb
+ #alias-finder
   archlinux
   sudo
-  command-not-found
-  copyfile
-  copypath
-  emoji
-  extract
+ #command-not-found
+ #copyfile
+ #copypath
+ #emoji
+ #extract
+ #vscode
   tmux
-  vscode
   vi-mode
   systemd
   zsh-interactive-cd
-  npm
-  ng
   flutter
   )
 
