@@ -1,6 +1,3 @@
-# Night mode adjustment
-exec_always wl-gammarelay
-
 # Auth with polkit-gnome:
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
@@ -14,7 +11,7 @@ exec hash dbus-update-activation-environment 2>/dev/null && \
      dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
      
 # Sway Fader
-# exec python3 ~/.config/sway/scripts/swayfader.py     
+exec python3 ~/.config/sway/scripts/swayfader.py     
  
 # Wob
 exec mkfifo $SWAYSOCK.wob
@@ -24,7 +21,7 @@ exec tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '
 exec autotiling
 
 # Wlsunset
-# exec ~/.config/sway/scripts/light.sh
+exec ~/.config/sway/scripts/light.sh
 
 # nm-applet
 exec nm-applet --indicator
@@ -65,15 +62,23 @@ exec_always blueman-applet
 
 
 # CloudFlare Warp icon for tray
-exec_always systemctl --user enable warp-taskbar --now
+exec systemctl --user enable warp-taskbar --now
 
 # Start Notepad file in scratchpad
-exec_always 'scratchpad; exec kitty nvim ~/notepad.md; workspace 1'
+exec 'scratchpad; exec kitty nvim ~/notepad.md; workspace 1'
 for_window [title="^nvim$"] {
     move to scratchpad
 }
 # intel performance profile
 exec powerprofilesctl set performance
+exec kitty
+exec wl-gammarelay
 
-# Start apps on workspaces
-exec /home/muneeb/.config/sway/scripts/apps.sh
+
+# catppuccin
+set $ctp-version v0.6.1
+exec_always if [ ! -e ~/.themes/Catppuccin-Frappe-Standard-Lavender-dark ]; then \
+  mkdir -p ~/.themes \
+  && curl -L https://github.com/catppuccin/gtk/releases/download/$ctp-version/Catppuccin-Frappe-Standard-Lavender-dark.zip -o ~/.themes/catppuccin.zip \
+  && unzip ~/.themes/catppuccin.zip -d ~/.themes/ \
+  && rm -rf ~/.themes/catppuccin.zip; fi
