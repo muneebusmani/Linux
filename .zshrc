@@ -10,6 +10,9 @@ source ~/.omz-zshrc
 
 # source <(ng completion script)
 source ~/.aliases
+source ~/.functions
+
+
 source /usr/share/doc/find-the-command/ftc.zsh
 source ~/.zsh_catppuccin
 source ~/.zsh_tty

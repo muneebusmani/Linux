@@ -13,7 +13,7 @@
   "modules-right": [
     "custom/wl-gammarelay-temperature",
     "custom/wl-gammarelay-brightness",
-// "custom/wl-gammarelay-gamma",
+    "custom/wl-gammarelay-gamma",
     "custom/pacman",
     "backlight",
     "cpu",
