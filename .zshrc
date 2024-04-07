@@ -1,4 +1,4 @@
-source ~/.exports
+#source ~/.exports
 
 export ZSH_THEME="gozilla"
 source ~/.omz-zshrc
@@ -10,12 +10,12 @@ source ~/.omz-zshrc
 
 # source <(ng completion script)
 source ~/.aliases
-source ~/.functions
+#source ~/.functions
 
 
 source /usr/share/doc/find-the-command/ftc.zsh
 source ~/.zsh_catppuccin
 source ~/.zsh_tty
-neofetch
+#neofetch
 # eval "$(oh-my-posh init zsh)"
 #source ~/.starship
