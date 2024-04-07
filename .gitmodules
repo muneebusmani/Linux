@@ -1,0 +1,3 @@
+[submodule "/home/muneeb/.config/kitty"]
+	path = /home/muneeb/.config/kitty
+	url = https://github.com/muneebusmani/kitty
