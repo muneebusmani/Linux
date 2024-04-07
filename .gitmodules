@@ -1,3 +1,6 @@
 [submodule "/home/muneeb/.config/kitty"]
 	path = /home/muneeb/.config/kitty
 	url = https://github.com/muneebusmani/kitty
+[submodule "/home/muneeb/.config/nvim"]
+	path = /home/muneeb/.config/nvim
+	url = https://github.com/muneebusmani/nvim
