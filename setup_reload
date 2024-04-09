@@ -1,26 +1,27 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Step 1: Create the script
-cat > reload_psmouse.sh <<EOF
-#!/bin/bash
+cat >reload_psmouse <<EOF
+#!/usr/bin/env bash
 sudo modprobe -r psmouse
 sudo modprobe psmouse
 EOF
 
 # Step 2: Grant execute permission
-chmod +x reload_psmouse.sh
+chmod +x reload_psmouse
 
 # Step 3: Move the script to /usr/local/bin/
-sudo mv reload_psmouse.sh /usr/local/bin/
+sudo mv reload_psmouse /usr/local/bin/
 
 # Step 4: Create the systemd unit file
-cat > reload_psmouse.service <<EOF
+cat >reload_psmouse.service <<EOF
 [Unit]
 Description=Reload psmouse module after suspend
+After=suspend.target
 
 [Service]
-Type=oneshot
-ExecStart=/usr/local/bin/reload_psmouse.sh
+Type=simple
+ExecStart=/usr/local/bin/reload_psmouse
 
 [Install]
 WantedBy=suspend.target
@@ -36,4 +37,3 @@ sudo systemctl daemon-reload
 sudo systemctl enable reload_psmouse.service
 
 echo "Script created and configured successfully."
-
