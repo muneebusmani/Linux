@@ -1,5 +1,5 @@
 #source ~/.exports
-
+source /usr/share/nvm/init-nvm.sh
 export ZSH_THEME="gozilla"
 source ~/.omz-zshrc
 # source ~/.z-zshrc
