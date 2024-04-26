@@ -1,4 +1,4 @@
-#source ~/.exports
+source ~/.exports
 source /usr/share/nvm/init-nvm.sh
 export ZSH_THEME="gozilla"
 source ~/.omz-zshrc
@@ -8,8 +8,9 @@ source ~/.omz-zshrc
 
 
 
-# source <(ng completion script)
+source <(ng completion script)
 source ~/.aliases
+eval "$(warp-cli generate-completions zsh)"
 #source ~/.functions
 
 

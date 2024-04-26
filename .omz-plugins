@@ -1,22 +1,22 @@
 plugins=( 
-  git
-  nvm
-  node
-  npm
-  ng
-  zsh-autosuggestions
+ #git
+ #nvm
+ #node
+ #npm
+ #ng
+ #zsh-autosuggestions
  #zsh-syntax-highlighting
-  web-search
+ #web-search
  #dirhistory
  #history
-  aliases
-  dotnet
-  brew
+ #aliases
+ #dotnet
+ brew
  #composer
  #adb
  #alias-finder
-  archlinux
-  sudo
+ #archlinux
+ #sudo
  #command-not-found
  #copyfile
  #copypath
@@ -27,6 +27,6 @@ plugins=(
   vi-mode
   systemd
   zsh-interactive-cd
-  flutter
+  #flutter
   )
 
