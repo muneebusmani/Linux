@@ -21,3 +21,5 @@ source ~/.zsh_tty
 #source ~/.starship
 eval "$(warp-cli generate-completions zsh)"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(oh-my-posh completion zsh)"
+eval "$(oh-my-posh prompt init zsh --config /home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes/catppuccin_mocha.omp.json)"
