@@ -1,32 +1,34 @@
 plugins=( 
- #git
+ git
  #nvm
- #node
- #npm
+ node
+ npm
  #ng
- #zsh-autosuggestions
+ zsh-autosuggestions
+ fzf
  #zsh-syntax-highlighting
  #web-search
  #dirhistory
  #history
- #aliases
+ aliases
  #dotnet
- brew
- #composer
- #adb
+ #brew
+ composer
+ adb
  #alias-finder
- #archlinux
+ archlinux
  #sudo
  #command-not-found
  #copyfile
  #copypath
  #emoji
  #extract
- #vscode
-  tmux
+ vscode
+ tmux
   vi-mode
   systemd
   zsh-interactive-cd
-  #flutter
+  flutter
+  thefuck
   )
 
