@@ -1,90 +1,25 @@
-source ~/.exports
-export ZSH_THEME="gozilla"
-source ~/.omz-zshrc
-# source ~/.z-zshrc
-# ohmyzsh
-
-
-
-
-#source <(ng completion script)
 source ~/.aliases
-#eval "$(warp-cli generate-completions zsh)"
-#source ~/functions.zsh
-
-# set up z(powerfull cd)
-[[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
-alias cd=z
-
-# ---- FZF -----
-
-# Set up fzf key bindings and fuzzy completion
-source <(fzf --zsh)
-source /etc/profile.d/fzf.zsh
-
-# --- setup fzf theme ---
-export FZF_DEFAULT_OPTS=" \
---color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
---color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
---color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
-# -- Use fd instead of fzf --
-
-export FZF_DEFAULT_COMMAND="fd --hidden --strip-cwd-prefix --exclude .git"
-export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd --type=d --hidden --strip-cwd-prefix --exclude .git"
-
-# Use fd (https://github.com/sharkdp/fd) for listing path candidates.
-# - The first argument to the function ($1) is the base path to start traversal
-# - See the source code (completion.{bash,zsh}) for the details.
-_fzf_compgen_path() {
-  fd --hidden --exclude .git . "$1"
-}
-
-# Use fd to generate the list for directory completion
-_fzf_compgen_dir() {
-  fd --type=d --hidden --exclude .git . "$1"
-}
-
-source ~/fzf-git.sh
-
-show_file_or_dir_preview="if [ -d {} ]; then eza --tree --color=always {} | head -200; else bat -n --color=always --line-range :500 {}; fi"
-
-export FZF_CTRL_T_OPTS="--preview '$show_file_or_dir_preview'"
-export FZF_ALT_C_OPTS="--preview 'eza --tree --color=always {} | head -200'"
-
-# Advanced customization of fzf options via _fzf_comprun function
-# - The first argument to the function is the name of the command.
-# - You should make sure to pass the rest of the arguments to fzf.
-_fzf_comprun() {
-  local command=$1
-  shift
-
-  case "$command" in
-    cd)           fzf --preview 'eza --tree --color=always {} | head -200' "$@" ;;
-    export|unset) fzf --preview "eval 'echo \${}'"         "$@" ;;
-    ssh)          fzf --preview 'dig {}'                   "$@" ;;
-    *)            fzf --preview "$show_file_or_dir_preview" "$@" ;;
-  esac
-}
-
-#export BAT_THEME="Catppuccin Mocha"
-source <(thefuck --alias)
-source <(thefuck --alias fk)
-source <(zoxide init zsh)
-
-alias cd="z"
-bindkey -s '^o' 'nvim $(fzf)^M'
-
+source ~/.fzf.zsh
+export BAT_THEME="Catppuccin Mocha"
+bindkey -e
 # misc
 source /usr/share/doc/find-the-command/ftc.zsh
-source ~/.zsh_catppuccin
-source ~/.zsh_tty
+# source ~/.zsh_catppuccin
+# source ~/.zsh_tty
+# source <(warp-cli generate-completions zsh)
+# source <(thefuck --alias)
+source <(thefuck --alias fk)
+source <(zoxide init zsh)
+source ~/functions/artisan-completion
+source /usr/share/nvm/init-nvm.sh
 
-lazyload artisan-completion -- 'source ~/functions/artisan-completion'
-lazyload nvm -- 'source /usr/share/nvm/init-nvm.sh'
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+autoload -Uz artisan-completion
+autoload -Uz fzf
+autoload -Uz nvm
+autoload -Uz z
+autoload -Uz compinit
 setopt autocd extendedglob nomatch notify
-unsetopt beep
-bindkey -v
-neofetch
+compinit
+
+# source <(starship completions zsh)
+source <(starship init zsh)
