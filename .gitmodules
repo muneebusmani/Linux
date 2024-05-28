@@ -4,3 +4,12 @@
 [submodule "/home/muneeb/.config/nvim"]
 	path = /home/muneeb/.config/nvim
 	url = https://github.com/muneebusmani/nvim
+[submodule "/home/muneeb/.config/neofetch"]
+	path = /home/muneeb/.config/neofetch
+	url = https://github.com/muneebusmani/neofetch
+[submodule "/home/muneeb/.config/rofi"]
+	path = /home/muneeb/.config/rofi
+	url = https://github.com/muneebusmani/rofi
+[submodule "/home/muneeb/.config/bat"]
+	path = /home/muneeb/.config/bat
+	url = https://github.com/muneebusmani/bat
