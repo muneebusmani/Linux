@@ -1,3 +1,0 @@
-PROMPT="$PROMPT\$(vi_mode_prompt_info)"
-RPROMPT="\$(vi_mode_prompt_info)$RPROMPT"
-

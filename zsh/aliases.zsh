@@ -1,5 +1,4 @@
 alias nv=nvim
-alias cd=z
 alias op='nvim ~/.zshrc'
 alias oa='nvim ~/.aliases'
 alias dg='dotnet aspnet-codegenerator'
@@ -49,4 +48,4 @@ alias chad='NVIM_APPNAME=nvchad nvim'
 alias n='nvim .'
 alias gsm=' git status | grep --color=auto modified'
 alias gst=' git status'
-
+alias cd=z
