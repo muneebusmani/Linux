@@ -1,0 +1,9 @@
+export DOTNET_ROOT=/usr/share/dotnet
+export BAT_THEME="Catppuccin Mocha"
+export VISUAL=/usr/bin/nvim
+export EDITOR=/usr/bin/nvim
+export SUDO_EDITOR=/usr/bin/nvim
+export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
+export COMPOSER_PATH=/home/muneeb/.config/composer/vendor/bin
+export BUN="$HOME/.bun/bin"
+export PATH="$BUN:$COMPOSER_PATH:$PATH"

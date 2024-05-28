@@ -16,3 +16,5 @@
 	email = muneebusmani8355@gmail.com
 [credential]
 	helper = store
+[init]
+	defaultBranch = master

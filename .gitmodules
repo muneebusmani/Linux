@@ -16,3 +16,6 @@
 [submodule "/home/muneeb/.config/kvantum"]
 	path = /home/muneeb/.config/kvantum
 	url = https://github.com/muneebusmani/kvantum
+[submodule "/home/muneeb/home/muneeb/zsh/plugins"]
+	path = /home/muneeb/home/muneeb/zsh/plugins
+	url = https://github.com/muneebusmani/plugins
