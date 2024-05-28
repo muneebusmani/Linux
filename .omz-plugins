@@ -1,34 +1,25 @@
+#vim:ft=bash
 plugins=( 
- git
- #nvm
- node
- npm
- #ng
- zsh-autosuggestions
- fzf
- #zsh-syntax-highlighting
- #web-search
- #dirhistory
- #history
- aliases
- #dotnet
- #brew
- composer
- adb
- #alias-finder
- archlinux
- #sudo
- #command-not-found
- #copyfile
- #copypath
- #emoji
- #extract
- vscode
- tmux
+  #nvm
+  #node
+  #npm
+  #fzf
+  #composer
+  #adb
+  #archlinux
+  #vim-interaction
+  git
+  zsh-autosuggestions
+  tmux
   vi-mode
   systemd
   zsh-interactive-cd
-  flutter
-  thefuck
+  zsh-lazyload
+  #starship
+  #zoxide
+  #ripgrep
+  #battery
+  #flutter
+  #thefuck
   )
 

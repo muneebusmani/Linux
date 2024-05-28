@@ -1,5 +1,4 @@
 source ~/.exports
-#source /usr/share/nvm/init-nvm.sh
 export ZSH_THEME="gozilla"
 source ~/.omz-zshrc
 # source ~/.z-zshrc
@@ -20,17 +19,10 @@ alias cd=z
 # ---- FZF -----
 
 # Set up fzf key bindings and fuzzy completion
-eval "$(fzf --zsh)"
-. /etc/profile.d/fzf.zsh
-# --- setup fzf theme ---
-#fg="#CBE0F0"
-#bg="#011628"
-#bg_highlight="#143652"
-#purple="#B388FF"
-#blue="#06BCE4"
-#cyan="#2CF9ED"
+source <(fzf --zsh)
+source /etc/profile.d/fzf.zsh
 
-#export FZF_DEFAULT_OPTS="--color=fg:${fg},bg:${bg},hl:${purple},fg+:${fg},bg+:${bg_highlight},hl+:${purple},info:${blue},prompt:${cyan},pointer:${cyan},marker:${cyan},spinner:${cyan},header:${cyan}"
+# --- setup fzf theme ---
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
@@ -53,7 +45,7 @@ _fzf_compgen_dir() {
   fd --type=d --hidden --exclude .git . "$1"
 }
 
-source ~/fzf-git.sh/fzf-git.sh
+source ~/fzf-git.sh
 
 show_file_or_dir_preview="if [ -d {} ]; then eza --tree --color=always {} | head -200; else bat -n --color=always --line-range :500 {}; fi"
 
@@ -75,22 +67,10 @@ _fzf_comprun() {
   esac
 }
 
-# ----- Bat (better cat) -----
-
-export BAT_THEME="Catppuccin Mocha"
-
-# ---- Eza (better ls) -----
-
-# alias ls="eza --icons=always"
-
-# ---- TheFuck -----
-
-# thefuck alias
-eval $(thefuck --alias)
-eval $(thefuck --alias fk)
-
-# ---- Zoxide (better cd) ----
-eval "$(zoxide init zsh)"
+#export BAT_THEME="Catppuccin Mocha"
+source <(thefuck --alias)
+source <(thefuck --alias fk)
+source <(zoxide init zsh)
 
 alias cd="z"
 bindkey -s '^o' 'nvim $(fzf)^M'
@@ -99,7 +79,12 @@ bindkey -s '^o' 'nvim $(fzf)^M'
 source /usr/share/doc/find-the-command/ftc.zsh
 source ~/.zsh_catppuccin
 source ~/.zsh_tty
-export BROWSER=microsoft-edge-stable
-#neofetch
-# eval "$(oh-my-posh init zsh)"
-#source ~/.starship
+
+lazyload artisan-completion -- 'source ~/functions/artisan-completion'
+lazyload nvm -- 'source /usr/share/nvm/init-nvm.sh'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+setopt autocd extendedglob nomatch notify
+unsetopt beep
+bindkey -v
+neofetch
