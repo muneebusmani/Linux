@@ -19,3 +19,6 @@
 [submodule "/home/muneeb/home/muneeb/zsh/plugins"]
 	path = /home/muneeb/home/muneeb/zsh/plugins
 	url = https://github.com/muneebusmani/plugins
+[submodule "/home/muneeb/.config/i3"]
+	path = /home/muneeb/.config/i3
+	url = https://github.com/muneebusmani/i3
