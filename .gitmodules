@@ -13,3 +13,6 @@
 [submodule "/home/muneeb/.config/bat"]
 	path = /home/muneeb/.config/bat
 	url = https://github.com/muneebusmani/bat
+[submodule "/home/muneeb/.config/kvantum"]
+	path = /home/muneeb/.config/kvantum
+	url = https://github.com/muneebusmani/kvantum
