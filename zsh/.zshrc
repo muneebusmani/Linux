@@ -13,8 +13,10 @@
 . $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 . $ZDOTDIR/plugins/zsh-autopair/autopair.zsh 
 . $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-. $ZDOTDIR/plugins/fzf-tab-bin-git/fzf-tab.plugin.zsh
+# . $ZDOTDIR/plugins/fzf-tab-bin-git/fzf-tab.plugin.zsh
 . $ZDOTDIR/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
+. $ZDOTDIR/plugins/archlinux/archlinux.plugin.zsh
+. $ZDOTDIR/plugins/fzf-tab-source/fzf-tab.plugin.zsh
 . $ZDOTDIR/ftc.bash variant=zsh
 . $ZDOTDIR/catppuccin.zsh
 . $ZDOTDIR/tty.zsh
