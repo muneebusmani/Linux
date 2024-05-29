@@ -1,4 +1,4 @@
-#files: 999	version: 5.9
+#files: 1310	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -168,6 +168,7 @@ _comps=(
 'cf' '_cf'
 'cftp' '_twisted'
 'chage' '_users'
+'chatblade' '_chatblade'
 'chattr' '_chattr'
 'chcon' '_chcon'
 'chdir' '_cd'
@@ -310,6 +311,7 @@ _comps=(
 'docker' '_docker'
 'docpad' '_docpad'
 'domainname' '_yp'
+'do-release-upgrade' '_do-release-upgrade'
 'dos2unix' '_dos2unix'
 'dotnet' '_dotnet'
 'downgrade' '_downgrade'
@@ -455,6 +457,7 @@ _comps=(
 'gbasename' '_basename'
 'gcat' '_cat'
 'gcc' '_gcc'
+'gccd' '_git'
 'gccgo' '_go'
 'gchgrp' '_chown'
 'gchmod' '_chmod'
@@ -471,7 +474,9 @@ _comps=(
 'gdd' '_dd'
 'gdf' '_df'
 'gdiff' '_diff'
+'gdnolock' '_git'
 'gdu' '_du'
+'gdv' '_git'
 'geany' '_geany'
 'gegrep' '_grep'
 'gem' '_gem'
@@ -495,7 +500,13 @@ _comps=(
 'gfmt' '_fmt'
 'gfold' '_fold'
 'ggetopt' '_getopt'
+'ggf' '_git'
+'ggfl' '_git'
+'ggl' '_git'
+'ggp' '_git'
+'ggpnp' '_git'
 'ggrep' '_grep'
+'ggu' '_git'
 'ggv' '_gnome-gv'
 'gh' '_gh'
 'ghc' '_ghc'
@@ -511,6 +522,7 @@ _comps=(
 'git-cvsserver' '_git'
 'git-flow' '_git-flow'
 'gitk' '_git'
+'_git_log_prettily' '_git'
 'git-pulls' '_git-pulls'
 'git-receive-pack' '_git'
 'git-revise' '_git-revise'
@@ -610,6 +622,7 @@ _comps=(
 'gtar' '_tar'
 'gtee' '_tee'
 'gtimeout' '_timeout'
+'gtk4-launch' '_gtk-launch'
 'gtk-launch' '_gtk-launch'
 'gtouch' '_touch'
 'gtr' '_tr'
@@ -733,6 +746,8 @@ _comps=(
 'javah' '_java'
 'javap' '_java'
 'jdb' '_java'
+'jest' '_jest'
+'jest.js' '_jest'
 'jmeter' '_jmeter'
 'jmeter-plugins' '_jmeter-plugins'
 'jobs' '_jobs_builtin'
@@ -764,6 +779,7 @@ _comps=(
 'ksh88' '_sh'
 'ksh93' '_sh'
 'kvno' '_kvno'
+'l3build' '_l3build'
 'last' '_last'
 'lastb' '_last'
 'latex' '_tex'
@@ -959,6 +975,7 @@ _comps=(
 'ncl' '_nedit'
 'nedit' '_nedit'
 'nedit-nc' '_nedit'
+'neo' '_neo'
 'neofetch' '_neofetch'
 'netcat' '_netcat'
 'netctl' '_netctl'
@@ -978,6 +995,7 @@ _comps=(
 'nice' '_nice'
 'ninja' '_ninja'
 'nkf' '_nkf'
+'n-kill' '_n-kill'
 'nl' '_nl'
 'nm' '_nm'
 'nmap' '_nmap'
@@ -995,7 +1013,7 @@ _comps=(
 'ntalk' '_other_accounts'
 'numfmt' '_numfmt'
 'nvim' '_vim'
-'nvm' '_nvm'
+'nvm' '_bash_complete -o default -F __nvm'
 'objdump' '_objdump'
 'od' '_od'
 'offload-build' '_devtools'
@@ -1139,6 +1157,7 @@ _comps=(
 'powerpill-key' '_powerpill'
 'powerpill.static' '_powerpill'
 'pr' '_pr'
+'pre-commit' '_pre-commit'
 'prev' '_mh'
 'print' '_print'
 'printenv' '_printenv'
@@ -1201,6 +1220,7 @@ _comps=(
 'rcs' '_rcs'
 'rcsdiff' '_rcs'
 'rdesktop' '_rdesktop'
+'rdfind' '_rdfind'
 'read' '_read'
 'readelf' '_readelf'
 'readlink' '_readlink'
@@ -1323,6 +1343,7 @@ _comps=(
 'sha512' '_cksum'
 'sha512sum' '_md5sum'
 'sha512t256' '_cksum'
+'shallow-backup' '_shallow-backup'
 'shasum' '_shasum'
 'shellcheck' '_shellcheck'
 'shift' '_arrays'
@@ -1399,6 +1420,7 @@ _comps=(
 'sudoedit' '_sudo'
 'sum' '_cksum'
 'supervisorctl' '_supervisorctl'
+'supervisord' '_supervisord'
 'surfraw' '_surfraw'
 'sv' '_runit'
 'svm' '_svm'
@@ -1471,6 +1493,7 @@ _comps=(
 'tload' '_tload'
 'tmux' '_tmux'
 'tmuxinator' '_tmuxinator'
+'tmuxp' '_tmuxp'
 'todo' '_devtodo'
 'todo.sh' '_todo.sh'
 'toilet' '_toilet'
@@ -1771,6 +1794,7 @@ _comps=(
 'zsetattr' '_zattr'
 'zsh' '_zsh'
 'zsh-mime-handler' '_zsh-mime-handler'
+'_zsh_tmux_plugin_run' '_tmux'
 'zsocket' '_zsocket'
 'zstat' '_stat'
 'zstyle' '_zstyle'
@@ -1787,8 +1811,18 @@ _services=(
 'corepkg' 'commitpkg'
 'extrapkg' 'commitpkg'
 'extra-x86_64-build' 'archbuild'
+'gccd' 'git-clone'
 'gchgrp' 'chgrp'
 'gchown' 'chown'
+'gdnolock' 'git-diff'
+'gdv' 'git-diff'
+'ggf' 'git-checkout'
+'ggfl' 'git-checkout'
+'ggl' 'git-checkout'
+'ggp' 'git-checkout'
+'ggpnp' 'git-checkout'
+'ggu' 'git-checkout'
+'_git_log_prettily' 'git-log'
 'gnome-unstable-x86_64-build' 'archbuild'
 'gnupod_addsong.pl' 'gnupod_addsong'
 'gnupod_check.pl' 'gnupod_check'
@@ -1919,7 +1953,69 @@ bindkey '^[,' _history-complete-newer
 bindkey '^[/' _history-complete-older
 bindkey '^[~' _bash_complete-word
 
-autoload -Uz _afew _android _archinstallscripts _archlinux-java _artisan \
+autoload -Uz _afew _android _archlinux-java _artisan _atach \
+            _avdmanager _bitcoin-cli _bower _bundle _cap \
+            _cask _ccache _cf _chatblade _choc \
+            _chromium _clang-check _clang-format _clang-tidy _cmake \
+            _coffee _conan _concourse _console _cppcheck \
+            _dad _dart _dget _dhcpcd _diana \
+            _direnv _docpad _do-release-upgrade _drush _ecdsautil \
+            _emacs _emacsclient _emulator _envdir _exportfs \
+            _fab _fail2ban-client _ffind _fleetctl _flutter \
+            _fwupdmgr _gas _ghc _gist _git-flow \
+            _git-pulls _git-revise _git-wtf _glances _golang \
+            _google _gpgconf _grpcurl _gtk-launch _hello \
+            _hledger _homestead _httpie _ibus _include-what-you-use \
+            _inxi _jest _jmeter _jmeter-plugins _jonas \
+            _jrnl _kak _kitchen _knife _l3build \
+            _language_codes _lilypond _lunchy _mc _middleman \
+            _mina _mix _mkcert _mssh _mussh \
+            _mvn _nano _nanoc _neo _neofetch \
+            _networkQuality _nftables _node _nvm _openssl \
+            _openvpn3 _optirun _patool _periscope _pgsql_utils \
+            _phing _pixz _pkcon _play _pm2 \
+            _port _pre-commit _protoc _pygmentize _qmk \
+            _rails _ralio _rdfind _redis-cli _rfkill \
+            _rkt _rmlint _rslsync _rspec _rsvm \
+            _rubocop _sbt _scala _screencapture _scrub \
+            _sdd _sdkmanager _setcap _setup.py _sfdx \
+            _shallow-backup _shellcheck _showoff _srm _stack \
+            _subliminal _supervisorctl _supervisord _svm _teamocil \
+            _thor _tmuxinator _tmuxp _tox _tsc \
+            _ts-node _udisksctl _ufw _virtualbox _vnstat \
+            _wemux _wg-quick _xsel _yarn _zcash-cli \
+            _afew _android _archlinux-java _artisan _atach \
+            _avdmanager _bitcoin-cli _bower _bundle _cap \
+            _cask _ccache _cf _chatblade _choc \
+            _chromium _clang-check _clang-format _clang-tidy _cmake \
+            _coffee _conan _concourse _console _cppcheck \
+            _dad _dart _dget _dhcpcd _diana \
+            _direnv _docpad _do-release-upgrade _drush _ecdsautil \
+            _emacs _emacsclient _emulator _envdir _exportfs \
+            _fab _fail2ban-client _ffind _fleetctl _flutter \
+            _fwupdmgr _gas _ghc _gist _git-flow \
+            _git-pulls _git-revise _git-wtf _glances _golang \
+            _google _gpgconf _grpcurl _gtk-launch _hello \
+            _hledger _homestead _httpie _ibus _include-what-you-use \
+            _inxi _jest _jmeter _jmeter-plugins _jonas \
+            _jrnl _kak _kitchen _knife _l3build \
+            _language_codes _lilypond _lunchy _mc _middleman \
+            _mina _mix _mkcert _mssh _mussh \
+            _mvn _nano _nanoc _neo _neofetch \
+            _networkQuality _nftables _node _nvm _openssl \
+            _openvpn3 _optirun _patool _periscope _pgsql_utils \
+            _phing _pixz _pkcon _play _pm2 \
+            _port _pre-commit _protoc _pygmentize _qmk \
+            _rails _ralio _rdfind _redis-cli _rfkill \
+            _rkt _rmlint _rslsync _rspec _rsvm \
+            _rubocop _sbt _scala _screencapture _scrub \
+            _sdd _sdkmanager _setcap _setup.py _sfdx \
+            _shallow-backup _shellcheck _showoff _srm _stack \
+            _subliminal _supervisorctl _supervisord _svm _teamocil \
+            _thor _tmuxinator _tmuxp _tox _tsc \
+            _ts-node _udisksctl _ufw _virtualbox _vnstat \
+            _wemux _wg-quick _xsel _yarn _zcash-cli \
+            _afew _android _archinstallscripts _archlinux-java _artisan \
             _atach _auracle _avdmanager _bat _bitcoin-cli \
             _bluetoothctl _bootctl _bower _bundle _busctl \
             _bwrap _cap _cargo _cask _ccache \
@@ -2118,7 +2214,7 @@ autoload -Uz _afew _android _archinstallscripts _archlinux-java _artisan \
             _widgets _zargs _zattr _zcalc _zcalc_line \
             _zcompile _zed _zftp _zle _zmodload \
             _zmv _zparseopts _zpty _zsh-mime-handler _zsocket \
-            _zstyle _ztodo
+            _zstyle _ztodo _n-kill
 autoload -Uz +X _call_program
 
 typeset -gUa _comp_assocs
