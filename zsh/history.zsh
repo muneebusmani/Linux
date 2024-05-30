@@ -1,149 +1,3 @@
-sudo systemctl daemon-reexec
-q
-yain grub-btrfs
-sudo update-grub
-reboot
-nvim ~/.config/neofetch/config.conf
-neofetch
-nvim ~/.config/neofetch/config.conf
-neofetch
-fastfetcj
-fastfetch
-cp ~/.config/neofetch/config.conf  ~/.config/fastfetch/config.conf -p
-mkdir ~/.config/fastfetch
-cp ~/.config/neofetch/config.conf  ~/.config/fastfetch/config.conf -p
-fastfetch
-~/.config/fastfetch ~/.local/share/
-sudo ~/.config/fastfetch ~/.local/share/
-mv ~/.config/fastfetch ~/.local/share/
-fastfetch
-nvim ~/.local/share/fastfetch
-fastfetch --config cobra
-cd  ~/.local/share/fastfetch
-cd ../
-rm fastfetch
-rm fastfetch -rf
-git clone https://github.com/cassiofb-dev/fastfetch-config fastfetch
-fastfetch
-git clone https://github.com/cassiofb-dev/fastfetch-config ~/.local/share/fastfetch
-rm -rf ~/.local/share/fastfetch
-git clone https://github.com/cassiofb-dev/fastfetch-config ~/.local/share/fastfetch
-cls;neofetch
-yass cosmic
-yass cosmic-epoch-git
-yain cosmic-epoch-git
-yain polkit
-sc-restart display-manager
-htop
-sc-status cosmic
-sc-status gdm
-q
-cls
-sc-restart display-manager
-cosmic-session
-cosmic-greeter
-sc-enable cosmic-greeter
-cosmic-applets
-useradd cosmic
-sudo useradd cosmic
-su cosmic
-q
-sudo su
-q
-su alt-muneeb
-su -
-yass user
-yass gnome-control-center
-yain gnome-control-center
-yay -Syy
-yain gnome-control-center
-gnome-unstablepkg
-nvim ~/.zsh_history
-su root
-sc-restart display-manager
-users
-sudo users
-userdel muneeb-cosmic
-sudo userdel muneeb-cosmic
-gnome-session
-gnome-shell
-q
-gnome-shell
-gnome-session
-gnome-session-inhibit
-wayland-scanner
-lightdm
-sudo lightdm
-sc-restart lightdm
-nvim ~/.zsh_history
-yay -Rns gnome-control-center
-oa
-q
-nvim ~/.config/i3
-yay -Ss synaptics
-yare xf86-input-synaptics
-nvim ~/.config/i3
-cls
-cosmic-comp
-killall cosmic-comp
-nvim ~/.config/i3/config
-q
-qi
-q
-nvim ~/.config/i3/config
-yay -S cosmic-epoch
-yay -S cosmic-epoch --aur
-yay -Ss cosmic-epoch
-yare cosmic
-yare cosmic-epoch
-yare cosmic-epoch-git
-yay -Rns optimus-manager
-yay -Rns optimus-manager-qt
-yain cosmic-epoch-git
-yain seatd
-sudo usermod -a -G seat muneeb
-yain flatpak packagekit pop-shell-plugin-system76-power
-yain flatpak packagekit pop-shell-plugin-system76-power gnuplot
-yain system76-dkms system76-io-dkms system76-acpi-dkms
-yain mestrack procps-ng
-yain memstrack procps-ng
-q
-reboot
-sc-restart lightdm
-system76-power
-system76-power daemon
-sudo system76-power daemon
-sc-enable system76
-sc-enable system76-power
-system76-power graphics
-sudo system76-power daemon
-system76-power graphics
-system76-power graphics --help
-system76-power graphics nvidia
-q
-sudo system76-power daemon
-system76-power graphics 
-system76-power graphics --help
-system76-power graphics integrated
-q
-yare system76-dkms system76-io-dkms system76-acpi-dkms
-popd
-pop-launcher
-yare flatpak packagekit pop-shell-plugin-system76-power gnuplot
-yare flatpak packagekit gnuplot
-yasi pop
-yare cosmic-epoch-git
-yare seat
-yare seatd
-yay -Rns seatd
-yay -S seatd
-groups
-yay -S optimus-manager-qt
-yay -Ss optimus-manager
-yay -Ss optimus-manager-qt-git
-yay -S optimus-manager-qt-git
-q
-nvim ~/.config/i3/config
 yain geoclue2
 /usr/libexec/geoclue-2.0/demos/where-am-i
 geoclue2
@@ -588,25 +442,172 @@ gcap
 q
 q
 q
-: 1717061470:0;gsm
-: 1717061479:0;cd i3
-: 1717061480:0;ls
-: 1717061483:0;gsm
-: 1717061484:0;gst
-: 1717061507:0;gcap "added more stuff"
-: 1717061520:0;gaa
-: 1717061522:0;gcap "added more stuff"
-: 1717061525:0;gst
-: 1717061526:0;gsm
-: 1717061528:0;cd ..
-: 1717061531:0;gsm
-: 1717061533:0;cd ~
-: 1717061534:0;gst
-: 1717061543:0;cd ~/zsh
-: 1717061544:0;ls
-: 1717061545:0;gst
-: 1717061552:0;git add ./*
-: 1717061554:0;gst
-: 1717061556:0;gsm
-: 1717061588:0;which gcap
-: 1717061617:0;gcap "some more stuff added integrated with rofi and i3 and optimized tmux and zsh more"
+gsm
+cd i3
+ls
+gsm
+gst
+gcap "added more stuff"
+gaa
+gcap "added more stuff"
+gst
+gsm
+cd ..
+gsm
+cd ~
+gst
+cd ~/zsh
+ls
+gst
+git add ./*
+gst
+gsm
+which gcap
+gcap "some more stuff added integrated with rofi and i3 and optimized tmux and zsh more"
+gst
+q
+watch
+watch_hub_api
+n
+nvim ~/.tmux.conf
+tmux kill-server
+q
+cd zsh
+ls
+touch tmux_boot.zsh
+nvim tmux_boot.zsh
+mv tmux_boot.zsh setup_tmux_autostart-zsh
+ls
+chmod +x ./*.zsh
+sudo chmod +x ./*.zsh
+ls
+sudo chmod +x ./*.bash
+mv setup_tmux_autostart-zsh setup_tmux_autostart.zsh
+sudo chmod +x ./*.zsh
+ls
+./setup_tmux_autostart.zsh
+sudo ./setup_tmux_autostart.zsh
+nvim ./setup_tmux_autostart.zsh
+sudo ./setup_tmux_autostart.zsh
+./setup_tmux_autostart.zsh
+nvim ./setup_tmux_autostart.zsh
+./setup_tmux_autostart.zsh
+nvim ./setup_tmux_autostart.zsh
+sudo ./setup_tmux_autostart.zsh
+nvim ./setup_tmux_autostart.zsh
+sc-status tmux-autostart.service
+reboot
+su muneeb
+cls
+c
+cls
+q
+nvim ~/.config/starship.toml 
+q
+q
+nvim ~/.config/starship.toml 
+q
+nvim ~/.config/starship.toml 
+q
+nvim ~/.config/starship.toml 
+q
+nvim ~/.config/starship.toml 
+q
+4
+nvim ~/.config/starship.toml 
+cls
+q
+nvim ~/.config/starship.toml 
+q
+nvim ~/.config/starship.toml 
+q
+nvim ~/.config/starship.toml 
+q
+nvim $(fzf)
+builtin cd -- watch_hub_api/
+ls
+n 
+ModemManager
+sc-enable ModemManager.service
+ModemManager
+sc-enable ModemManager.service --now
+ModemManager
+sc-status org.freedesktop.ModemManager1
+sc-status ModemManager1
+sc-status ModemManager
+zstd
+q
+builtin cd -- watch_hub_api/
+n
+nvim
+q
+nvim
+killall picom xborders
+picom --blur-method dual_kawase
+picom --blur-method dual_kawase --backend glx
+nvim
+q
+q
+killall picom
+nvim 
+picom  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --glx-no-stencil --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --shadow-radius 16 -l -3 -t -3
+picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --shadow-radius 16
+picom  --backend glx --blur-method dual_kawase --detect-rounded-corners
+picom  --backend glx --blur-method dual_kawase 
+killall picom xborders
+picom --blur-method dual_kawase 
+picom --blur-method dual_kawase --glx
+picom --blur-method dual_kawase --backend glx
+nvim
+killall picom xborders
+nvim
+picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+nvim 
+nv
+killall picom xborders
+nv
+picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3\
+
+Q
+q
+killall picom xborders
+nvim
+nv
+killall picom xborders
+picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
+nv
+killall picom xborders
+q
+q
+killall picom xborders
+nv
+killall picom xborders
+nv
+killall picom xborders
+nv
+killall picom xborders
+picom
+nvim 
+q
+killall picom xborders
+nivm
+nvim
+nv
+killall picom xborders
+nv
+killall picom xborders
+q
+killall picom
+q
+killall picom
+nv
+killall picom
+q
+: 1717067128:0;gst
+: 1717067174:0;gcap "finally added dual kawase blur and rounded corners
+: 1717067176:0;gcap "finally added dual kawase blur and rounded corners"
