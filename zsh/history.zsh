@@ -611,3 +611,20 @@ q
 : 1717067128:0;gst
 : 1717067174:0;gcap "finally added dual kawase blur and rounded corners
 : 1717067176:0;gcap "finally added dual kawase blur and rounded corners"
+: 1717067179:0;gst
+: 1717067221:0;cd ~/zsh
+: 1717067222:0;gst
+: 1717067223:0;gsm
+: 1717067229:0;cd ~/.config/
+: 1717067232:0;cd kitty/
+: 1717067233:0;ls
+: 1717067247:0;gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
+: 1717067256:0;../i3
+: 1717067260:0;gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
+: 1717067265:0;../nvim
+: 1717067266:0;ls
+: 1717067267:0;gst
+: 1717067278:0;gcap "some plugin updates"
+: 1717067281:0;cd ~
+: 1717067284:0;gsm
+: 1717067323:0;gcap "dual kawase blur implemented, kitty blur adjusted, neovim updated"
