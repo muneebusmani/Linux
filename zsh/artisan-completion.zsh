@@ -1,3 +1,3 @@
-function artisan-completion(){
-  source <(./artisan completion)
-}
+if [[ -f ./artisan  ]]; then
+  . <(./artisan completion)
+fi

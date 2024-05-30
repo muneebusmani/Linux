@@ -1,5 +1,12 @@
 autoload -Uz compinit
-setopt autocd extendedglob nomatch notify
 compinit
+setopt autocd 
+setopt extendedglob 
+setopt nomatch 
+setopt notify 
+setopt appendhistory
+setopt share_history
 bindkey -v
-export HISTFILE="$ZDOTDIR/history.zsh"
+HISTFILE=$ZDOTDIR/history.zsh
+HISTSIZE=100000
+SAVEHIST=100000

@@ -6,4 +6,6 @@ export SUDO_EDITOR=/usr/bin/nvim
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 export COMPOSER_PATH=/home/muneeb/.config/composer/vendor/bin
 export BUN="$HOME/.bun/bin"
-export PATH="$BUN:$COMPOSER_PATH:$PATH"
+export FZF_BIN_DIR="$ZDOTDIR/.fzf/bin"
+export DOTNET_TOOL="$HOME/.dotnet/tools"
+export PATH="$DOTNET_TOOL:$FZF_BIN_DIR:$BUN:$COMPOSER_PATH:$PATH"

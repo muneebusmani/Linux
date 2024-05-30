@@ -53,3 +53,7 @@ alias gsm=' git status | grep --color=auto modified'
 alias gst=' git status'
 alias cd=z
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+function gcap(){
+  git commit -am "$1";
+  git push;
+}
