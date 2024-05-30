@@ -608,23 +608,154 @@ killall picom
 nv
 killall picom
 q
-: 1717067128:0;gst
-: 1717067174:0;gcap "finally added dual kawase blur and rounded corners
-: 1717067176:0;gcap "finally added dual kawase blur and rounded corners"
-: 1717067179:0;gst
-: 1717067221:0;cd ~/zsh
-: 1717067222:0;gst
-: 1717067223:0;gsm
-: 1717067229:0;cd ~/.config/
-: 1717067232:0;cd kitty/
-: 1717067233:0;ls
-: 1717067247:0;gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
-: 1717067256:0;../i3
-: 1717067260:0;gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
-: 1717067265:0;../nvim
-: 1717067266:0;ls
-: 1717067267:0;gst
-: 1717067278:0;gcap "some plugin updates"
-: 1717067281:0;cd ~
-: 1717067284:0;gsm
-: 1717067323:0;gcap "dual kawase blur implemented, kitty blur adjusted, neovim updated"
+gst
+gcap "finally added dual kawase blur and rounded corners
+gcap "finally added dual kawase blur and rounded corners"
+gst
+cd ~/zsh
+gst
+gsm
+cd ~/.config/
+cd kitty/
+ls
+gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
+../i3
+gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
+../nvim
+ls
+gst
+gcap "some plugin updates"
+cd ~
+gsm
+gcap "dual kawase blur implemented, kitty blur adjusted, neovim updated"
+q
+nv
+feh
+cd ~/Wallpaper-bank/
+ls
+cd wallpapers/
+unsetopt CASE_GLOB
+q
+zsh/plugins/fzf-tab-source
+nvim ~/zsh/.zshrc
+ls
+nvim fzf-tab.plugin.zsh
+nvim fzf-tab.zsh
+unsetopt CASE_GLOB
+cd ~/Wallpaper-bank
+ls
+cd wallpapers/
+ls
+file
+rofi 
+rofi -show fikes
+rofi -show file
+rofi -show files
+yasi rofi
+yass rofi
+rpfo-calc
+rofi-calc
+rofi -show calc
+rofi -show calc -no-show-match -no-sort
+nv
+q
+nv
+rofi -show calc -no-show-match -no-sort
+q
+sudo pacman -S python-gobject gtk4
+git clone https://github.com/matclab/rofi-file-selector
+cd rofi-file-selector/
+ls
+./rofi-file-selector.sh
+nvim rofi-file-selector.sh
+yain choose
+nvim rofi-file-selector.sh
+./rofi-file-selector.sh
+yain xsel
+./rofi-file-selector.sh
+yay -Rns xterm
+yay -Rns xterm --no-deps
+yay -Rns --help
+yay -Rns --help | grep deps
+yay -Rns xterm -d
+yay -Rns xterm --nodeps
+yay -Rns xterm playonlinux
+./rofi-file-selector.sh
+q
+yare warp-terminal
+./rofi-file-selector.sh
+~/.config/neovide
+mkdir ~/.config/neovide
+nvim ~/.config/neovide/config.toml
+neovide --nofork
+neovide --nofork ~/.config/nvim
+neovide --nofork ~/.config/nvim/README.md
+neovide --no-fork ~/.config/nvim/README.md
+nvim 
+./rofi-file-selector.sh
+ls
+nvim ./mimeapps
+ls
+cd ../
+mv rofi-file-selector ~/.config/rofi/launchers
+~/.config/rofi/launchers
+ls
+cd rofi-file-selector/
+ls
+nvim 
+nvim
+rofi -show search
+rofi -show combi
+rofi -show drun
+xev
+yain xev
+q
+yay -S xev
+yay -Ss xev
+yay -Ss xorg-xev
+yay -S xorg-xev
+xev
+nv
+q
+xev
+q
+xev
+yain thunar
+yain catfish tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin
+yain zeitgeist ark file-roller engrampa libgepub
+yain caja rpm-tools squashfs-tools lrzip unarchiver
+q
+q
+q
+: 1717070324:0;gst
+: 1717070325:0;gsm
+: 1717070345:0;cd ~/.config/i3
+: 1717070380:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+: 1717070384:0;cd ../
+: 1717070385:0;ls
+: 1717070387:0;gst
+: 1717070400:0;cd kitty/
+: 1717070400:0;ls
+: 1717070415:0;gcap "some minor changes"
+: 1717070421:0;../
+: 1717070422:0;nvim
+: 1717070424:0;nvim/
+: 1717070427:0;gcap "some minor changes"
+: 1717070432:0;cd ~
+: 1717070434:0;gsm
+: 1717070442:0;cd ~/.config/rofi
+: 1717070445:0;gaa
+: 1717070456:0;git rm --cached launchers/rofi-file-selector
+: 1717070458:0;cd launchers/
+: 1717070459:0;ls
+: 1717070460:0;cd rofi-file-selector/
+: 1717070461:0;ls
+: 1717070467:0;rm .git -rf
+: 1717070471:0;cd ~/.config/rofi
+: 1717070472:0;gaa
+: 1717070474:0;gsm
+: 1717070475:0;gst
+: 1717070488:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+: 1717070491:0;cd ~
+: 1717070492:0;gsm
+: 1717070499:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
