@@ -727,35 +727,51 @@ yain caja rpm-tools squashfs-tools lrzip unarchiver
 q
 q
 q
-: 1717070324:0;gst
-: 1717070325:0;gsm
-: 1717070345:0;cd ~/.config/i3
-: 1717070380:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-: 1717070384:0;cd ../
-: 1717070385:0;ls
-: 1717070387:0;gst
-: 1717070400:0;cd kitty/
-: 1717070400:0;ls
-: 1717070415:0;gcap "some minor changes"
-: 1717070421:0;../
-: 1717070422:0;nvim
-: 1717070424:0;nvim/
-: 1717070427:0;gcap "some minor changes"
-: 1717070432:0;cd ~
-: 1717070434:0;gsm
-: 1717070442:0;cd ~/.config/rofi
-: 1717070445:0;gaa
-: 1717070456:0;git rm --cached launchers/rofi-file-selector
-: 1717070458:0;cd launchers/
-: 1717070459:0;ls
-: 1717070460:0;cd rofi-file-selector/
-: 1717070461:0;ls
-: 1717070467:0;rm .git -rf
-: 1717070471:0;cd ~/.config/rofi
-: 1717070472:0;gaa
-: 1717070474:0;gsm
-: 1717070475:0;gst
-: 1717070488:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-: 1717070491:0;cd ~
-: 1717070492:0;gsm
-: 1717070499:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+gst
+gsm
+cd ~/.config/i3
+gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+cd ../
+ls
+gst
+cd kitty/
+ls
+gcap "some minor changes"
+../
+nvim
+nvim/
+gcap "some minor changes"
+cd ~
+gsm
+cd ~/.config/rofi
+gaa
+git rm --cached launchers/rofi-file-selector
+cd launchers/
+ls
+cd rofi-file-selector/
+ls
+rm .git -rf
+cd ~/.config/rofi
+gaa
+gsm
+gst
+gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+cd ~
+gsm
+gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
+gsm
+gst
+q
+: 1717073170:0;cls
+: 1717073181:0;nvim ~/watch_hub_api
+: 1717073195:0;nvim 
+: 1717073203:0;nv
+: 1717073260:0;cd watch_hub_api/
+: 1717073260:0;ls
+: 1717073262:0;nv .
+: 1717073856:0;gst
+: 1717073870:0;cd zsh
+: 1717073870:0;ls
+: 1717073872:0;gst
+: 1717073875:0;git add ./*
+: 1717073879:0;gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
