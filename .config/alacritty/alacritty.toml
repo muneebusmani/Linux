@@ -1,0 +1,40 @@
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml",
+]
+
+[cursor]
+style = "Block"
+unfocused_hollow = false
+
+[font]
+size = 11
+
+[font.bold]
+family = "JetBrainsMonoNL Nerd Font"
+
+[font.bold_italic]
+family = "JetBrainsMonoNL Nerd Font"
+
+[font.italic]
+family = "JetBrainsMonoNL Nerd Font"
+
+[font.normal]
+family = "JetBrainsMonoNL Nerd Font"
+
+[mouse]
+hide_when_typing = false
+
+
+[window]
+decorations = "full"
+dynamic_title = false
+opacity = 0.7
+# opacity = 1
+
+[window.padding]
+x = 0
+y = 0

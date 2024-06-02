@@ -1,4 +1,11 @@
-export TERMINAL=kitty
-export BROWSER=microsoft-edge-stable
+export TERMINAL=alacritty
+# export BROWSER=microsoft-edge-stable
 #export QT_QPA_PLATFORMTHEME=qt6ct
 export QT_STYLE_OVERRIDE=adwaita
+export PATH="$HOME/bin:$PATH"
+export BUN="$HOME/.bun/bin"
+export FZF_BIN_DIR="$ZDOTDIR/.fzf/bin"
+export DOTNET_TOOL="$HOME/.dotnet/tools"
+export HOME_BIN="$HOME/bin"
+export RUBY_DIR="$HOME/.local/share/gem/ruby/3.0.0/bin"
+export PATH="$RUBY_DIR:$HOME_BIN:$DOTNET_TOOL:$FZF_BIN_DIR:$BUN:$COMPOSER_PATH:$PATH"

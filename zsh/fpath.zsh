@@ -1,1 +1,4 @@
-fpath=($HOME/zsh/plugins/zsh-completions/src $fpath)
+export ZSH_PLUGINS=~/zsh/plugins/
+fpath+=($ZSH_PLUGINS/tmuxinator)
+fpath+=($ZSH_PLUGINS/zsh-completions/src)
+fpath+=($ZSH_PLUGINS/laravel)

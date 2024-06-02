@@ -53,6 +53,15 @@ alias gsm=' git status | grep --color=auto modified'
 alias gst=' git status'
 alias cd=z
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+alias coc="NVIM_APPNAME=coc-nvim nvim"
+alias mux="tmuxinator"
+alias muxl="tmuxinator list"
+alias muxa="tmuxinator start"
+alias muxo="tmuxinator stop"
+alias muxop="tmuxinator open"
+alias muxn="tmuxinator new"
+alias kickstart="NVIM_APPNAME=kickstart nvim"
+alias luadev="NVIM_APPNAME=luadev nvim"
 function gcap(){
   git commit -am "$1";
   git push;

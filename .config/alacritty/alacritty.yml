@@ -1,0 +1,86 @@
+# Alacritty Configuration File
+
+# Font configuration
+font:
+  normal:
+    family: "MesloLGS Nerd Font Mono"
+  bold:
+    family: "MesloLGS Nerd Font Mono Bold"
+  italic:
+    family: "MesloLGS Nerd Font Mono Italic"
+  bold_italic:
+    family: "MesloLGS Nerd Font Mono Bold Italic"
+  size: 11.0
+
+# Window settings
+window:
+  opacity: 0.7
+  dynamic_title: false
+  padding:
+    x: 0
+    y: 0
+  decorations: full
+
+# Background blur (Alacritty does not support background blur directly)
+
+# Performance settings
+performance:
+  fast_pty: true
+
+# Mouse settings
+mouse:
+  hide_when_typing: false
+
+# Cursor settings
+cursor:
+  style: Block
+  unfocused_hollow: false
+
+# Colors (Catppuccin Kitty Mocha theme)
+colors:
+  primary:
+    background: '#1E1E2E'
+    foreground: '#CDD6F4'
+
+  selection:
+    text: '#1E1E2E'
+    background: '#F5E0DC'
+
+  cursor:
+    text: '#1E1E2E'
+    cursor: '#F5E0DC'
+
+  normal:
+    black:   '#45475A'
+    red:     '#F38BA8'
+    green:   '#A6E3A1'
+    yellow:  '#F9E2AF'
+    blue:    '#89B4FA'
+    magenta: '#F5C2E7'
+    cyan:    '#94E2D5'
+    white:   '#BAC2DE'
+
+  bright:
+    black:   '#585B70'
+    red:     '#F38BA8'
+    green:   '#A6E3A1'
+    yellow:  '#F9E2AF'
+    blue:    '#89B4FA'
+    magenta: '#F5C2E7'
+    cyan:    '#94E2D5'
+    white:   '#A6ADC8'
+
+  indexed_colors:
+    - { index: 16, color: '#B4BEFE' }
+    - { index: 17, color: '#CBA6F7' }
+    - { index: 18, color: '#74C7EC' }
+
+  tab_bar:
+    active_tab:
+      foreground: '#11111B'
+      background: '#CBA6F7'
+    inactive_tab:
+      foreground: '#CDD6F4'
+      background: '#181825'
+    background: '#11111B'
+

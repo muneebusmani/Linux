@@ -13,6 +13,7 @@
 . $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 . $ZDOTDIR/plugins/zsh-autopair/autopair.zsh 
 . $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. $ZDOTDIR/plugins/tmuxinator/tmuxinator.plugin.zsh
 # . $ZDOTDIR/plugins/fzf-tab-bin-git/fzf-tab.plugin.zsh
 . $ZDOTDIR/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
 . $ZDOTDIR/plugins/archlinux/archlinux.plugin.zsh
@@ -24,3 +25,5 @@
 . $ZDOTDIR/lazyload.zsh
 . $ZDOTDIR/fpath.zsh
 . $ZDOTDIR/starship.zsh
+
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
