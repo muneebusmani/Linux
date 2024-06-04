@@ -7,3 +7,8 @@
 : 1717461143:0;cd ~
 : 1717461150:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e
 : 1717461161:0;gcap "hella lot updates"
+: 1717461173:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e --force-rebase
+: 1717461177:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e 
+: 1717461179:0;gst
+: 1717461195:0;git add ~/zsh/history.zsh
+: 1717461198:0;gcap "hella lot updates"
