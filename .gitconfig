@@ -1,22 +1,11 @@
-[safe]
-	directory = /opt/flutter
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
 [user]
-	name = Muneeb Usmani
+	name = muneebusmani
 	email = muneebusmani8355@gmail.com
-[credential]
-	helper = store
-[init]
-	defaultBranch = master
 [push]
 	autoSetupRemote = true

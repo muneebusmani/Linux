@@ -45,23 +45,28 @@ alias yass='yay -Ss'
 alias yasss='yay -Sqs'
 alias yasi='yay -Qs'
 alias yassi='yay -Qqs'
-alias lazy='NVIM_APPNAME=lazyvim nvim'
-alias chad='NVIM_APPNAME=nvchad nvim'
-alias astro='NVIM_APPNAME=astro nvim'
 alias n='nvim .'
 alias gsm=' git status | grep --color=auto modified'
 alias gst=' git status'
 alias cd=z
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
-alias coc="NVIM_APPNAME=coc-nvim nvim"
+# alias coc="NVIM_APPNAME=coc-nvim nvim"
 alias mux="tmuxinator"
 alias muxl="tmuxinator list"
 alias muxa="tmuxinator start"
 alias muxo="tmuxinator stop"
 alias muxop="tmuxinator open"
 alias muxn="tmuxinator new"
-alias kickstart="NVIM_APPNAME=kickstart nvim"
-alias luadev="NVIM_APPNAME=luadev nvim"
+# alias kickstart="NVIM_APPNAME=kickstart nvim"
+# alias luadev="NVIM_APPNAME=luadev nvim"
+# alias ide="NVIM_APPNAME=ide nvim"
+# LazyVim Configs for different Languages
+alias luavim='NVIM_APPNAME=luavim nvim'
+alias laravim='NVIM_APPNAME=laravim nvim'
+alias dartvim='NVIM_APPNAME=dartvim nvim'
+
+alias chad='NVIM_APPNAME=nvchad nvim'
+alias astro='NVIM_APPNAME=astro nvim'
 function gcap(){
   git commit -am "$1";
   git push;

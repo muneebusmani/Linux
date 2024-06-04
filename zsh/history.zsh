@@ -4260,5 +4260,611 @@ gcap "test"
 gaa
 gcap "test"
 q
-: 1717368278:0;git status
-: 1717368295:0;gcap "some misc changes"
+git status
+gcap "some misc changes"
+rm ~/.gitconfig
+rm ~/.git-credentials
+git push
+cd ~/.config
+git clone https://github.com/Conarius/Neovim-IDE ide
+nvim ~/zsh/aliases.zsh
+source ~/zsh/.zshrc
+ide
+cd ide
+ide
+cd ~/watch_hub_api/
+ide
+ide ./_ide_helper.php
+q
+cd ~/watch_hub_api/
+nvim .
+q
+mux api
+nvim .
+lazydocker
+yain resto
+yass  rest
+yass  rest | grep client
+go install github.com/abdfnx/resto@latest
+resto
+cd ~/go/bin/
+ls
+./resto
+nvim
+sail down
+docker 
+q
+killall msedge
+cd lazyvim
+nv ./lua/lazyvim/plugins/extras/util/database.lua 
+dart
+dart compile
+dart help
+dart fix
+dart analyze
+dart pub global activate dart_style
+dartfmt
+nvim ~/zsh/env.zsh
+exec zsh
+dartfmt
+q
+nvim
+gh repo clone mason-registry
+cd mason-registry/
+git branch
+git branch dart
+git checkout dart
+nvim .
+dart --lsp
+dart analyze --lsp
+dart analyze --help
+dart create
+dart create cli
+ls
+dart create cli --help
+dart create cli --help sample-dart
+dart create cli sample-dart
+dart create sample-dart
+cd sample-dart/
+ls
+echo $DART_SDK
+which dart
+which flutter
+git clone https://aur.archlinux.org/packages/flutter ~/flutter-pkg
+git clone https://aur.archlinux.org/packages/flutter.git  ~/flutter-pkg
+git clone https://aur.archlinux.org/flutter.git
+cd flutter/
+ls
+nvim PKGBUILD
+cd /usr/
+ls
+ls include
+cd /
+cd ./opt/flutter/
+ls
+flutter config
+flutter config --help
+q
+flutter config --enable-cli-animations
+flutter config --cli-animations
+flutter config --enable-ios --enable-android --enable-web --enable-macos-desktop --enable-linux-desktop --enable-custom-devices --enable-flutter-preview
+q
+cd ~/sample-dart/
+cd ~
+rm sample* -rf
+flutter create sample
+cd sample/
+ls
+nvim .
+cd /opt/flutter/
+ls
+cd bin
+ls
+cd cache
+ls
+..
+dart language-server
+dart language-server --help
+cd ~/sample/
+ls
+cd ~
+touch lol.dart
+nvim lol.dart
+nvim
+dart language-server --protocol
+q
+q
+q
+cls
+cd ~
+nvim
+cd nvim
+git restore lua/plugins/nvim-lint.lua
+gst
+git log
+cd ~/.cache
+ls
+git clone https://github.com/muneebusmani/Nvim
+cd ./nvim/
+ls
+cd ./Nvim
+cd ../Nvim
+ls
+git reset --hard ea4e1e0
+gst
+ls
+nvim ./lua/plugins/nvim-lint.lua 
+cd ../
+rm Nvim -rf
+cd ~/
+nvim
+dart language-server --protocol
+dart language-server --protocol=analyzer
+q
+nvim lol.dart
+nvim
+nvim lol.dart
+nvim
+echo "void main() => print('Hello, world!');" | dart analyze /dev/stdin\
+
+q
+q
+nvim
+nvim ~/lol.dart
+nvim
+nvim ~/lol.dart
+nvim
+dart analyze --help
+dart analyze a
+dart analyze 
+dart analyze --format machine -
+dart analyze --format 
+q
+nvim ~/lol.dart
+cd nvim
+ls
+nvim .
+git stash
+gst
+git checkout dart
+git branch dart
+git checkout dart
+nvim .
+git stash apply
+git checkout master
+gst
+git stash apply
+ls
+nvim .
+gaa
+gcap "making new config for dart"
+gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org,read:project
+gst
+gcap "making new config for dart"
+git config --global user.name "muneebusmani"
+git config --global user.email "muneebusmani8355@gmail.com"
+gcap "making new config for dart"
+git checkout dart
+gst
+ls
+git push origin
+nvim .
+git stash apply
+git branch master
+git checkout master
+git reset
+git reset --hard
+gst
+git checkout master
+git branch --help
+git branch -D dart
+git branch dart
+git checkout dart
+nvim .
+nvim
+dartfmt
+~/.pub-cache/bin/dartfmt
+~/.pub-cache/bin/dartformat
+~/.pub-cache/bin/dartformat --help
+nvim ~/lol.dart
+git checkout master
+gst
+git reset --hard
+gst
+nvim ~/lol.dart
+nvim 
+git diff 5811236 
+git diff 5811236
+git diff 5811236 --help
+git status
+git checkout dart
+gst
+nvim .
+nvim ~/lol.dart
+nvim
+cd nvim
+cd ~/.config/nvim
+lazy
+nvim ~/lol.dart
+nvim 
+nvim ~/lol.dart
+nvim
+gst
+gaa
+gc "added dart lsp"
+gc -m "added dart lsp"
+lazy 
+nvim ~/lol.dart
+dartfmt
+dartformat
+nvim ~/zsh/env.zsh
+q
+nvim 
+dartfmt
+nvim ~/loL.dart
+nvim
+nvim ~/loL.dart
+nvim
+dartfmt
+dartfmt --help
+dartfmt -w ~/lol.dart
+nvim 
+nvim ~/loL.dart
+nvim
+nvim ~/loL.dart
+dart format
+dart format ~/lol.dart
+nvim ~/lol.dart
+q
+dart format ~/lol.dart
+dart format ~/lol.dart 
+dart format ~/lol.dart  --help
+dart format ~/lol.dart -o none
+dart format ~/lol.dart  --output none
+nvim ~/lol.dart
+cd nvim
+gst
+nvim ./lua/config/autocmds.lua 
+nvim ~/lol.dart
+nvim ./lua/config/autocmds.lua 
+gst
+gaa
+gcap "linting formatting and lsp completed for dart"
+git config --global push.autoSetupRemote true
+gcap "linting formatting and lsp completed for dart"
+gst
+nvim
+nvim ~/lol.dart
+gst
+nvim
+q
+nvim ~/lol.dart
+cd sample
+nvim .
+nvim
+rm ~/.local/share/nvim -rf
+rm ~/.cache/nvim -rf
+nvim
+nvim ~/.config/nvim/lua/plugins/generic/edgy.lua
+nvim
+nvim ~/.config/nvim/lua/plugins/generic/edgy.lua
+nvim ~/.config/nvim/lua/plugins/generic/neogen.lua
+q
+nvim ~/.config/nvim/lua/plugins/generic/supertab.lua
+gst
+cd ~/.config
+git add ./htop/ ./i3/ ./alacritty ./btop
+gst
+git add zed
+cd ~
+gst
+cd i3
+gst
+nvim config
+gcap "idk what changed "
+../
+rofi/
+gcap "idk what changed "
+gaa
+gcap "idk what changed "
+..
+gst
+cd ~/.local/share/rofi
+ls
+cd themes/
+ls
+cd ../
+git add ./rofi
+ls
+cd nvim
+nvim .
+nvim
+gst
+gaa
+ls
+gst
+nvim .luarc.json
+gcap "optimized for Dart/Flutter"
+nvim README.md
+dart
+q
+gaa
+gst
+git commit -m "complete support for dart/flutter"
+nvim README.md
+cd ~/sample
+nvim .
+nvim
+gst
+cd nvim
+q
+gst
+gaa
+gcap "Added more docs"
+git branch -D master
+git branch --help
+git branch -m master
+gst
+git origin
+git remote origin
+git remote -v
+git remote set-url origin https://github.com/muneebusmani/dart
+git remote -v
+git push
+git push origin HEAD
+gh repo create
+git push
+git remote
+git remote --help
+git remote remove origin
+gh repo create
+gh repo delete dart
+gh repo create
+gst
+cd ~/
+git add ~/zsh
+gst
+cd .config/lazyvim
+ls
+cd lua
+ls
+cd plugins/
+ls
+...
+..
+mv lazyvim lazydev
+gst
+cd luavim
+lazydev
+ls
+cd ~/.local/share
+mv lazyvim lazydev
+lazy
+which lazy
+nvim ~/zsh/aliases.zsh
+mv lazydev luavim
+cd ~/.config/nvim
+mv lazydev luavim
+lazy
+cd ~
+cd nvim
+../
+mv lazydev luavim
+q
+luavim
+cd nvim
+..
+gh repo clone laravel laravim
+gh repo clone dart ~/.config/dartvim
+q
+nvim ~/zsh/aliases.zsh
+gh repo clone dart ~/.config/dartvim
+q
+q
+q
+luavim
+dartvim
+laravim
+q
+q
+cd watch_hub_api/
+laravim
+cd 
+luavim
+dartvim
+laravim
+q
+cd ~/.config/dartvim
+cd ./lua/plugins/generic/
+ls
+..
+cp generic ~/
+cp generic -rf
+cp generic -r
+cd ~/generic
+ls
+cp generic -r ~/
+cd ~/generic
+ls
+nvim init.lua
+ls
+nvim README.md
+gh repo create
+git init
+git add -A
+git commit -m "created a generic plugin repo"
+gh repo create
+cd dartvim
+luavim .
+git add -A
+git commit -m "created a generic plugin repo"
+git push
+luavim
+dartvim .
+cd generic
+ls
+gst
+nvim .
+gst
+gaa
+gcap "Added more changes"
+dartvim
+nvim .
+cd laravim
+cd dartvim
+luavim .
+dartvim .
+q
+gst
+cd ~/generic
+gst
+laravim
+cd dartvim
+ls
+nv
+dartvim
+ls
+gst
+gcap "Added more changes"
+git submodule add https://github.com/muneebusmani/generic ./lua/plugins/generic
+gst
+gaa
+nvim ./.gitignore 
+dartvim
+nvim ./lua/config/lazy.lua 
+dartvim
+nvim ./lua/plugins/generic/init.lua
+dartvim
+ls
+cd lua/plugins/generic/
+ls
+mv lua/* ../
+ls
+cd ../
+ls
+gst
+git clean -d -n 
+git clean -d
+git clean -d -f
+gst
+cd generic
+ls
+git restore ./lua/*
+git restore lua/*
+cd lua
+git restore
+gst
+gsm
+git restore *
+bash
+ls
+gst
+mv * ../
+..
+ls
+gst
+rm lua/ -rf
+ls
+rm init.lua
+gst
+gaa
+gst
+gcap "Added more changes"
+..
+nv config/lazy.lua
+dartvim
+gst
+cd plugins/generic/
+gst
+cd dartvim
+gaa
+gst
+gc -m "optimized"
+cd generic
+ls
+cd undotree.lua
+nvim undotree.lua
+laravim
+q
+gst
+gaa
+gcap "modularized common extras"
+cd ../
+gst
+gaa
+gcap "modularized common extras"
+cd laravim
+...
+..
+laravim/
+ls
+luavim .
+dartvim
+cd dartvim
+dartvim
+gst
+gcap "fixed a typo for extras usage"
+q
+: 1717459915:0;cd ~/LazyVim/
+: 1717459916:0;ls
+: 1717459917:0;gst
+: 1717459921:0;nvim .
+: 1717459943:0;laravim/
+: 1717459947:0;cd laravim
+: 1717459949:0;laravim
+: 1717460004:0;git submodule add https://github.com/muneebusmani/generic ./lua/plugins/generic
+: 1717460010:0;cd generic
+: 1717460011:0;gst
+: 1717460014:0;ls
+: 1717460020:0;gst
+: 1717460025:0;git log
+: 1717460034:0;..
+: 1717460036:0;gst
+: 1717460067:0;cd laravim
+: 1717460074:0;cd ./lua/plugins/generic/edgy.lua
+: 1717460078:0;laravim .
+: 1717460320:0;gst
+: 1717460324:0;laravim .
+: 1717460489:0;gst
+: 1717460498:0;cd ./lua/plugins/generic/
+: 1717460499:0;gst
+: 1717460508:0;...
+: 1717460509:0;..
+: 1717460510:0;gst
+: 1717460517:0;gaa
+: 1717460523:0;gcap "modularized common stuff"
+: 1717460535:0;cd ~
+: 1717460537:0;gst
+: 1717460550:0;cd ~/.config
+: 1717460552:0;ls
+: 1717460568:0;cd laravim
+: 1717460568:0;ls
+: 1717460569:0;gst
+: 1717460574:0;cd ../dartvim
+: 1717460575:0;gst
+: 1717460577:0;cd ../
+: 1717460580:0;cd luavim
+: 1717460581:0;gst
+: 1717460588:0;nvim .
+: 1717460618:0;gaa
+: 1717460620:0;gcap "modularized common stuff"
+: 1717460624:0;gst
+: 1717460626:0;cd ../
+: 1717460636:0;rm luavim laravim dartvim
+: 1717460639:0;rm luavim laravim dartvim -rf
+: 1717460642:0;cd ~/.cache
+: 1717460644:0;rm luavim laravim dartvim -rf
+: 1717460650:0;cd ~/.local/share/nvim
+: 1717460651:0;rm luavim laravim dartvim -rf
+: 1717460656:0;cd .config
+: 1717460682:0;git submodule add https://github.com/muneebusmani/luavim ~/.config/luavim
+: 1717460714:0;git submodule add https://github.com/muneebusmani/lazydev ~/.config/luavim
+: 1717460722:0;nvim ~/.gitmodules
+: 1717460745:0;git submodule add https://github.com/muneebusmani/dart ~/.config/dartvim
+: 1717460758:0;git submodule add https://github.com/muneebusmani/laravel ~/.config/laravim
+: 1717460766:0;gst
+: 1717460781:0;cd kitty
+: 1717460782:0;gaa
+: 1717460786:0;gcap "idk"
+: 1717460790:0;cd ~
+: 1717460799:0;gcap "hella lot updates"
