@@ -1,0 +1,9 @@
+: 1717461080:0;cd 
+: 1717461084:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e
+: 1717461096:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e --force-rebase
+: 1717461109:0;git rm --cached ~/zsh/history.zsh
+: 1717461136:0;cd ~/zsh
+: 1717461141:0;ga history.zsh
+: 1717461143:0;cd ~
+: 1717461150:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e
+: 1717461161:0;gcap "hella lot updates"
