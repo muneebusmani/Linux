@@ -4868,3 +4868,5 @@ q
 : 1717460786:0;gcap "idk"
 : 1717460790:0;cd ~
 : 1717460799:0;gcap "hella lot updates"
+: 1717460812:0;nvim ~/zsh/env.zsh
+: 1717460825:0;gcap "hella lot updates"
