@@ -22,3 +22,6 @@
 [submodule "/home/muneeb/.config/luavim"]
 	path = /home/muneeb/.config/luavim
 	url = https://github.com/muneebusmani/lazydev
+[submodule "/home/muneeb/.config/kitty"]
+	path = /home/muneeb/.config/kitty
+	url = https://github.com/muneebusmani/kitty

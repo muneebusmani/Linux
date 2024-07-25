@@ -3605,28 +3605,139 @@ git submodule sync --recursive
 nvim ~/.gitmodules
 q
 q
-: 1721873788:0;git submodule sync --recursive
-: 1721873790:0;git submodule 
-: 1721873795:0;git submodule update
-: 1721873815:0;git submodule init
-: 1721873822:0;git submodule update
-: 1721873831:0;git submodule update .config/kitty
-: 1721873836:0;git submodule update .config/kitty --init
-: 1721873843:0;git submodule update --init ~/.config/kitty
-: 1721873848:0;nvim ~/.gitmodules
-: 1721873867:0;git submodule update --init /home/muneeb/.config/kitty
-: 1721873873:0;nvim ~/.gitmodules
-: 1721873913:0;git submodule add ~/.config/kitty https://github.com/muneebusmani/kitty
-: 1721873925:0;git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
-: 1721873933:0;git rm --cached ./.config/kitty
-: 1721873963:0;git add ~/.config/kitty
-: 1721873965:0;git rm --cached ./.config/kitty
-: 1721873979:0;git add ~/.gitmodules
-: 1721873983:0;git rm --cached ./.config/kitty
-: 1721873988:0;git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
-: 1721874024:0;nvim ~/.gitmodules
-: 1721874050:0;git submodule add https://github.com/muneebusmani/kitty ~/.config/kitty
-: 1721874061:0;rm ~/.config/kitty
-: 1721874063:0;rm ~/.config/kitty -rf
-: 1721874068:0;git add ~/.config/kitty
-: 1721874083:0;git commit -am "commited staged changes"
+git submodule sync --recursive
+git submodule 
+git submodule update
+git submodule init
+git submodule update
+git submodule update .config/kitty
+git submodule update .config/kitty --init
+git submodule update --init ~/.config/kitty
+nvim ~/.gitmodules
+git submodule update --init /home/muneeb/.config/kitty
+nvim ~/.gitmodules
+git submodule add ~/.config/kitty https://github.com/muneebusmani/kitty
+git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
+git rm --cached ./.config/kitty
+git add ~/.config/kitty
+git rm --cached ./.config/kitty
+git add ~/.gitmodules
+git rm --cached ./.config/kitty
+git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
+nvim ~/.gitmodules
+git submodule add https://github.com/muneebusmani/kitty ~/.config/kitty
+rm ~/.config/kitty
+rm ~/.config/kitty -rf
+git add ~/.config/kitty
+git commit -am "commited staged changes"
+git submodule add https://github.com/muneebusmani/kitty ~/.config/kitty
+q
+nvim ~/zsh/.zshrc
+q
+q
+q
+nvim ~/zsh/.zshrc
+q
+q
+starship preset --help
+q
+: 1721874284:0;nu
+: 1721874938:0;ls
+: 1721874947:0;rm *.png
+: 1721874955:0;rm *.txt
+: 1721874958:0;ls
+: 1721874973:0;nvim ~/.profile
+: 1721874994:0;git add ~/.profile
+: 1721874995:0;ls
+: 1721875000:0;nvim ~/.zshenv
+: 1721875026:0;git add ~/.zshenv
+: 1721875033:0;ls
+: 1721875045:0;exa
+: 1721875048:0;exa --ll
+: 1721875050:0;exa --l
+: 1721875052:0;exa -l
+: 1721875058:0;exa
+: 1721875075:0;cd ~/Downloads/
+: 1721875076:0;l
+: 1721875077:0;ls
+: 1721875080:0;cd ../
+: 1721875081:0;ls
+: 1721875084:0;exa
+: 1721875099:0;cd zsh
+: 1721875100:0;ls
+: 1721875102:0;gst
+: 1721875114:0;cd ../
+: 1721875119:0;git add ~/zsh
+: 1721875121:0;gst
+: 1721875137:0;cd /usr
+: 1721875138:0;ls
+: 1721875141:0;cd share
+: 1721875141:0;ls
+: 1721875144:0;cd bin
+: 1721875144:0;ls
+: 1721875150:0;cd /usr/local/bin
+: 1721875151:0;ls
+: 1721875178:0;mkdir ~/usrlocalbin
+: 1721875187:0;cp * ~/usrlocalbin
+: 1721875189:0;ls
+: 1721875202:0;cd ../../
+: 1721875202:0;ls
+: 1721875204:0;cd share
+: 1721875205:0;ls
+: 1721875213:0;cd zsh
+: 1721875215:0;cd ~
+: 1721875268:0;cd ~
+: 1721875270:0;ls
+: 1721875286:0;cd ~/.fzrf
+: 1721875295:0;cd ~/.fzf
+: 1721875295:0;ls
+: 1721875300:0;cd ~
+: 1721875310:0;yay -Qss
+: 1721875315:0;yay -Qs
+: 1721875320:0;yay -Qqs
+: 1721875342:0;yay -Qqs >> ~/pkgs.txt
+: 1721875345:0;nvim ~/pkgs.txt
+: 1721875361:0;yay -Sqs
+: 1721875364:0;yay -Sq
+: 1721875368:0;yay -Ss
+: 1721875390:0;yay -Sqs | grep installed
+: 1721875394:0;yay -Ss | grep installed
+: 1721875406:0;yay -Ss | grep Installed
+: 1721875476:0;nvim ~/pkgs.txt
+: 1721875769:0;yay -Qqs >> ~/pkgs.txt
+: 1721875774:0;rm -rf ~/pkgs.txt
+: 1721875776:0;yay -Qqs >> ~/pkgs.txt
+: 1721875779:0;cat ~/pkgs.txt
+: 1721875794:0;ga ~/pkgs.txt
+: 1721875801:0;which ga
+: 1721875920:0;gst
+: 1721875947:0;cd ~/.local/share
+: 1721875948:0;ls
+: 1721875969:0;git add rofi
+: 1721875970:0;ls
+: 1721875974:0;cd ~
+: 1721875975:0;gst
+: 1721875991:0;cd ~/.config/
+: 1721875995:0;cd warp-terminal/
+: 1721875996:0;ls
+: 1721876010:0;gaa; gcap -m  "lol"
+: 1721876014:0;cd ../
+: 1721876015:0;gst
+: 1721876027:0;cd i2
+: 1721876028:0;cd o3
+: 1721876031:0;cd i3
+: 1721876034:0;gaa; gcap -m  "lol"
+: 1721876042:0;cd ../luavim
+: 1721876044:0;gaa; gcap -m  "lol"
+: 1721876050:0;cd ../dartvim
+: 1721876051:0;gaa; gcap -m  "lol"
+: 1721876054:0;gaa; gcap -m  "lol"
+: 1721876101:0;rm ~/.git/modules/home/muneeb/.config/dartvim/index.lock
+: 1721876103:0;gaa; gcap -m  "lol"
+: 1721876107:0;cd ../
+: 1721876109:0;cd nvim
+: 1721876109:0;ls
+: 1721876111:0;gaa; gcap -m  "lol"
+: 1721876114:0;cd ../
+: 1721876115:0;gst
+: 1721876135:0;gcap "lol"
