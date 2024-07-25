@@ -1,6 +1,3 @@
-[submodule "/home/muneeb/.config/kitty"]
-	path = /home/muneeb/.config/kitty
-	url = https://github.com/muneebusmani/kitty
 [submodule "/home/muneeb/.config/nvim"]
 	path = /home/muneeb/.config/nvim
 	url = https://github.com/muneebusmani/nvim
@@ -25,9 +22,3 @@
 [submodule "/home/muneeb/.config/luavim"]
 	path = /home/muneeb/.config/luavim
 	url = https://github.com/muneebusmani/lazydev
-[submodule "/home/muneeb/.config/dartvim"]
-	path = /home/muneeb/.config/dartvim
-	url = https://github.com/muneebusmani/dart
-[submodule "/home/muneeb/.config/laravim"]
-	path = /home/muneeb/.config/laravim
-	url = https://github.com/muneebusmani/laravel

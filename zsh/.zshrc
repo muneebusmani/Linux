@@ -4,8 +4,9 @@
 . $ZDOTDIR/fzf.zsh
 . $ZDOTDIR/plugins/zsh-lazyload/zsh-lazyload.plugin.zsh
 . $ZDOTDIR/plugins/git/git.plugin.zsh
-. $ZDOTDIR/plugins/nvm/nvm.plugin.zsh
-. $ZDOTDIR/plugins/fzf/fzf.plugin.zsh
+# . $ZDOTDIR/plugins/nvm/nvm.plugin.zsh
+# . $ZDOTDIR/plugins/fzf/fzf.plugin.zsh
+# . $ZDOTDIR/plugins/bun/bun.plugin.zsh
 . $ZDOTDIR/plugins/tmux/tmux.plugin.zsh
 . $ZDOTDIR/plugins/vi-mode/vi-mode.plugin.zsh
 . $ZDOTDIR/plugins/systemd/systemd.plugin.zsh
@@ -13,10 +14,10 @@
 . $ZDOTDIR/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 . $ZDOTDIR/plugins/zsh-autopair/autopair.zsh 
 . $ZDOTDIR/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-. $ZDOTDIR/plugins/tmuxinator/tmuxinator.plugin.zsh
-# . $ZDOTDIR/plugins/fzf-tab-bin-git/fzf-tab.plugin.zsh
-. $ZDOTDIR/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
-. $ZDOTDIR/plugins/archlinux/archlinux.plugin.zsh
+# . $ZDOTDIR/plugins/tmuxinator/tmuxinator.plugin.zsh
+. $ZDOTDIR/plugins/fzf-tab-bin-git/fzf-tab.plugin.zsh
+# . $ZDOTDIR/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
+# . $ZDOTDIR/plugins/archlinux/archlinux.plugin.zsh
 . $ZDOTDIR/plugins/fzf-tab-source/fzf-tab.plugin.zsh
 . $ZDOTDIR/ftc.bash variant=zsh
 . $ZDOTDIR/catppuccin.zsh
@@ -24,6 +25,11 @@
 . $ZDOTDIR/behaviour.zsh
 . $ZDOTDIR/lazyload.zsh
 . $ZDOTDIR/fpath.zsh
+# . $ZDOTDIR/ohmyposh.zsh
 . $ZDOTDIR/starship.zsh
 
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# bun completions
+
+# pnpm
+# pnpm end

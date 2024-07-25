@@ -1,4884 +1,3632 @@
-yain geoclue2
-/usr/libexec/geoclue-2.0/demos/where-am-i
-geoclue2
-sc-enable geoclue
-sc-start geoclue
-geoclue
-sc-enable geoclue --now
-redshift
-redshift --help
-redshift -h
-redshift -l 24.90:47.06
-redshift -l 24.90:47.06 -t 5500:3500
-redshift -l 24.90:47.06 -t 6500:4500
-redshift -l 24.90:47.06 -t 5500:4500
-nvim ~/.config/i3/config
-redshift -t 5500:4500
-nvim ~/.config/i3/config
-q
-htop
-yare avahi
-htop
-firefox
-yain firefox
-yain tigervnc
-q
-xfce4-panel
-xfce4-terminal
-q
-yare xfce4-terminal
-yare xfce4-terminal endeavouros-xfce4-terminal-colors
-yay -Ss endeavouros
-yay -S nvidia-inst
-yay -Sy nvidia-inst
-lsblk
-yain linux-lts linux-hardened linux-zen linux-lts-headers linux-hardened-headers linux-zen-headers
-sudo btrfs-assistant
-sudo btrfs-assistant --help
-q
-sudo update-grub
-yain wireless-regdb
-q
-yass zram
-yain wireless-regdb zram-generator
-q
-sudo update-grub
-htop
-reboot
-optimus-manager-qt
-optimus-manager
-nvidia-installer-kernel-para
-nvidia-smi
-nvidia-settings
-yain nvidia-dkms
-yain nvidia-settings
-yay -S  nvidia-settings
-lsblk
-reboot
-optimus-manager
-nvidia-settings
-yay -S nvidia-470xx-settings
-optimus-manager-qt
-yare linux-lts linux-hardened linux-zen linux-lts-headers linux-hardened-headers linux-zen-headers
-yare wireless-regdb zram-generator
-yare nvidia-inst
-reboot
-optimus-manager-qt
-yain snapper-tools
-sc-enable snapper-boot
-sc-enable snapper-boot.time
-sc-enable snapper-boot.timer
-sc-enable snapper-boot.timer --now
-q
-snapper list-configs
-q
-yain snap-pac
-snap-pac
-reboot
-yare xf86-input-synaptics
-nvim ~/.config/i3/config
-htop
-yass zram
-yain zramswap
-yay -Syy zramswap
-zramctl
-zramctl --help
-sc-status zramswap.service
-sc-enable --now zramswap.service
-sc-status zramswap.service
-htop
-yare zramswap
-sc-disable --now zramswap.service
-sc-stop zramswap.service
-sc-daemon-reload
-yain zramd
-yain earlyoom
-yain systembus-notify
-zramd
-sc-status zramd
-sc-enable --now zramd
-sc-status zramd
-sc-enable zramd
-sc-now zramd
-sc-status zramd
-reboot
-sc-status zramd
-htop
-sudoedit /etc/default/zramd
-sudo nvim /etc/default/zramd
-sc-restart zramd
-htop
-lsblk
-mount /tmp /dev/zram1
-sudo mount /tmp /dev/zram1
-sudo nvim /etc/default/zramd
-sc-restart zramd
-htop
-lsblk
-nvim /etc/fstab
-q
-yain emacs
-emacs
-yass gnu
-yass gnu | grep utils
-yass gnucoreutils
-yain gnucoreutils
-yain coreutils
-vimtutor
-nvim 
-yain kvantum
-yain kvantum-qt5
-cd Kvantum/
-ls
-cd assets/
-ls
-cd ../src
-ls
-yain gtct
-yain qtct
-yass qt
-yass qt | grep configuration
-yain qt6ct
-yain qt5ct
-yain qt6
-yain lxsession
-nvim ~/.profile
-yass xdg
-yass xdg-desktop-portal
-yass xdg-desktop-portal-qt
-yain xdg-desktop-portal-kde
-yain xdg-desktop-portal-gtk
-yass xdg-desktop-portal
-yare xdg-desktop-portal-dde
-yare qt5
-yain qt6
-yare qt6
-yay -Rcns qt6
-yay -Rnsqt6
-yay -Rns qt6
-yay -Rns qt6 --help
-yay -Rns qt6 -dd
-yay -Rns qt5 -dd
-yay -Rns kvantum kvantum-qt5
-yay -Rns qt5ct qt6ct
-q
-optimus-manager-qt
-yain qt5
-nvtop
-q
-cd ~/.config
-ls
+git branch
+git push origin HEAD:master
 gst
-neofetch
-cd neofetch/
-git init
-git commit -m "neofetch config modularized"
+cd ../
 gst
-git add -A
-git commit -m "neofetch config modularized"
-git push
-gh repo create
-cd ../
-rm neofetch -rf
-cd ~
-git submodule add https://github.com/muneebusmani/neofetch ~/.config/neofetch
-git commit -am "modularizing"
-git push
-git submodule add https://github.com/muneebusmani/neofetch ~/.config/neofetch
+cd laravim
 gst
-cd .config
-ls
-q
-yain xfce4
-yain xfce4-screensaver gtk-engines xscreensaver
-yain xfce4-screensaver gtk-engines xfce4-screensaver
-yare xscreensaver
-yass xfce
-yain xfce4-goodies
-yain lua-lgi hddtemp
-yass eos
-yass endeavouros
-yass endeavouros-settings
-yass endeavouros
-yain endeavouros-settings-xfce4
-yass eos-settings
-yain eos-settings-xfce4
-cd .config
-ls
-cd warp-terminal/
-ls
-cat user_preferences.json
-git init
-git commit -am "modularizing"
-git add -A
-git commit -am "modularizing"
-gh repo create
-cd ../
-git add warp-terminal
-git rm --cached warp-terminal
-git add warp-terminal
+gaa
+cd lua/plugins/generic/
 gst
-cd Optimus\ Manager
-ls
-nvim Optimus\ Manager\ Qt.conf
-optimus-manager-qt
-cd ../
-nvim 
-nvim
-lazygit
-q
-cd .config
-ls
-cd rofi
-cd ..
-git rm --cached rofi
-git rm --cached rofi/
-cd rofi
-git init
-git add -A
-git commit -am "modularizing"
-gh repo create
-cd ../
-git add rofi
-git rm --cached rofi/
-git rm --cached rofi -f
-git add rofi
-git rm --cached ~/.config/rofi -f
-cd rofi
-ls
-git push
-cd ../
-git add rofi
-git rm --cached ~/.config/rofi -f
-git submodule add https://github.com/muneebusmani/rofi ~/.config/rofi
-rm -rf rofi
-git submodule add https://github.com/muneebusmani/rofi ~/.config/rofi
-ls
-cd bat
-ls
-cd themes
-ls
-cd ../../
-cd bat
-git init
-git add -A
-git commit -am "modularizing"
-gh repo create --help
-gh repo create --public --source=. --remote=upstream
-git status
-gti push
-git push
-git push --set-upstream origin master
-gh repo create
-git fetch
-git pull
-git branch --set-upstream-to origin/master
-git fetch
+gaa
+gst
+gcap "blazingly fast ~ 50ms load time"
+....
+gst
+gcap "blazingly fast ~ 50ms load time"
+gst
+cd dartvim
+gst
+cd generic
+pwd
 git pull
 git pull origin master
-git remote
-git branch --set-upstream-to upstream/master
-git push upstream/master
-git push
-git push --set-upstream upstream master
-cd ../
-rm bat
-rm bat -rf
-git submodule add https://github.com/muneebusmani/bat ~/.config/bat
-ls
-cd ~
 gst
-cd ~/.config/kitt
-git commit -am "modularizing more"
-git push
-cd ../nvim
-git commit -am "modularizing more"
-git push
-cd ../
-cd ~
-git commit -am "modularizing more"
-git push
-cd ~/Kvantum/
-ls
-cd assets/
-ls
-cat kvantum.png
-./kvantum.png
-feh kvantum.png
-cd src
-ls
-./create-flavours.sh
-nvim create-flavours.sh
-yass catppuccin
-q
-cd ~/Kvantum
-ls
-cd src
-ls
-mv Catppuccin-Mocha-Flamingo ../
-ls
-cd ../
-ls
-rm src -rf
-cat .editorconfig
-ls
-mv Catppuccin-Mocha-Flamingo theme
-ls
-git init
-git add -A
-git commit -am "modularizing more"
-gh repo create
-cd ../
-git rm --cached ~/Kvantum
-git rm --cached ~/Kvantum -r
-git rm --cached ~/Kvantum -rf
-cd ~/Kvantum
-cd ~
-rm ~/Kvantum
-rm ~/Kvantum -rf
-git submodule add https://github.com/muneebusmani/kvantum ~/.config/kvantum
-cd ~
-gst
-lazygit
-git commit -am "modularized the config more"
-git push
-cd ~/.zshr
-cd ~/.zshrc
-nvim ~/.zshrc
-q
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-xss-lock --transfer-sleep-lock -- i3lock --nofork
-xss-lock
-xss-lock -h
-systemctl suspend
-exit
-nvim ~/zsh/base.zsh
-echo lol
-q
-echo xoxo
-q
-nvim ~/zsh/history.zsh
-nvim ~/zsh/base.zsh
-q
-nvim ~/.tmux.conf
-q
-killall picom
-q
-nvim /home/muneeb/.tmux.conf
-cls
-tmux kill-server
-tmux
-picom --blur-method box --blur-size 100 --backend glx --experimental-backends
-picom --blur-method box --blur-size 100 --backend glx 
-picom --blur-method box --blur-size 100 --experimental-backends
-yare compton
-yare xcompmgr
-picom --blur-method kernel --backend glx --experimental-backends --blur-kern '15,15,0.0,0.0,0.0,5.2128623625220705,17.00896879022241,25.2326840508547,29.464967285727013,29.464967285727013,25.2326840508547,17.00896879022241,5.2128623625220705,0.0,0.0,0.0,0.0,0.0,0.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,0.0,0.0,0.0,0.0,17.00896879022241,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,17.00896879022241,0.0,0.0,11.03493716289379,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,11.03493716289379,0.0,25.2326840508547,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,25.2326840508547,7.1373795560996385,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,13.008810743676655,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,13.008810743676655,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,7.1373795560996385,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,0.0,25.2326840508547,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,25.2326840508547,0.0,11.03493716289379,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,11.03493716289379,0.0,0.0,17.00896879022241,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,17.00896879022241,0.0,0.0,0.0,0.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,5.2128623625220705,17.00896879022241,25.2326840508547,29.464967285727013,29.464967285727013,25.2326840508547,17.00896879022241,5.2128623625220705,0.0,0.0,0.0' \
-
-picom --blur-method kernel --backend glx --blur-kern '15,15,0.0,0.0,0.0,5.2128623625220705,17.00896879022241,25.2326840508547,29.464967285727013,29.464967285727013,25.2326840508547,17.00896879022241,5.2128623625220705,0.0,0.0,0.0,0.0,0.0,0.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,0.0,0.0,0.0,0.0,17.00896879022241,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,17.00896879022241,0.0,0.0,11.03493716289379,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,11.03493716289379,0.0,25.2326840508547,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,25.2326840508547,7.1373795560996385,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,13.008810743676655,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,13.008810743676655,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,7.1373795560996385,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,0.0,25.2326840508547,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,25.2326840508547,0.0,11.03493716289379,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,11.03493716289379,0.0,0.0,17.00896879022241,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,17.00896879022241,0.0,0.0,0.0,0.0,15.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,30.0,15.0,0.0,0.0,0.0,0.0,0.0,0.0,5.2128623625220705,17.00896879022241,25.2326840508547,29.464967285727013,29.464967285727013,25.2326840508547,17.00896879022241,5.2128623625220705,0.0,0.0,0.0' \
-
-egl
-picom --help
-picom --dbus
-killall picom
-picom --dbus
-killall picom xborders
-q
-q
-nvim
-q
-watch_hub_api
-n
-gst
-rm ~/rofi*
-rm ~/rofi* -rf
-rm ~/*rofi* -rf
-gst
-rm sample* -rf
-rm i3-gaps-rounded -rf
-rm vim_keys.txt
-gst
-rm temp.txt
-rm tmp.txt
-gst
-cd Wallpaper-bank/
-ls
-cd wallpapers/
-ls
-cd ~
-gst
-gsm
-.config
-i3/
-git commit -am "added more features"
-gp
-../
-kitty/
-gc -am "some misc changes"
-gp
-gsm
-cd ~
-gsm
-cd .config
-nvim/
-gsm
-alias
-alias | grep git
-alias | grep "git add"
-gsm
-gaa
-gc -m "some more updates"
-gp
-..
-rofi/
-gaa
-gc
-gp
-..
-gsm
-nvim ~/zsh/aliases.zsh
-gcp
-gcap
-q
-q
-q
-gsm
-cd i3
-ls
-gsm
-gst
-gcap "added more stuff"
-gaa
-gcap "added more stuff"
-gst
-gsm
-cd ..
-gsm
-cd ~
-gst
-cd ~/zsh
-ls
-gst
-git add ./*
-gst
-gsm
-which gcap
-gcap "some more stuff added integrated with rofi and i3 and optimized tmux and zsh more"
-gst
-q
-watch
-watch_hub_api
-n
-nvim ~/.tmux.conf
-tmux kill-server
-q
-cd zsh
-ls
-touch tmux_boot.zsh
-nvim tmux_boot.zsh
-mv tmux_boot.zsh setup_tmux_autostart-zsh
-ls
-chmod +x ./*.zsh
-sudo chmod +x ./*.zsh
-ls
-sudo chmod +x ./*.bash
-mv setup_tmux_autostart-zsh setup_tmux_autostart.zsh
-sudo chmod +x ./*.zsh
-ls
-./setup_tmux_autostart.zsh
-sudo ./setup_tmux_autostart.zsh
-nvim ./setup_tmux_autostart.zsh
-sudo ./setup_tmux_autostart.zsh
-./setup_tmux_autostart.zsh
-nvim ./setup_tmux_autostart.zsh
-./setup_tmux_autostart.zsh
-nvim ./setup_tmux_autostart.zsh
-sudo ./setup_tmux_autostart.zsh
-nvim ./setup_tmux_autostart.zsh
-sc-status tmux-autostart.service
-reboot
-su muneeb
-cls
-c
-cls
-q
-nvim ~/.config/starship.toml 
-q
-q
-nvim ~/.config/starship.toml 
-q
-nvim ~/.config/starship.toml 
-q
-nvim ~/.config/starship.toml 
-q
-nvim ~/.config/starship.toml 
-q
-4
-nvim ~/.config/starship.toml 
-cls
-q
-nvim ~/.config/starship.toml 
-q
-nvim ~/.config/starship.toml 
-q
-nvim ~/.config/starship.toml 
-q
-nvim $(fzf)
-builtin cd -- watch_hub_api/
-ls
-n 
-ModemManager
-sc-enable ModemManager.service
-ModemManager
-sc-enable ModemManager.service --now
-ModemManager
-sc-status org.freedesktop.ModemManager1
-sc-status ModemManager1
-sc-status ModemManager
-zstd
-q
-builtin cd -- watch_hub_api/
-n
-nvim
-q
-nvim
-killall picom xborders
-picom --blur-method dual_kawase
-picom --blur-method dual_kawase --backend glx
-nvim
-q
-q
-killall picom
-nvim 
-picom  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --glx-no-stencil --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --shadow-radius 16 -l -3 -t -3
-picom  --backend glx --blur-method dual_kawase --detect-rounded-corners --shadow-radius 16
-picom  --backend glx --blur-method dual_kawase --detect-rounded-corners
-picom  --backend glx --blur-method dual_kawase 
-killall picom xborders
-picom --blur-method dual_kawase 
-picom --blur-method dual_kawase --glx
-picom --blur-method dual_kawase --backend glx
-nvim
-killall picom xborders
-nvim
-picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-nvim 
-nv
-killall picom xborders
-nv
-picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3\
-
-Q
-q
-killall picom xborders
-nvim
-nv
-killall picom xborders
-picom --blur-method dual_kawase  --backend glx --blur-method dual_kawase --glx-no-stencil --glx-no-rebind-pixmap --detect-rounded-corners --corner-radius 12 --shadow-radius 16 -l -3 -t -3
-nv
-killall picom xborders
-q
-q
-killall picom xborders
-nv
-killall picom xborders
-nv
-killall picom xborders
-nv
-killall picom xborders
-picom
-nvim 
-q
-killall picom xborders
-nivm
-nvim
-nv
-killall picom xborders
-nv
-killall picom xborders
-q
-killall picom
-q
-killall picom
-nv
-killall picom
-q
-gst
-gcap "finally added dual kawase blur and rounded corners
-gcap "finally added dual kawase blur and rounded corners"
-gst
-cd ~/zsh
-gst
-gsm
-cd ~/.config/
-cd kitty/
-ls
-gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
-../i3
-gcap "finally added dual kawase blur and rounded corners so adjusted kitty blur and radius"
-../nvim
-ls
-gst
-gcap "some plugin updates"
-cd ~
-gsm
-gcap "dual kawase blur implemented, kitty blur adjusted, neovim updated"
-q
-nv
-feh
-cd ~/Wallpaper-bank/
-ls
-cd wallpapers/
-unsetopt CASE_GLOB
-q
-zsh/plugins/fzf-tab-source
-nvim ~/zsh/.zshrc
-ls
-nvim fzf-tab.plugin.zsh
-nvim fzf-tab.zsh
-unsetopt CASE_GLOB
-cd ~/Wallpaper-bank
-ls
-cd wallpapers/
-ls
-file
-rofi 
-rofi -show fikes
-rofi -show file
-rofi -show files
-yasi rofi
-yass rofi
-rpfo-calc
-rofi-calc
-rofi -show calc
-rofi -show calc -no-show-match -no-sort
-nv
-q
-nv
-rofi -show calc -no-show-match -no-sort
-q
-sudo pacman -S python-gobject gtk4
-git clone https://github.com/matclab/rofi-file-selector
-cd rofi-file-selector/
-ls
-./rofi-file-selector.sh
-nvim rofi-file-selector.sh
-yain choose
-nvim rofi-file-selector.sh
-./rofi-file-selector.sh
-yain xsel
-./rofi-file-selector.sh
-yay -Rns xterm
-yay -Rns xterm --no-deps
-yay -Rns --help
-yay -Rns --help | grep deps
-yay -Rns xterm -d
-yay -Rns xterm --nodeps
-yay -Rns xterm playonlinux
-./rofi-file-selector.sh
-q
-yare warp-terminal
-./rofi-file-selector.sh
-~/.config/neovide
-mkdir ~/.config/neovide
-nvim ~/.config/neovide/config.toml
-neovide --nofork
-neovide --nofork ~/.config/nvim
-neovide --nofork ~/.config/nvim/README.md
-neovide --no-fork ~/.config/nvim/README.md
-nvim 
-./rofi-file-selector.sh
-ls
-nvim ./mimeapps
-ls
-cd ../
-mv rofi-file-selector ~/.config/rofi/launchers
-~/.config/rofi/launchers
-ls
-cd rofi-file-selector/
-ls
-nvim 
-nvim
-rofi -show search
-rofi -show combi
-rofi -show drun
-xev
-yain xev
-q
-yay -S xev
-yay -Ss xev
-yay -Ss xorg-xev
-yay -S xorg-xev
-xev
-nv
-q
-xev
-q
-xev
-yain thunar
-yain catfish tumbler thunar-volman thunar-archive-plugin thunar-media-tags-plugin
-yain zeitgeist ark file-roller engrampa libgepub
-yain caja rpm-tools squashfs-tools lrzip unarchiver
-q
-q
-q
-gst
-gsm
-cd ~/.config/i3
-gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-cd ../
-ls
-gst
-cd kitty/
-ls
-gcap "some minor changes"
-../
-nvim
-nvim/
-gcap "some minor changes"
-cd ~
-gsm
-cd ~/.config/rofi
-gaa
-git rm --cached launchers/rofi-file-selector
-cd launchers/
-ls
-cd rofi-file-selector/
-ls
-rm .git -rf
-cd ~/.config/rofi
-gaa
-gsm
-gst
-gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-cd ~
-gsm
-gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-gsm
-gst
-q
-cls
-nvim ~/watch_hub_api
-nvim 
-nv
-cd watch_hub_api/
-ls
-nv .
-gst
-cd zsh
-ls
-gst
-git add ./*
-gcap "added rofi calculator, file manager, and mapped more shortcuts for multimedia keys"
-gst
-cd 
-cd  .config/nvim
-ls
 nvim .
 q
-cd watch_hub_api/
-nv
-neovide ~/watch_hub_api
-n
-code .
-cd
-nvim ~/.config/i3/config
+laravim
+luavim ~/.config/laravim
+laravim
+cd ~/.local/share/laravim/lazy/LazyVim/lua/lazyvim/config/init.lua
+luavim ~/.local/share/laravim/lazy/LazyVim/lua/lazyvim/config/init.lua
+laravim
+git clone https://github.com/haringsrob/laravel-dev-tools
+cd laravel-dev-tools
+./laravel-dev-tools app:build
+gst
+l
+ls
+composer update
+yass laravel-dev-tools
+./laravel-dev-tools app:build
+cd builds
+ls
+./laravel-dev-tools
+./laravel-dev-tools lsp
+sudo cp ./laravel-dev-tools /usr/local/bin
 q
-nvim
+laravel-dev-tools
 q
-neofetch
-cls ;neofetch;
-cd watch_hub_api/
-nvim .
-nvim
-q
-cls; neofetch;
-n
+laravel-dev-tools
+laravel-dev-tools snippets
+laravel-dev-tools snippets ./lol.txt
+touch ./lol.txt
+laravel-dev-tools snippets ./lol.txt
+laravim
 cd ~/watch_hub_api/
 ls
-yain sway
-sway
-sway --unsupported-gpu
-sc-restart display-manager
-sway --unsupported-gpu
-yay -Rns sway
-yay -Ss steam
-yay -Qqs steam
-yare steamos-compositor-plus
-cd watch_hub_api/
-n
-laravel new example-app
- code --install-extension ~/Downloads/phpactor.vsix
+laravim .
+cd ~/lolapp/
+laravim .
+laravel-dev-tools
+laravel-dev-tools lsp
+laravim
+laravim .
+laravim
+dartvim
+laravel-dev-tools lsp
+laravel-dev-tools lsp --help
+laravel-dev-tools lsp -n
+laravim
+q
+q
+laravim ~/lolapp
+laravim 
+cd ~/lolapp/
+laravim .
+laravim 
+cd ~/watch_hub_api/
+laravim .
+sail artisan make:view
+sail up
+sail up -d
+sail artisan make:view
+q
+nvim /home/muneeb/.local/share/laravim/mason/packages/phpactor/phpactor.schema.json
+laravim
+laravim ./resources/views/lmao.blade.php 
+cd ~/.local/share/laravim/lazy/
+cd  ./nvim-lspconfig
+ls
+cd ./lua/lspconfig/server_configurations/
+ls
+nvim phpactor.lua
+laravim
+laravim ./phpactor.lua
+nvim ./blade.lua
+laravim ~/watch_hub_api
+laravim ./blade.lua
+laravel-dev-tools lsp n
+laravim ~/watch_hub_api
+laravel-dev-tools lsp n
+laravel-dev-tools lsp -n
+laravel-dev-tools lsp -n --help
+laravel-dev-tools lsp -n --help -vvv
+laravel-dev-tools lsp -n --help -vv
+laravel-dev-tools lsp -n --help -v
+mux
+mux doctor
+q
+laravim
+cd ~/lolapp/
+laravim .
+laravim 
+laravim ./resources/views/welcome.blade.php 
+laravim
+q
+laravim /home/muneeb/lolapp/resources/views/welcome.blade.php 
+q
+q
+yare beep
+yain beep
+cd /etc/profile.d
+ls
+touch disable-beep.sh
+sudo touch disable-beep.sh
+sudoedit disable-beep.sh
+cls
+sudo rm -rf /etc/profile.d/disable-beep.sh
+q
+nvim ~/.inputrc
+luavim ~/.inputrc
+q
+nvidia-oc 135 225
+sudo touch /etc/modprobe.d/nobeep.conf
+sudoedit /etc/modprobe.d/nobeep.conf
+rm -rf ~/.inputrc
+sudoedit /etc/inputrc
+q
+reboot
 nvim
-/bin/php
-/bin/php -v
-/usr/bin/env php -v
-cd watch_hub_api/
-composer require psalm-language-server
-composer require psalm
-composer require psalm --dev -W
-composer require vimeo/psalm --dev -W
-sudo 
-sudo modprobe -r psmouse; sudo modprobe psmouse
+luavim ~/.config/i3/config
+yain speech-dispatcher
+nvim
+yain festival espeak-ng
+laravim ~/index.php
+q
+nvim ~/.config/picom.conf
+killall picom xborders 
+nvim ~/.config/picom.conf
+killall picom xborders 
+nvim ~/.config/picom.conf
+killall picom xborders 
+q
+mux api
+lazydocker
+lazygit
+laravim .
+laravim api.http
+gst
+cd laravim
+gst
+nvim ./lua/config/autocmds.lua 
+laravim ./lua/config/autocmds.lua 
 q
 q
 q
-nv
-nvim ~/watch_hub/api
-gh repo clone Lazyvim
+laravim
+cd ~/.local/share/laravim/lazy/Lazyvim
 ls
-cd LazyVim/
+cd ~/.local/share/laravim/lazy/LazyVim/
 ls
+cd lua
+ls
+cd ../
+luavim .
+lazyvim
+laravim
+q
+laravim
+q
+laravim
+q
+cd ~/LazyVim/
+git fetch
+git merge
+gst
+git push
+git push origin master
+gh repo create
+gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org,read:project
+git push origin master
+git push 
+gh auth login
+git push 
+git remote
+git remote -v
+git branch
+git push upstream
+git push origin
+git branch feature-branch
+git checkout feature-branch
+ls
+git push origin
+luavim .
+dartvim
+cd 
+dart new lol
+dart create lol
+cd lol
+ls
+cd ../
+dart create lol
+dart create lol --force
+cd lol
+ls
+q
+cd
+dartvim
+cd ~/lol/lib/lol.dart
+cd ~/lol/
+ls
+dartvim .
+q
+q
+tmux
+laravim
+laravim ~/lol
+laravim
+cd laravim
 nvim .
-nvim 
-fd scn
-fd scm
-cd queries/
+laravim
+laravim 
+cd ~/LazyVim/
 ls
-nvim lua
-nvim
+cd ./lua/lazyvim/plugins/extras/lang/
+ls
+luavim ./dart.lua
+gst
+gaa
+gcap "added dart support"
+laravim
+gst
+git push origin
+laravim
+ls
+nvim ./dart.lua
+cd /home/muneeb/.local/share/laravim/lazy/LazyVim/lua/lazyvim/plugins/extras/
+cd lang
+ls
+cd 
+cd lang
+pwd
+laravim ./dart.lua
+gst
+gcap "fixed some issues"
+laravim
+cd ~/LazyVim/
+ls
+gst
+q
+cd ~/lol
+ls
+laravim .
+laravim
+luavim /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/lang/dart.lua 
+cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/lang/
+la
+ls
+la
+ls
+ll
+luavim .
+rg lspconfig
+luavim
+luavim .
+q
+q
+tmux
+luavim .
+dartvim .
+dartvim
+q
+gst
+mv dart.lua flutter.lua
+gst
+ga
+gaa
+gst
+gcap "complete dart/flutter support"
 cd ~
-touch sample.nix
-nvim sample.nix
-rm sample.nix
-vim
-rm ~/.vimrc
-mv ~/.vimrc.bk ~/.vimrc
-vim ~/.vimrc
-vim ~/watch_hub_api
-cd ~/.config/coc
+laravim
+cd ~/Lazyvim
+laravim
+cd lazyvim
+laravim
+cd ~/lol
 ls
-cd extensions/
+laravim .
+laravim
+cd laravim
+nvim lazyvim.json
+cd lol
+laravim
+laravim .
+q
+q
+cd lol
+laravim .
+cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/lang/
+luavim ./flutter.lua
+cd lol
 ls
-cd @yaegassy/
-ls
-cd ~/.config/
-rm coc -rf
+nvim pubspec.yaml
+luavim ./flutter.lua
+cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/lang/
+luavim ./flutter.lua
+dart analyze --help
+dart analyze --format
+gst
+gcap "testing "
+laravim
+cd ~/lol
+laravim .
+docker
+lazydocker
+htop
+q
+sc-disable preload --now
+laravim .
+cd laravim
+rg dartls
+laravim ./lua/plugins/dart.lua dartls
+laravim .
+laravim ./flutter.lua
+gst
+gcap "testing "
+laravim .
+gst
+git log
+q
+q
+cd lol
+laravim .
+dartvim .
 cd ~/
-cd ~/.config/
+cd sample
+dartvim .
+cd dartvim
 ls
-mkdir scratch
-cd scratch/
-ls
-nvim .
+luavim .
+rg null
+luavim omnisharp.lua
+luavim flutter.lua
+gst
+gcap "testing "
+luavim
+dartvim
+laravim
+rm ~/.cache/laravim -rf
+rm ~/.local/share/laravim -rf
 q
-cd ~/.config/scratch/
-nvim .
 q
-nvim ~/.config/scratch
-NVIM_APPNAME=scratch nvim ~/.config/scratch
-cd ~/.config
+tmux
+cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/
+cd LaraVim
 ls
-mv scratch nvim-custom
-NVIM_APPNAME=nvim-custom nvim
-NVIM_APPNAME=nvim-custom nvim nvim-custom
-nvim nvim-custom
-NVIM_APPNAME=nvim-custom nvim nvim-custom
+cd lol
+laravim .
+luavim flutter.lua
+cd lang/
+luavim flutter.lua
+gcap "testing "
+laravim
+q
+lol
+cd lol
+laravim 
+laravim .
+ls
+luavim .
+luavim flutter.lua
+gcap "testing "
+laravim .
+laravim
+luavim flutter.lua
+gcap "testing "
+laravim
+cd lol
+laravim .
+laravim
+laravim .
+cd dartvim
+dartvim .
+luavim .
+gst
+gcap "testing "
+git clone https://github.com/LazyVim/starter ~/.config/testing
+cd ~/.config/testing
+NVIM_APPNAME=testing nvim ~/lol
+gcap "testing "
+luavim .
+gcap "testing "
+gaa
+gcap "testing "
+NVIM_APPNAME=testing nvim ~/lol
+dartvim
+dartvim ~/lol
+dartvim 
+dartvim  ~/lol
+q
+q
+luavim .
+q
+dartvim
+dartvim ~/lol
+dartvim 
+q
+laravim
+cd laravim
+gst
+q
+cd generic
+pwd
+cd laravim
+cd ./lua/plugins/generic/
+gst
+nvim .
+cd laravim
+laravim ~/watch_hub_api
+cd ~/lolapp
+ls
+laravim .
+laravim
+laravim .
+laravim ./resources/views/welcome.blade.php
+laravim
+laravim .
+laravim ./resources/views/welcome.blade.php 
+laravim 
+laravim ./resources/views/welcome.blade.php 
+laravim
+laravim ./resources/views/welcome.blade.php 
+laravim
 nvim
-NVIM_APPNAME=nvim-custom nvim nvim-custom
-NVIM_APPNAME=nvim-custom nvim ~/.config/nvim-custom
-NVIM_APPNAME=nvim-custom nvim ~/.config/nvim-custom/lua/plugins
-NVIM_APPNAME=nvim-custom nvim ~/.config/nvim-custom/lua/plugins/lazy.lua
-cd ~/.config/nvim-custom/
-NVIM_APPNAME=nvim-custom nvim .
-cd lua/
-cd ~/
+laravim
+laravim .
+laravim 
+laravim  .
+laravim ./resources/views/welcome.blade.php 
+laravim
+intelephense
+intelephense --help
+intelephense -h
+laravim ./resources/views/welcome.blade.php 
+laravim
+laravim ./resources/views/welcome.blade.php 
 q
-cd ~/zsh
-rm .zcompdump
+nvim ~/.config/i3/config
+q
+nvim ~/.config/i3/config
+killall picom xborders 
+yain phpstorm
+yain phpstorm-jre
+yass bitwarden
+yain bitwarden bitwarden-cli rofi-rbw
+nvim ~/.vimrc
+cd Download
+l
+ls
+cd ~/jetbra
+ls
+nvim *.txt
+cd ~/watch_hub_api/
+lazygit
+q
+q
+cls
+q
+sc-disable tmux
+su root
+nvim ~/zsh/.zshrc
+q
+which cls
+exit
+nvim ~/.bashrc
+q
+bash
+laravim api.http
+lazygit
+lazydocker
+q
+q
+q
+q
+source ~/zsh/.zshrc
+source ~/zsh/env.zsh
+source ~/zsh/aliases.zsh 
+mux api
+nvim ~/.bashrc
+exit
+yass mackup
+yain mackup
+yain mackup --noconfirm
+lazyload
+lazyload --help
+. <(box autocomplete:script zsh)
+. <(box autocomplete:script bash)
+bash
+nvim ~/zsh/.zshrc
+yare phpstorm-eap*
+bash yare phpstorm-eap*
+bash -c yare phpstorm-eap*
+bash
+which yainli
+nvim ~/zsh/lazyload.zsh
+q
+w
+q
+yareli phpstorm-eap
+exec zsh
+yareli
+nvim ~/zsh/lazyload.zsh
+killall alacritty
+tmux
+nvim ~/zsh/lazyload.zsh
+q
+source ~/zsh/.zshrc
+which yareli
+yareli phpstorm-eap
+yainli php
+nvim ~/zsh/.zshrc
 compinit
 q
-cd ~/zsh
-gst
-nvim .zshrc
+yarelo
+yareli
 q
-cd ~/.config/nvim-custom/
-cd ../
-mv nvim-custom coc
-cd coc
-nvim ~/zsh/aliases.zsh
+yareli
+q
+yareli
+nvim ~/zsh/yay.zsh
 exec zsh
-coc .
-ls
-mv nvim-custom ~/.config/coc-nvim
-nvim ~/zsh/aliases.zsh
+yareli phpstorm-eap
+cleanup
+cls
+pacdiff
+cls
 q
-cd ~/.config/coc-nvim/
-coc .
-nvim ~/.config/nvim/lua/config/keymaps.lua
 q
-cd nvim
+q
+nvim ~/zsh/.zshrc
+q
+which
+which php
+cls
+sudo su
+cls
+q
+phpstorm -e ':commandlist' > ideavim_commands.txt\
+
+phpstorm --help
+nvim ~/.txt
+cls
+composer update
+yay -Su php
+q
+q
+nvim 
+cd alacrit
+nvim ./alacritty.toml
+nvim ~/.config/picom.conf
+killall picom
+nvim ~/.config/picom.conf
+cd api
+sail up -d
+cls
+lazydocker
+q
+http http://localhost/api/v1/cart_items
+http http://localhost/api/v1/cart_items/1
+http http://localhost/api/v1/cart_items/2
+http http://localhost/api/v1/cart_items/80
+http http://localhost/api/v1/cart_items
+http http://localhost/api/v1/cart_items/42
+http http://localhost/api/v1/cart_items
+http http://localhost/api/v1/cart_items/60
+http http://localhost/api/v1/cart_items/80
+sail artisan route
+sail artisan route:list
+http http://localhost/api/v1/cart_items/80
+sail down; sail up -d
+killall picom
+nvim ~/.config/picom.conf
+q
+nvim ~/.config/picom.conf
+killall picom
+nvim ~/.config/picom.conf
+nvim ~/.config/i3/config
+killall picom xborders 
+nvim ~/.config/i3/config
+nvim ~/.config/picom.conf
+killall picom xborders 
+cd alacrit
 ls
-mv coc-settings.json ../coc-nvim
+nvim toml
+nvim ./alacritty.toml
+httpie
+httpie cli
+httpie cli sessions
+yain appimage-launcher
+yass appimage
+yain appimagelauncher
+Downloads
+cd Downloads
 ls
-cd coc-nvim
+warp-cli status
+aria
+aria2c https://github.com/httpie/desktop/releases/download/v2024.1.2/HTTPie-2024.1.2.AppImage
+warp-cli connect
+aria2c https://github.com/httpie/desktop/releases/download/v2024.1.2/HTTPie-2024.1.2.AppImage
+./HTTPie-2024.1.1.AppImage
+./HTTPie-2024.1.2.1.AppImage
+warp-cli disconnect
+q
+yass appman
+wget https://raw.githubusercontent.com/ivan-hc/AM/main/APP-MANAGER -O appman && chmod a+x ./appman
+./appman
+mkdir ~/Appimages
+cd ~/Appimages
+ls
+appman
+ls
+cd ~
+ls
+cat appman
+sudo mv appman /usr/local/bin
+/usr/local/bin
+ls
+cd ~
+appman
+appman -h
+cd ~/Appimages
+rm appman -rf
+AppImageLauncher ~/Downloads/HTTPie-2024.1.2.1.AppImage
+AppImageLauncher --help
+AppImageLauncherSettings
+AppImageLauncherSettings --help
+cd ~/LazyVim
+ls
+gst
+git checkout master
+git checkout main
+gst
+git diff
+git fetch
+gst
+git merge
+gst
+git push
+git push origin
+git push origin main
+git pull
+git push origin main
+git push --help
+git push --force
+git push origin main --force
+gst
+luavim .
+luavim
+laravim
+cd laravim
+gst
+cd config
+cd laravim
+nvim ./lua/config/autocmds.lua 
+laravim ./lua/config/autocmds.lua 
+gst
+cd lua
+laravim .
+ga config/
+gst
+cd ~
+fd .php
+cd lolapp/
+ls
+laravim .
+laravim
+cd laravim
+gst
+git restor ./lua/plugins/*
+git restorr ./lua/plugins/*
+git restore ./lua/plugins/*
+gst
+git restore ./lua/plugins/lsp.lua ./lua/plugins/mason.lua ./lua/plugins/nvim-lint.lua 
+gst
+luavim ./lua/plugins/null-ls.lua 
+gst
+laravim
+gst
+gaa
+gcap "blade working again"
+git branch coc
+git checkout coc
+laravim .
+rm ~/.local/share/laravim -rf
+rm ~/.cache/laravim -rf
+laravim .
+warp-cli status
+warp-cli connect
+q
+laravim
+cd laravim
+laravim .
+yarn
+cd laravim
+laravim .
+gst
+gaa
+gst
+q
+git checkout master
+git branch -D coc
+gst
+git restore *
+gst
+git reset --hard HEAD
+gst
+laravim
+tmux
+laravim
+tmux
+cd coc
+ls
+coc
+NVIM_APPNAME=coc nvim .
+NVIM_APPNAME=coc-nvim nvim .
+cd /home/muneeb/.local/share/laravim/lazy/dashboard-nvim/
+ls
+cd ../
+cd ./LazyVim/lua/lazyvim/util/
+cd ../ui
+cd ..
 ls
 nvim .
-coc .
-cd ~/watch_hub_api/
-coc .
-nvim 
-coc .
-coc ~/.config/coc-nvim
-q
-coc ~/.config/coc-nvim
-coc ~/.config/coc-nvim/lua/plugins
-coc ~/.config/coc-nvim/lua/plugins/lazy.lua
-coc
-coc ~/.config/coc-nvim/lua/plugins/lazy.lua
-coc ~/.config/coc-nvim/lua/config
-coc ~/.config/coc-nvim/lua/config/coc.lua
-cd ~/.config/coc-nvim/
-coc .
-coc
-coc .
-coc
-coc .
-coc
-coc .
-coc
-coc .
-coc
-coc .
-coc
-coc .
-coc
-coc ./lua/plugins/lazy.lua
-nvim ./lua/plugins/lazy.lua
-coc ./lua/plugins/lazy.lua
-coc ./lua/config/coc.lua
-coc ./lua/plugins/lazy.lua
-cd ~/projects
-rm ~/.local/share/coc-nvim
-rm ~/.local/share/coc-nvim -rf
-coc ./lua/plugins/lazy.lua
-rg noice
-coc ./lua/plugins/lazy.lua
-coc ./coc-settings.json
-coc ./init.lua
-coc ./lua/plugins/lazy.lua
-coc ./lua/config/coc.lua
-luarocks install http.parser
-luarocks install  --global http.parser
-cd ~/.local/share/coc-nvim/
-ls
-cd lazy/
-ls
-cd telescope-arecibo.nvim/
-ls
-cd lua/
-ls
-cd telescope/
-ls
-cd _extensions/
-ls
-mkdir ~/luarocks 
-~/luarocks 
-luarocks install http.parser
-sudo luarocks install http.parser
-nvim
-coc
-sudo luarocks install "http.parser"
-sudo luarocks install "http.parser" --check-lua-versions
-sudo luarocks install lua-http-parser
-cd ~/.config/coc-nvim/
-coc .
-coc
-coc ./init.lua
-coc
-coc .
-coc
-coc ./init.lua
-cd ~/watch_hub_api/
-coc .
-q
-q
-sc-disable tmux-autostart.service --now
-rebppt
-reboot
-nvim ~/.config/i3/config
-picom --help
-picom --help | grep blur
-picom --blur-background-exclude --help
-picom --blur-background-exclude xborders
-xev
-picom --blur-background-exclude xborder
-picom --blur-background-exclude=xborder
-picom --blur-background-exclude="role   = 'xborder'",
-picom --blur-background-exclude"role   = 'xborder'",
-picom --blur-background-exclude "role   = 'xborder'",
-picom -c
-picom -c -help
-picom --help | grep config
-cd /etc/xdg/picom.conf
-sudoedit /etc/xdg/picom.conf
-cd ~/.config/
-nvim picom.config
-nvim picom.conf
-q
-q
-nvim
-q
-nvim 
-q
-n
-nv
-cd ~/.config/
-ls
-git add picom.conf
+rg dashboard
+util/
+nvim plugin.lua
 gst
-nv
-picom --help | grep config
-picom --config ~/.config/picom.conf
-nvim ~/.config/picom.conf
-picom --config ~/.config/picom.conf
-xprop
-xprop | grep CLASS
+nvim ./init.lua
+NVIM_APPNAME=coc-nvim nvim .
+exit
+luavim .
+NVIM_APPNAME=coc-nvim nvim .
+NVIM_APPNAME=coc-nvim nvim ./lua/config/telescope.lua
+nvim /home/muneeb/.local/share/laravim/lazy/LazyVim/lua/lazyvim/plugins/extras/ui/alpha.lua 
+NVIM_APPNAME=coc-nvim nvim .
+nvim .
+NVIM_APPNAME=coc-nvim nvim .
+cd ~/lolapp
+NVIM_APPNAME=coc-nvim nvim .
+cd coc
+nvim .
+cd lol
+NVIM_APPNAME=coc-nvim nvim .
+cd nvim
+gst
+cd ../
+cd nvim
+git remote -v
+cd ..
+rm nvim -rf
+curl -sLf https://spacevim.org/install.sh | bash
 nvim
-nvim ~/.config/picom.conf
-killall picom xborder
-killall picom xborders
-pacseek
-alacritty
-yain alacritty
-kitty --debug
-kitty --help
-q
-alacritty
-q
-mkdir -p ~/.config/alacritty\
-
-nvim ~/.config/alacritty/alacritty.yml
-alacritty migrate
-q
-q
-nvim ~/.config/alacritty/alacritty.toml
-q
-nvim ~/.config/alacritty/alacritty.toml
-q
-nvim ~/.config/alacritty/alacritty.toml
-q
-nvim ~/.config/alacritty/alacritty.toml
-q
-monospace
-nvim ~/.config/alacritty/alacritty.toml
-yass firacode
-yain nerd-fonts
-yass nerd-fonts
-yain ttf-firacode-nerd otf-fira-mono
-nvim ~/.config/alacritty/alacritty.toml
-yass hack-nerd-font
-yass hack
-yass hack | grep font
-yass hack | grep nerd
-yain ttf-hack-nerd
-killall lxappearence
-q
-yass ttf-noto
-yain ttf-noto-nerd
-q
-q
-yare alacritty
-cd ~/.config/
-rm alacritty -rf
-git clone https://github.com/Force4760/kt_session.git
-cd kt_sessions
-cd kt_session/
+cd nvim
+nvim .
+cd ~/.SpaceVim/
 ls
-nvim install.sh
-nvim setup.py
-cd kt/
+cd ~/.SpaceVim.d/
+ls
+nvim ./init.toml
+cd ~/lolapp
+vim
+nvim .
+cd ~/.SpaceVim.d/
+vim .
+sudo npm install -g intelephense
+q
+q
+q
+nvim
+cd lolapp
+nvim .
+sudo npm install -g intelephense
+nvim .
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+git clone https://github.com/ZayRTun/Lazyvim-for-Laravel ~/.config/nvim
+~/.config/nvim
+nvim
+cd lolapp
+nvim .
+nvim ~
+rm -rf ~/.config/nvim
+cd dartvim
+gst
+nvim .
+dartvim .
+lol
+dart create lol
+dartvim ~/lol
+cd laravim
+laravim
+gst
+gaa
+gcap "updates"
+laravim .
+laravim ~/lol
+gst
+laravim
+yain bun
+yass bun
+yain bun
+yain bun --noconfirm
+yain bun-bin --noconfirm
+gst
+laravim .
+laravim ~/watch_hub_api
+cd ~
+bun --help
+bun install vite-create --global
+sudo bun install vite-create --global
+bun install vite-create --global
+bun create vite
+bun create vite my-app
+yare bun
+yare bun-bin
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo rm -rf ~/../linuxbrew 
+npm i -g bun
+npm --help
+npm cache
+mkdir ~/.npm
+sudo chown -R $USER /usr/local/lib/node_modules
+sudo chown -R $USER /usr/lib/node_modules/
+npm i -g bun
+npm config set prefix "${HOME}/npm"\
+
+export PATH="${PATH}:${HOME}/npm/bin"\
+
+npm i -g bun
+nvim ~/zsh/env.zsh
+q
+q
+bun
+bun install vite-create --global
+bun install vite --global
+bun create vite my-app
+npm i -g vite
+warp-cli status
+warp-cli disconnect
+bun install vite --global
+vite --help
+vite-create
+bun install vite-create --global
+bun create vite my-app
+bun install create-vite --global
+cva
+cd ~
+cva
+cd my-app
+which cva
+laravim .
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo rm -rf ~/../linuxbrew 
+which bun
+npm uninstall bun
+cva
+nvim ~/zsh/env.zsh
+q
+cva
+which cva
+rm ~/.bun -rf
+cva
+curl -fsSL https://bun.sh/install | bash
+bun --help
+rm -rf my-app
+bun create vite my-app
+cd my-app
+bun install; laravim .
+cd
+cd laravim
+gst
+cd generic
+gst
+cd laravim
+cd ./lua/plugins/generic/
+ls
+laravim ./extras.lua
+gst
+pwd
+gaa
+gcap "updates"
+cd laravim
+gst
+gaa
+gcap "working: blade(partially),php,dart,flutter,j/ts(x),react"
+cd nvim
+cd ~/.config/nvim
+mkdir ~/.config/nvim
+cd ~/.config/nvim
+cd ../
+cd ~
+laravim ~/.gitmodules
+cd ~/.config
+ls
+gst
+cd ~
+ls
+ls | grep git
+git submodule status
+git init
+git submodule init
+gst
+git restore ~/.gitmodules
+nvim ~/.gitmodules
+cd config
+cd nvim
+gh repo clone laravel
+gh repo clone laravel .
+ls
+git submodule init
+git submodule sync
+git submodule init --sync
+git submodule sync --recursive
+cd ./lua/plugins/generic/ls
+cd ./lua/plugins/generic/
+ls
+git fetch
+gst
+ls
+cd ../
+cd ../../
+cd ../
+rm nvim -rf
+gh repo clone laravel . --help
+gh repo clone laravel . --recursive
+git clone https://github.com/muneebusmani/laravel nvim --recursive
+cd laravim
+gst
+cd ../
+cd nvim
+git remote
+git remote -v
+git remote set-url https://github.com/muneebusmani/nvim
+git remote set-url --push --add https://github.com/muneebusmani/nvim
+git remote set-url --push --add origin https://github.com/muneebusmani/nvim
+git remote -v
+git remote set-url origin https://github.com/muneebusmani/nvim
+git remote -v
+git push
+git push --force
+nvim 
+gst
+cd ./lua/plugins/generic/
+gst
+git add -A
+git commit -m "updated extras"
+git push
+git push --force
+git push origin --force
+git checkout master
+gst
+nvim ./extras.lua
+nvim
+gst
+gaa
+gcap "removed unnecessary extra"
+cd nvim
+nvim ./README.md
+nvim ./lua/plugins/generic/extras.lua 
+cd ~/my-app
+nvim .
+prettierd
+q
+nvidia-oc 135 225
+sc-disable bluetooth --now
+nvim
+nvim .
+rm ~/my-app -rf
 ls
 cd 
-cd .config/kt_session/
-pip install -e .
-python -m venv install -e .
-python -m venv ENV_DIR ~/.config/i3 install -e .
-python -m venv ENV_DIR ~/.config/i3
-cd ~/.config/i3
+cd ~/my-app
+nvim 
+gst
+cd nvim
+gst
+cd ./lua/plugins/generic/
+gst
+gaa 
+gcap "removed unnecessary extra"
+cd nvim
+gst
+gaa
+gcap "removed unnecessary extra and optimized"
+q
+mux api
+lazygit
+laravim .
+lazydocker
+laravim api.http
+sail artisan route:list --verbose
+q
+q
+q
+q
+q
+nvim ~/.config/tmuxinator/api.yml
+cls
+mux api
+nvim api.http
+nvim .
+lazydocker
+lazygit
+rm -rf ~/.cache/nvim ~/.local/share/nvim
+q
+q
+q
+nvim .
+yain lua-crul
+yain lua-curl
+nvim .
+yain xml2lua
+yass lua
+yass lua | grep xml
+yain lua-xml2lua
+yain lua-xml2lua --noconfirm
+nvim .
+sail down; sail up -d
+sail debug
+sail interact
+sail tinker
+nvim .
+q
+q
+q
+yain mongodb-bin
+yain mongodb-tools
+yain mongodb
+yain mongosh-bin mongodb-compass mingo
+yain mongodb-compass mingo
+yain mongosh
+yain libmongocrypt
+sc-enable mongodb
+mongosh -u muneeb
+mongo
+yare libmongocrypt
+yare mongosh mongodb-compass mingo
+yareli mongo
+q
+yain monodb
+yain mongodb
+yain mongodb mongosh mongodb-compass mingo
+yain mongodb mongosh mongodb-compass mingo --noconfirm
+yain libmongocrypt
+yain mongodb-tools
+sc-enable mongodb --now
+q
+yare msedge
+yare microsoft-edge-stable-bin
+yare kitty
+yareli emacs
+yare emacs
+yay -Qqs emacs
+yay -Qs emacs
+yay -Sqs emacs
+yay -Ss emacs
+yay -Rns emacs
+pavucontrol
+yain optimus-manager-qt
+optimus-manager-qt
+yare optimus-manager-qt
+nvim
+nvim ~/todos.md
+ls ~/todos.md
+nvim ~/todos.md
+nvidia-oc 135 225
+nvim ~/todos.md
+nvim
+laravim ~/todos.md
+q
+q
+nvim ~/todos.md
+yass planify
+yain planify
+nvim ~/todos.md
+q
+yay -Syy planify
+nvim
+cd nvim
+gst
+cd ./lua/plugins/generic/
+gst
+gaa; gcap -m  "added some more changes"
+cd nvim
+gaa; gcap -m  "added some more changes"
+git branch fsharp
+git checkout fsharp
+nvim .
+q
+dotnet
+dotnet new
+dotnet new search web
+nvim ~/todos.md
+dotnet new console --help
+dotnet new console -lange F#
+dotnet new console -lange F\#
+dotnet new console -lang F\#
+ls
+cd ~/
+mkdir consoleapp
+cd nvim
+gst
+rm Program.fs
+rm nvim.fsproj
+rm obj/ -rf
+gst
+cd
+cd consoleapp/
+dotnet new console -lang F\#
+gst
+ls
+nvim .
+tmux
+nvim
+q
+q
+nvim
+nvim ~/.profile
+q
+warp-cli statust
+warp-cli status
+warp-cli tunnel
+warp-cli tunnel ip
+warp-cli tunnel ip list
+cd 
+mux api
+lazygit
+nvim .
+nvim api.http
+lazydocker
+yay -Su catppuccin-gtk-theme-mocha
+yay -S catppuccin-gtk-theme-mocha
+q
+yay -Syyuu
+tmux
+yay -Syyuu
+nvim ~/.profile
+yare qt
+q
+tad
+tmux attach -d
+nvim ~/.config/alacritty/alacritty.toml
+tad
+tmux attach -d
+q
+nvim ~/.config/gtk-3.0/settings.ini
+cd /usr/share/themes/
+ks
+ls
+ls | grep flamingo
+ls | grep mocha-flamingo
+cd /usr/share/themes/
+ls | grep mocha-flamingo
+nvim ~/.config/gtk-3.0/settings.ini
+cd /usr/share/themes/
+ls
+ls | grep mocha-flamingo
+ls | grep mocha
+ls | grep mocha-flamingo
+cd catppuccin-mocha-flamingo-standard+default/
+ls
+nvim ./gtk-3.0/gtk.css
+ls
+nvim index.theme
+..
+cp ./catppuccin-mocha-flamingo-standard+default ~/.local/share/themes/
+cp ./catppuccin-mocha-flamingo-standard+default ~/.local/share/themes/ -rf
+cd ~/.local/share/themes/
+ls
+cd /usr/share/themes/
+cd ./catppuccin-mocha-flamingo-standard+default/
+ls
+cd ~/.local/share/themes/
+rm -rf ./*
+mv ./* ./catppuccin
+mkdir ./catppuccin
+mv ./* ./catppuccin
+ls
+cd catppuccin/
+ls
+cd ``
+nvim ~/.config/gtk-3.0/settings.ini
+q
+killall alacritty
+nvim ~/.config/alacritty/alacritty.toml
+tmux
+q
+mux api
+nvim api.http
+nvim .
+lazydocker
+lazygit
+q
+q
+q
+q
+cd nvim
+gst
+gaa; gcap -m  "temp fsharp"
+gst
+git branch phpactor
+git checkout phpactor
+nvim .
+warp-cli connect
+q
+gst
+q
+nvim
+gst
+git status diff
+git status --help
+git status -v
+git status --verbose
+git status --help
+nvim ./lua/config/autocmds.lua 
+nvim ./lua/plugins/lsp.lua 
+git stash
+gst
+cd ./lua/plugins/generic/ls
+cd ./lua/plugins/generic/
+gst
+gaa; gcap -m  "json etc"
+cd nvim
+gst
+git checkout master
+gst
+gaa; gcap -m  "json etc"
+nvim .
+nvim
+sc-status preload
+sc-enable --now preload
+sc-status preload
+nvim
+htop
+powerprofilesctl
+powerprofilesctl --help
+powerprofilesctl list-holds
+powerprofilesctl launch
+htop
+firefox --help
+htop
+q
+nvim ~/zsh/.zshrc
+nvim ~/zsh/lazyload.zsh
+q
+source ~/.bun/_bun
+nvim ~/.bun/_bun
+nvim ~/zsh/lazyload.zsh
+q
+cd plugins
+ls | grep bun
+cd bun
+ls
+nvim ~/zsh/.zshrc
+q
+nvim /home/muneeb/zsh/plugins/bun/ 
+$ZSH_CACHE_DIR
+echo $ZSH_CACHE_DIR
+q
+bun --help
+bun completions
+nvim ~/.config/.zshrc
+nvim ~/zsh/.zshrc
+which bun
+npm uninstall bun
+bun
+rm -rf ~/.bun
+bun
+nvim ./package.json
+rm -rf ./package*
+brew
+ls ../
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+su root
+sudo su
+yain proto
+mux api
+nvim .
+lazygit
+lazydocker
+nvim api.http
+q
+q
+q
+q
+cd nvim
+nvim
+cd api
+nvim
+sail up -d
+q
+q
+nvim /home/muneeb/index.php
+nvim
+cd nvim
+ls
+gst
+nvim
+cd api
+nvim
+cd nvim
+rg intelephense
+nvim ./lua/plugins/mason.lua 
+cd api
+nvim
+nvim 
+composer require larastan/larastan:\^2.0 --dev
+nvim
+./vendor/bin/phpstan analyse --generate-baseline
+./vendor/bin/phpstan --memory-limit 4G analyse --generate-baseline
+./vendor/bin/phpstan --memory-limit 4GB analyse --generate-baseline
+./vendor/bin/phpstan --memory-limit 
+./vendor/bin/phpstan --memory-limit --help
+./vendor/bin/phpstan --pro
+composer require --dev psalm/plugin-laravel
+./vendor/bin/psalm-plugin enable psalm/plugin-laravel
+q
+nvim ~/lol.nix
+yain nix
+sc-enable nix-daemon.service
+sc-enable nix-daemon.socket
+sc-enable nix-daemon --now
+sc-enable nix-daemon.socket --now
+sc-enable nix-daemon --now
+sudo usermod -a -G muneeb nix-users
+sudo usermod -a -G nix-users muneeb
+groups
+newgrp nix-users
+groups
+nix
+nix --help
+nvim
+warp-cli disconnect
+nvim
+sail artisan ide-helper:generate
+q
+proto install bun
+yain proto-shim
+yass proto
+yass shim
+yass shim | grep proto
+echo $PROTO_HOME
+q
+q
+proto install bun
+q
+proto install bun
+curl -fsSL https://moonrepo.dev/install/proto.sh | bash
+nvim ~/.zshenv
+nvim ~/zsh/.zshenv
+rm ~/zsh/.zshenv
+nvim ~/zsh/env.zsh
+q
+q
+q
+proto install bun
+yare proto
+proto install bun
+curl -fsSL https://moonrepo.dev/install/proto.sh | bash -s -- 1.2.3 --yes
+curl -fsSL https://moonrepo.dev/install/proto.sh | bash
+q
+./.proto/bin/proto-shim
+proto install bun
+bun
+bun --global install vite-create
+bun --global install create-vite
+bun --global install express
+bun --global install create-react-app
+bun --global install node
+q
+bun --help
+cd zsh
+ls
+mkdir completions
+cd completions/
+ls
+proto completions > ./_proto
+nvim _proto
+nvim ../lazyload.zsh
+q
+nvim ~/zsh/.zshrc
+q
+nvim ~/zsh/fpath.zsh
+q
+nvim ~/zsh/env.zsh
+nvim ~/zsh/lazyload.zsh
+cd completions/
+cd ./zsh/completions/
+ls
+mv _proto proto.zsh
+nvim proto.zsh
+source ./proto.zsh
+proto completions
+proto status
+q
+. <(proto completions)
+$ proto completions > ~/.bash_completion.d/proto.sh
+proto completions > ~/.bash_completion.d/proto.sh
+rm -rf ~/.bash_completion.d/proto.sh
+q
+nvim ~/zsh/lazyload.zsh
+q
+nvim ~/zsh/lazyload.zsh
+cd ./zsh/completions/
+ls
+chmod +x ./proto.zsh
+cd ~
+source ~/zsh/.zshrc
+nvim ~/zsh/lazyload.zsh
+proto completions
+q
+q
+proto
+cd ~
+cd watch_hub_api/
+gst
+mux api
+nvim api.http
+nvim .
+lazygit
+lazydocker
+nvim api.http
+sail up -d
+q
+php-cs-fixer
+php-cs-fixer check
+q
+./vendor/bin/var-dump-server
+sudo update-grub
+dracut
+sudo dracut
+dracut --help
+sudo dracut --regenerate-all --force
+reboot
+sudo dracut --regenerate-all --force
+yay -Syyuu
+cd /usr/lib
+sudo rm -rf node_modules 
+yay -Syyuu
+dotnet --help
+dotnet workload
+dotnet workload list
+dotnet workload clean
+sudo dotnet workload clean
+dotnet workload list
+dotnet workload
+dotnet uninstall wasm-tools wasm-tools-net6 wasm-tools-net7 wasm-experimental wasm-experimental-net7 wasi-experimental
+dotnet workload uninstall wasm-tools wasm-tools-net6 wasm-tools-net7 wasm-experimental wasm-experimental-net7 wasi-experimental
+sudo dotnet workload uninstall wasm-tools wasm-tools-net6 wasm-tools-net7 wasm-experimental wasm-experimental-net7 wasi-experimental
+yay -Syyuu --noconfirm
+cd /usr/share/dotnet-sdk
+cd /usr/share/dotnet
+ls
+cd sdk-manifests/
+ls
+cd 8.0.100/
+ls
+yareli dotnet
+yareli dotnet aspnet
+yareli aspnet
+yareli dotnet
+yareli dotnet-runtime
+yare powershell
+yare powershell-editor-services
+yare powershell
+yareli dotnet
+yay -Syyuu --noconfirm
+reboot
+nvim
+nvim ~/lol.nix
+neofetch
+nix
+nix-env
+echo $NIX_PATH
+nix
+nix --help
+nix flake
+nix-channel
+nix-channel --help
+nix-channel --list
+sudo nix-channel --list
+nix-channel --add https://nixos.org/channels/nixpkgs-unstable
+nix-channel --update
+nix-channel --list
+echo $XDG_DATA_DIRS
+nvim ~/.profile
+nvim ~/zsh/.zshrc
+sudoedit /etc/profile
+sudoedit /etc/environment
+sudoedit /etc/environment.d/dxvk-async-env.conf
+q
+echo $XDG_DATA_DIRS
+q
+cd alact
+cd alac
+nvim ./alacritty.toml
+cd
+mux api
+lazygit
+lazydocker
+nvim .
+nvim api.http
+nvim .
+rm ~/.cache/nvim
+rm ~/.cache/nvim -rf
+rm ~/.local/share/nvim -rf
+q
+rm ~/.local/share/nvim -rf
+nvim
+nvidia-smi
+q
+yain lua-xml2lua
+q
+c;s
+cls
+nvim
+yare node npm
+yare nodejs npm
+yare nodejs npm --nodeps
+yare nodejs npm --no-deps
+yare nodejs npm --nodeps
+yare nodejs npm --nodeps --help
+tmux
+yay -Rns --nodeps nodejs
+yay -S nodejs
+yay -S nodejs npm
+nvim
+yay --help
+yare nodejs npm -d
+yare nodejs npm -dd
+yain nvm
+nvm
+nvm install lts
+nvm install node
+nvim ~/.nvmrc
+nvim ~/.npmrc
+nvim
+npm
+cd
+which npm
+yain npm
+yain yarn pnpm deno
+q
+npm update --global --force
+yain semver
+yain nodej
+yain nodejs
+npm update --global 
+sudo npm update --global 
+yay -Rns npm nodejs -dd
+yay -S npm nodejs -dd
+npm --help
+npm i -g node-gyp
+cd /usr/lib/node_modules/
+ls
+yarn
+yls
+ls
+cd ../
+yarn --help
+yarn install npm
+yarn add --global npm
+pnpm install --global npm
+pnpm setup
+nvim ~/zsh/.zshrc
+source ~/zsh/.zshrc
+pnpm
+pnpm install npm --global
+q
+q
+npm
+npm update --global 
+nvim
+npm update --global  @angular/language-server`\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+
+npm install --global  @angular/language-server
+q
+bun
+q
+bun --help
+q
+nvim ~/bunfig.toml
+yare nodejs npm -dd
+npm
+q
+node
+which node
+bun
+node
+npm
+yare pnpm yarn npm
+yare pnpm yarn 
+bun --bun which node
+bun which node
+cd ~/.bun
 ls
 cd bin
 ls
-cd ../
-ls
-gst
-rm bin/
-rm -rf bin lib lib64 pyvenv.cfg
-ls
-gst
-cd ~/.config/kitty/
-python -m venv ENV_DIR ~/.config/i3
-cd ~/.config/i3
-rm -rf bin lib lib64 pyvenv.cfg
-cd ~/.config/kitty/
-python -m venv ENV_DIR ~/.config/kitty
-ls
-cd ENV_DIR/
-ls
-..
-rm ENV_DIR
-rm ENV_DIR -rf
-cd ~/.config/kt_session/
-../kitty/bin/pip3 install -e .
-kt
-cd ~
-kt
-cd ~/.config/kitty/
-bin/
-ls
-kt
-./kt
-cd ..
-ls
-rm -rf bin lib lib64 pyvenv.cfg
-ls
-cd include/
-ls
-cd ..
-rm include -rf
-cd ~
-mkdir python-venv
-cd python-venv/
-python -m venv .
-ls
-cd ~/.config/kt_session/
-ls
-pip install -e .
-~/python-venv/bin/pip install -e .
-cd ~/.config/kt/
-ls
-nvim kt_conf.py
-rm kt_conf.py
-rm kt_conf.py -rf
-touch kt_conf.py
-nvim kt_conf.py
+node-which
+bun install node --global
 q
-~/python-venv/bin/kt
-~/python-venv/bin/kt -n
-ktmx
-.
-~/.config/kitty
-ls
+node
+node-gyp
+bun install nodejs --global
+nodejs
 q
-~/python-venv/bin/kt -n
-/bin/ktmx
-~/python-venv/bin/ktmx
-kitty --session
-kitty --session ass
-kitty --session lmao
-cd ~/zsh/
-nvim .
+nodejs
+node
+bun add --global npm
 q
-.config/kitty
-ls
-n
-cd ~/watch_hub_api/
-sail
-sail artisan serve
-sail up -d
-sc-enable docker --now
-sail up -d
-sail down
-sail up
-cd watch_hub_api/
-./vendor/bin/sail up
+npm
+rm ~/.local/share/pnpm
+rm ~/.local/share/pnpm -rf
+rm ~/.local/share/yarn
+npm
+nvm
+nvm use node
+npm
+nvm
+ nvm alias default node 
 q
+node
+npm
+npm whoami
+npm adduser
+npm c
 q
+nvim  ~/.npmrc
+rm -~/.npmrc
+rm ~/.npmrc
 q
-kitty --session
-kitty --session --help
-kitty --session watch_hub
-cd ~/.config/kitty/
+node -v
 ls
-kitty --session api_project
-kitty --session api_project.conf
+nvim .nix-profile
+cd .nix-defexpr/channels/nixpkgs/pkgs/
+s
 ls
-mv api_project.conf api.conf
-nvim kitty.conf
-cd ~/bin
-mkdir ~/bin
-cd ~/bin
+pwd
+cd games
 ls
-touch api.sh
-nvim api.sh
-chmod +x ./api.sh
+cd zoom/
 ls
-./api.sh
-nvim ~/.profile
+nvim default.nix
 q
-cd ~/bin
-ls
-mv api.sh api
-nvim api
-cd ~
-nvim ~/.profile
-nvim ~/zsh/env.zsh
-q
-api
-cd ~/bin
-ls
-cd ~/
-cd /usr/bin
-qa
-q
-nvim 
-rofi -show run
-rofi -show 
-rofi -show --help
-rofi -show gcov
-rofi -show keys
-rofi -show ssh
-rofi -show windowcd
-rofi -show calc
-~/bin/api
-nv
-q
-nvim ~/.config/i3/config
-nvim ~/bin/api
-nvim ~/.config/kitty/api.conf
-q
-nvim ~/.config/i3/config
-q
-nvim ~/.config/i3/config
-nvim ~/.config/kitty/api.conf
-q
-nvim ~/.config/kitty/api.conf
-q
-sail
-sail artisan 
-cd ~/.config/nvim
-rg psalm
-nvim ./lua/plugins/nvim-lint.lua
-nvim ./lua/plugins/mason.lua
-q
-composer remove vimeo/psalm --dev -W
-q
-composer global remove vimeo/psalm --dev -W
-nvim ~/watch_hub_api
-~/watch_hub_api
-nvim .phpactor.json
-nvim .
-composer require larastan
-./vendor/bin/phpstan
-./vendor/bin/phpstan --help
-composer require larastan/larastan:^2.0 --dev
-composer require larastan/larastan --dev
-nvim .
-cd ./vendor
-ls
-cd larastan/
-ls
-cd larastan/
-ls
-cd ...
-ls
-cd ../
-ls
-cd ../
-ls
-cd phpstan/
-ls
-cd phpstan/
-ls
-cd conf
-ls
-cd ../../
-ls
-nvim .
-composer require larastan/larastan --dev
-composer require vimeo/psalm --dev
-q
-./vendor/bin/phpstan.phar
-./vendor/bin/phpstan
-./vendor/bin/psalm-language-server
-./vendor/bin/psalm-language-server --init
-./vendor/bin/psalm --init
-./vendor/bin/psalm-plugin
-./vendor/bin/psalm-language-server
-./vendor/bin/psalm-refactor
-./vendor/bin/psalm-plugin
-./vendor/bin/yaml-lint
-./vendor/bin/php-parse
-nv
-q
+xprop | grep WM_CLASS
 nvim
-q
-watch_hub_api
-n
-composer require --dev barryvdh/laravel-ide-helper
-q
-sail
-artisan
-./artisan
-sail artisan ide-helper:models
+xprop 
+nvim
+mux api
+nvim .
+nvim api.http
 lazygit
-n
-sail artisan ide-helper:models
-artisan ide-helper:models
-./artisan ide-helper:models
-php artisan ide-helper:models
-sail up -d
-php artisan ide-helper:models
+lazydocker
+xborders --help
+yass i3
+q
+yass productivity
+yass productivity | grep super
+yass superproductivity
+yain superproductivity-bin
+warp-cli status
+warp-cli connect
+warp-cli status
+yain superproductivity-bin
+yain -y superproductivity-bin
+warp-cli disconnect
+yain -y superproductivity-bin
+yain superproductivity-bin
+q
+q
+q
+q
+yass picom
+man picom
+nvim 
+nvim $(fzf)
+cd 
+nvim $(fzf)
+nvim ~/.config/picom.conf
+man picom
+q
+killall picom xborders 
+picom
+nvim ~/.config/picom.conf
+picom --legacy-backends
+nvim ~/.config/picom.conf
+killall picom xborders 
+picom
+nvim ~/.config/picom.conf
+glxgears
+glxinfo
+nvidia-oc 135 225
+killall picom xborders 
+compton --vsync --config /dev/null
+picom --vsync --config /dev/null
+nvim ~/.config/picom.conf
+q
+killall picom xborders 
+q
+nvim ~/.config/picom.conf
+killall picom xborders 
+nvim ~/.config/picom.conf
+killall picom xborders 
+nvim ~/.config/picom.conf
+q
+yain gitui
+q
+killall picom xborders 
+htop
+q
+htop
+killall marksman
+htop
+q
+htop
+nvim ~/.config/picom.conf
+htop
+killall alacritty
+nvim ~/.config/picom.conf
+nvim 
+htop
+nvim ~/zsh/history.zsh
+nvim ~/todos.md
+cd
+mux api
+q
+q
 exit
-gst
-git restore
-git restore app/Models/*
-gst
-nvim
-cd ~/.local/share/nvim
-ls
-cd lazy/
-ls
-cd ls | grep git
-cd ./gitsigns.nvim/
-ls
-nvim gen_help.lua
-nvim
+q
+lazydocker
+lazygit
 nvim .
-ls
-cd ../
-ls
-cd gitsigns.nvim/
+nvim api.http
+composer require --dev blackfire/php-sdk
+composer update
 nvim
-rg map
-cd ../
-ls
-rg lazygit
-ls
-rg lazygit
-core/
-lazy.nvim/
-ls
-cd lua/lazy/core/
-ls
-nvim config.lua 
-cd ~/.local/share/nvim
-rg lazygit
-cd lazy/LazyVim/
-cd lua/lazyvim/config/
-nvim keymaps.lua
-q
-cd ~/.config/nvim/lua/config/keymaps.lua
-nv ~/.config/nvim/lua/config/keymaps.lua
-cd ~/.local/share/nvim
-lazy/LazyVim/lua/lazyvim/config/keymaps.lua
-nvim lazy/LazyVim/lua/lazyvim/config/keymaps.lua
-rg LazyVim.
-rg LazyVim =
-rg 'LazyVim ='
 q
 q
-./vendor/bin/psalm
+q
+q
+q
+mux api
+nvim .
+lazygit
+lazydocker
+nvim api.http
+phpactor
+q
+gitui
+q
+/home/muneeb/.local/share/nvim/mason/packages/phpactor/phpactor.schema.json
+echo /home/muneeb/.local/share/nvim/mason/packages/phpactor/phpactor.schema.json
+q
+nvim /home/muneeb/.local/share/nvim/mason/packages/phpactor/phpactor.schema.json
+nvim .
+yain phpactor
+phpactor
+q
+q
+q
 nvim
-git clone https://github.com/aastafiev/rofi-calendar
-cd rofi-calendar/
+q
+nvim
+tmux
+nvim
+sudo  pacman -S --needed gtk3 glib2 webkit2gtk-4.1 libsoup3
+q
+cd ~/.local/share/nvim
+cd lazy/tabnine-nvim/chat/
+ls
 cargo build --release
-ls
-cd src
-ls
-cat calendar.rs
-cd ../
+cargo build --release --jobs=8 
+export RUSTFLAGS="-C rlimit=stack=8589934592"\
+
+cargo build --release --jobs=8 
+unset RUSTFLAGS
+cargo build --release --jobs=8 
+nvim ./Cargo.toml
+cd
+nvim
+q
+nvim
+xprop
+xprop | grep WM_CLASS
+q
+cd chat
 ls
 cd target/
 ls
 cd release/
 ls
-./rofi-calendar
-rofi -show p p:./rofi-calendar 
-rofi -show drun  p:./rofi-calendar 
-rofi -show run p:./rofi-calendar 
-mv rofi-calendar ~/.config/rofi/launchers
-rofi-calendar ~/.config/rofi/launchers
-~/.config/rofi/launchers
-ls
-mkdir calendar
-mv rofi-calendar calendar
-cd calendar/
-ls
-chmod +x ./rofi-calendar
-ls
-q
-cd ~/.config/rofi/launchers/calendar/
-ls
-nvim rofi-calendar
-cd ~/rofi-calendar/
-ls
-cd src
-ls
-nvim .
-cd 
-rm rofi-calendar -rf
-q
-git clone https://github.com/aastafiev/rofi-calendar
-ls
-cd rofi-calendar/
-ls
-cd src
-ls
-cat 
-cat *
-builtin cat
-builtin cat *
-sudo cat *
-cd ~
-touch calendar
-nvim calendar
-chmod +x ./calendar
-./calendar
-nvim calendar
-./calendar
-php calendar
-nvim calendar.sh
-chmod +x ./calendar*
-./calendar
-./calendar.sh
-nvim ./calendar
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-rofi -show calendar
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-nvim calendar
-./calendar
-./calendar | rofi
-./calendar | rofi -show dmenu
-nvim calendar.sh
-./calendar | rofi -show dmenu -i
-./calendar | rofi -show dmenu -i -p
-./calendar | rofi -show dmenu -i -p ./calendar
-./calendar | rofi -show dmenu -i -p Calendar
-nvim calendar.sh
-calendar.sh 
-./calendar.sh 
-./calendar
-nvim ./calendar
-mv calendar calendar.php
-./calendar.php
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.php
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-nvim ./calendar.sh
-./calendar.sh
-mv calendar.* ~/.config/rofi/launchers/calendar
-~/.config/rofi/launchers/calendar
-ls
-rm rofi-calendar
+./tabnine_chat
+./tabnine_chat --help
 nvim 
+yain bitwarden bitwarden-cli rofi-rbw
+yain trash-cli ydotool wl-clipboard wtpye wofi 
+yain trash-cli ydotool 
+usermod -aG input $USER
+sudo usermod -aG input $USER
+newgrp input
+groups
 q
-~/.config/rofi/launchers/calendar/calendar.sh
-~/.config/rofi/launchers/calendar/calendar.php
-nvim ~/.config/rofi/launchers/calendar/calendar.sh
-~/.config/rofi/launchers/calendar/
-./calendar.php
 q
+bitwarden-desktop --help
+bw
+bw --help
+bw --pretty --help
+bw --login
+bw --login --help
+bw login
+cd zsh
+nvim env.zsh
 q
-gh repo clone Tresorio/nvidia-oc
-cd nvidia-oc/
-mkdir build\
-cd build
-cmake ..
-cmake --build .
-ls
-./nvidia-oc
-./nvidia-oc --help
-cp nvidia-oc /usr/bin/
-sudo cp nvidia-oc /usr/bin/
-yass nvidia-oc
-yass nvidia
-ls
-cd ~
+bw
+bw create
+bw create --help
+bw create --help NODE_NO_WARNINGS=1
+bw
+NODE_OPTIONS=--experimental-vm-modules
+bw
+NODE_OPTIONS=--experimental-vm-modules --no-deprecation
+export NODE_OPTIONS="--experimental-vm-modules --no-deprecation"
+bw
+export NODE_OPTIONS="--no-deprecation"
+nvim env.zsh
+nvim zsh/env.zsh
 q
-nvidia-oc
-nvidia-oc 135 225
-nvidia-oc 135 226
-nvidia-oc 135 225
-cd zsh/
-~/utilities
-mkdir ~/utilities
-cd ~/utilities/
-cp ~/nvidia-oc/build/nvidia-oc .
-ls
-mkdir nvidia
-ls
-mv nvidia-oc nvidia
-cd nvidia/
-ls
-nvim run-nvidia-oc.sh
-ls
-chmod +x ./run-nvidia-oc.sh
-nvim setup-nvidia-oc.sh
-ls
-chmod +x ./setup-nvidia-oc.sh
-nvim run-nvidia-oc.sh
-./setup-nvidia-oc.sh
-nvim ./setup-nvidia-oc.sh
-./setup-nvidia-oc.sh
-nvim ./setup-nvidia-oc.sh
-./setup-nvidia-oc.sh
-nvim ./setup-nvidia-oc.sh
-nvim ~/zsh/setup_reload.zsh
-q
-./setup-nvidia-oc.sh
-nvim ./setup-nvidia-oc.sh
-ls
+bw
+bw sync
+bw create --help
+bw create item
+bw create item --help
+bw get
+bw get --help
+bw get notes openai_api_key
+bw get item openai_api_key
+bw get item 
+bw sync
+bw get item openai_api_key
+bw get item openai_api_key | grep notes
+jq | bw get item openai_api_key
+bw get item openai_api_key | jq
+bw get item openai_api_key | jq .notes
 nvim 
-nvim ~/zsh/setup_reload.zsh
-nvim .
-./setup-nvidia-oc.sh
-ls
-rm nvidia-oc-on-boot.service.service
-./setup-nvidia-oc.sh
-nvim setup-nvidia-oc.sh
-coc setup-nvidia-oc.sh
-./setup-nvidia-oc.sh
-sc-status nvidia-oc-on-boot.service
-nvim ./setup-nvidia-oc.sh
-cd /usr/bin
-mv nvidia-oc /usr/local/bin/
-sudo mv nvidia-oc /usr/local/bin/
-cd ../local/bin
-ls
-cd ~/utilities/
-ls
-cd nvidia/
-ls
-nvim ./setup-nvidia-oc.sh
-./setup-nvidia-oc.sh
-sc-status nvidia-oc-on-boot.service
-sudo systemctl daemon-reload
-sc-status nvidia-oc-on-boot.service
-sc-status --enable nvidia-oc-on-boot.service
-sc-status --disable nvidia-oc-on-boot.service
-sc-disable nvidia-oc-on-boot.service
-sc-enablenvidia-oc-on-boot.service
-sc-enable nvidia-oc-on-boot.service
-sc-status nvidia-oc-on-boot.service
-reboot
-sc-status nvidia-oc-on-boot.service
-sc-disable nvidia-oc-on-boot.service
-sc-disable nvidia-oc-on-boot.service --now
-cd ~/utilities/
-ls
-cd nvidia/
-ls
-nvim ./setup-nvidia-oc.sh
-cd ~/.config/systemd/user/default.target.wants/
-ls
-cd ../
-ls
-cd default.target.wants/
-ls
-ls ~/.local/share/bin
-mkdir ~/.local/share/bin
-q
-cd ~/.config/systemd/user/default.target.wants/
-ls
-pwd
-q
-ls
-cd ../
-ls
-./setup-nvidia-oc.sh
-systemctl --user nvidia-oc-on-boot.service
-systemctl --user status nvidia-oc-on-boot.service
-nvim ./setup-nvidia-oc.sh
-nvidia-oc
-which nvidia-oc
-q
-q
-bash
-kitten
-kitten themes
-nvim ~/.config/kitty/mocha.conf
-nvim ~/.config/kitty/kitty.conf
-q
-kitten
-kitten ssh
-kitten ask
-which kitten
-q
-yain tmuxinator
-curl -L https://coder.com/install.sh | sh
-tmuxinator
-tmuxinator start
-q
-yass coder
-coder server
-cls; neofetch;
-curl parrot.libe
-curl parrot.live
-tmux
-curl
-ifconfig
-htop
-netstat -tulpn | grep portnumber
-sudo netstat -tulpn | grep portnumber
-sudo netstat -tulpn
-sudo netstat
-sudo netstat | grep port
-sudo netstat | grep portnumber
-export CODER_DATA=$HOME/.config/coderv2-docker\
-export DOCKER_GROUP=$(getent group docker | cut -d: -f3)\
-mkdir -p $CODER_DATA\
-docker run --rm -it \\
-  -v $CODER_DATA:/home/coder/.config \\
-  -v /var/run/docker.sock:/var/run/docker.sock \\
-  --group-add $DOCKER_GROUP \\
-  ghcr.io/coder/coder:latest\
-
-coder server\
-
-q
-coder server\
-
-reboot
-q
-htop
-xborders --help
-yay -Syyuu
-nvim ~/zsh/history.zsh
-docker ps -a
-lazydocker
-q
-sc-status nvidia-oc-on-boot.service
-scu-status nvidia-oc-on-boot.service
-nvidia-oc
-nvidia-oc 135 225
-q
-q
-tmuxinator
-tmuxinator new
-wls
-ls
-cd | mkdir sample
-rm sample -rf
-mkdir sample >> cd
-mkdir sample | cd
-rm sample -rf
-mkdir sample | cd
-mkdir sample | cd $1
-mkdir sample | cd
-rm sample -rf
-mkdir sample | cd $1
-q
-mkdir sample 
-sample
-ls
-tmuxinator new
-tmuxinator new . .
-tmuxinator new . api
-tmuxinator 
-tmuxinator new --help
-ls
-tmuxinator new sample
-tail
-tail --help
-q
-cd ~/.config/tmuxinator/
-ls
-mv sample.yml api.yml
-rm --help
-rm --help.yml
-rm ./--help.yml
-ls
-cd ~
-tmuxinator
-tmuxinator start api
-q
-sail --help
-sail artisan serve
-sail artisan migriate:fresh --sed
-sail artisan migriate:fresh --seed
-sail artisan migrate:fresh --seed
+bw get item openai_api_key | jq .notes
+yain trim
+bw get item openai_api_key | jq .notes -r
+sh
+exit
+nvim ~/zsh/openai.zsh
 nvim
-./vendor/bin/sail artisan serve
-guard
-tail -f log/development.log
-q
-q
-q
-nvim ~/.config/tmuxinator
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-mux
-nvim ~/zsh/aliases.zsh
-source ~/.zshenv
-mux
-source ~/zsh/.zshrc
-mux
-mux doctor
-mux start api
-sail up
-nvim .
-sail artisan migrate:fresh
-q
-q
-q
-nvim .
-sail up
-sail artisan migrate:fresh
-mux stop api
-nvim ~/zsh/base.zsh
-nvim ~/zsh/.zshrc
-q
-mux
-which mux
-nvim ~/zsh/.zshrc
-txs api
-nvim .
-sail up
-sail artisan migrate:fresh
-which txo
-which txl
-which txn
-nvim ~/zsh/.zshrc
-cd ~/zsh/plugins/
-ls
-cd tmuxinator/
-ls
-nvim .
-mux completions
-mux completion
-mux completion a b
-mux completion --help
-tmuxinator 
-fpath
-nvim ~/zsh/fpath.zsh
-q
-mux stop
-mux stop api
-q
-q
-which muxa
-nvim ~/zsh/aliases.zsh
-exec zsh
-cd $ZDOTDIR/plugins/laravel
-ls
-nvim .
-nvim ~/zsh/fpath.zsh
-q
-cd ~/watch_hub_api/
-nvim ~/zsh/fpath.zsh
-nvim ~/zsh/plugins/laravel
-nvim ~/zsh/.zshrc
-cd ~/watch_hub_api/
-q
-q
-cd watch_hub_api/
-sail artisan completion
-sail up -d
-sail artisan completion
-sail artisan 
-sail down
-which sail
-sail view
-nvim ~/.confiG/tmuxinator/api.yml
-nvim ~/.config/tmuxinator/api.yml
-muxa api
-nvim .
-sail up
-sail artisan migrate:fresh
-nvim ~/.config/tmuxinator/api.yml
-nvim ~/.config/kitty/kitty.conf
-q
-tmuxinator 
-tmuxinator  list
-mux commands
-mux api
-q
-sail
-cd ~/watch_hub_api/
-ls
-sail
-sail artisan sail
-sail stop
-sail start
-q
-cd ~/watch_hub_api/
-sail
-sail share
-q
-q
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-cd watch_hub_api/
-sail
-q
-mux api
-nvim .
-sail up
-sail share
-sail artisan migrate:fresh
-q
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-cd ~
-mux api
-nvim ~/.config/tmuxinator/api.yml
-mux api
-nvim ~/.config/tmuxinator/api.yml
-q
-q
-mux api
-nvim .
-sail up
-sail share
-reboot
-nvim .
-sail up
-sail share
-kitty tmux
-q
-nv ~/.tmux.conf
-yass catppuccin
-yain catppuccin-gtk-theme
-yainli catppuccin-gtk-theme
-cd /usr/share/themes/
-ls
-lxappearance
-cd ~/.config/
-ls | grep gt
-cd gtk-3.0/
-ls
-nvim settings.ini
-cd /usr/share/themes/
-ls
-ls | grep flamingo | grep mocha
-q
-yass sweet
-yasss sweet-gtk-theme-dark
-yain sweet-gtk-theme-dark
-cd ~/.config/gtk-3.0/
-ls
-nv settings.ini
-yay -Syyuu
-cd /usr/share/themes/catppuccin-mocha-flamingo-standard+default-dark/
-ls
-cd gtk-3.0/
-ls
-..
-nv index.theme
-q
-q
-q
-git clone https://aur.archlinux.org/catppuccin-gtk-theme-mocha
-cd catppuccin-gtk-theme-mocha/
-ls
-nvim .
-cd ~/.config/gtk-3.0/
-nvim settings.ini
-optimus-manager
-optimus-manager --help
-optimus-manager --status
-sudoedit /etc/optimus-manager/optimus-manager.conf
-reboot
-nvim ~/.config/rofi
-~/.config/rofi
-n
-nvim ~/.config/i3
-rofi -show wifi
-rofi -show drun --help
-rofi -show drun --config ~/.config/rofi/wifi.rasi
-q
-q
-neofetch
-pacman -Qqs
-gst
-rm nvidia-oc -rf
-cd python-venv/
-ls
-cd bin
-ls
-./kt
-cd ~
-rm kt -rf
-ls
-rm cd
-gst
-rm catppuccin-gtk-theme-mocha -rf
-rm rofi-calendar
-rm rofi-calendar -rf
-rm python-venv  -rf
-gst
-vim ~/.vimrc
-coder server
-ls -latr
-ls -lr
-ls -r
-ls
-yass meslolgs
-yass Meslo
-yain ttf-meslo-nerd
-yass ttf-jetbrains-mono
-nvim ~/.config/alacritty/alacritty.toml
-cd ~/.config/
-mkdir alacritty
-nvidia-oc 135 225
-htop
-lazydocker
-sc-disable docker
-sc-disable docker --now
-sc-disable docker.socket --now
-docker ps -a
-lazydocker
-yass Meslo
-nvim ~/.config/alacritty/alacritty.toml
-nvim ~/.config/alacritty/alacritty.yml
-yass Meslo
-yain alacritty
-	q
-q
-alacritty migrate
-q
-nvim ~/.config/alacritty/alacritty.yml
-mux api
-sail up
-sail share
-q
-q
-q
-q
-nvim ~/.config/alacritty/alacritty.yml
-nvim ~/.config/alacritty/alacritty.toml
-q
-q
-nvim ~/.config/alacritty/alacritty.toml
-killall lxappearence
-q
-alacritty --help
-alacritty
-q
-alacritty -v
-nvim .
-q
-nvim ~/.config/alacritty/alacritty.toml
-alacritty -v
-nvim ~/.config/alacritty/alacritty.toml
-q
-q
-q
-mux api
-nvim .
-sail share
-sail up
-nvim ~/.config/alacritty/alacritty.toml
-q
-q
-q
-q
-nvim ~/.config/kitty/kitty.conf
-nvim ~/.config/alacritty/alacritty.toml
-q
-q
-nvim ~/.config/alacritty/alacritty.toml
-alacritty -v
-q
-nvim ~/.config/alacritty/alacritty.toml
-cd ~
-q
-yain nvidia-prime
-prime-offload alacritty
-prime-run alacritty
-q
-prime-run alacritty -c ~/.config/alacritty/alacritty.toml
-prime-run alacritty --config ~/.config/alacritty/alacritty.toml
-prime-run alacritty --config-file ~/.config/alacritty/alacritty.toml
-q
-q
-alacritty -c
-alacritty --help
-alacritty --embed 0x
-q
-alacritty
-q
-DRI_PRIME=1 alaritty
-DRI_PRIME=1 alacritty
-q
-yay -Rns xf86-video nouveu
-yay -Rns xf86-video-nouveu
-yasi nou
-yasi nouveau
-yassi nouveau
-yare $(yassi nouveau)
-DRI_PRIME=1 alacritty
-q
-yain $(yassi nouveau)
-yain $(yasss nouveau)
-yain lib32-vulkan-nouveau vulkan-nouveau xf86-video-nouveau
-q
-__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia alacritty
-q
-__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia kitty
-q
-nvim ~/.config/picom.conf
-killall picom xborders
-__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia kitty
-q
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-nvim ~/.config/picom.conf
-killall picom xborders
-q
-sudoedit /etc/optimus-manager/optimus-manager.conf
-yain optimus-manager-qt
-optimus-manager-qt
-nvim ~/.config/picom.conf
-killall picom xborders
-picom
-nvim ~/.config/picom.conf
-picom
-picom --legacy-backends
-nvim ~/.config/picom.conf
-q
-nvim ~/.config/picom.conf
-killall picom xborders
-killall i3
-nvim ~/.config/picom.conf
-killall picom xborders 
-picom
-nvim ~/.config/picom.conf
-picom
-killall picom xborders 
-mux api
-sc-enable docker.socket --now
-sc-enable docker --now
-mux api
-nvim .
-sail up
-sail share
-nvim .
-nv ~/.tmux.conf
-q
-php artisan ide-helper:generate\
-
-sail artisan ide-helper:generate\
-
-nvim .
-mux api
-nv ~/.config/kitty/kitty.conf
-mux list
-mux api
-nvim ~/.config/tmuxinator/api.yml
-q
-q
-q
-q
-q
-nvim ~/.config/i3/config
-q
-nvim ~/.config/i3/config
-q
-nvim ~/.config/alacritty/alacritty.toml
-q
+nvim ~/zsh/openai.zsh
+chmod +xrw ~/zsh/openai.zsh
 nvim
-tmux
-q
-q
-tmux new
-q
-q
-nvim ~/zsh/.zshrc
-q
-tmux kill-server
-q
-nvim ~/.tmux.conf
+~/zsh/openai.zsh
+nvim ~/zsh/openai.zsh
+~/zsh/openai.zsh
 nvim
+xprop | grep WM_CLASS
 q
-nvim ~/.tmux.conf
-q
-nvim ~/.tmux.conf
-yare optimus-manager-qt
-cd ~/zsh/plugins/
-./archlinux
+git clone https://github.com/codota/tabnine-nvim
+cd tabnine-nvim/
+ls
+cd chat
 ls
 nvim .
-yay -D
-yay -S
-yay -S catppuccinifier-bin
-q
-nvim ~/.tmux.conf
-q
-q
-echo $TERM
-nvim ~/.tmux.conf
-q
-q
-nvim
-killall xborders 
-gh repo clone catppuccin/chrome
-cd chrome
+cargo build --jobs=8 
+cd target/
 ls
-cd src
+cd debug/
 ls
+./tabnine_chat 
+nvim ~/.config/gtk-3.0/settings.ini
+cd ~/
+rm tabnine-nvim -rf
+cat /etc/os-release
+nvim -v
+rust
+rustc
 cd 
-cd chrome
 ls
-src/Chrome-catppuccin-mocha/Flamingo
+ls | grep .*
+ls | grep *.*
 ls
-pwd
-cd ~/.config/
-ls | grep edge
-cd microsoft-edge/
+nvim bunfig.toml
+mux api
+lazygit
+lazydocker
+nvim .
+nvim api.http
+nvim .
+cd ~/.local/share/nvim
+cd ./lazy/codeium.nvim/
 ls
-defaults
-Default/
+cd lua/codeium/
 ls
-cd Extensions/
-ls
-tree .
-cd abbpaepbpakcpipajigmlpnhlnbennna/
-ls
-cd 6.4.8_0/
-ls
-nvim manifest.json
-...
-rg cat
-rg catppuccin
-rg mocha
-cd ~/chrome/src/Chrome-catppuccin-mocha/Flamingo/
-ls
-rg 'Cached Theme.pak'
-tree . | rg 'Cached Theme.pak'
-tree . | grep .pak
-tree . | fd 'Cached Theme.pak'
-fd 'Cached Theme.pak'
-fd images
-cd abbpaepbpakcpipajigmlpnhlnbennna/
-ls
-c
-cd 6.4.8_0/
-ls
-...
-ls
-cd ahmpjcflkgiildlgicmcieglgoilbfdp/
-ls
-cd 3.0.59_0/
-ls
-...
-ls
-cd ddgilliopjknmglnpkegbjpoilgachlm/
-ls
-cd 1.0.2_0/
-ls
-cd .../
-...
-ls
-cd djlkbfdlljbachafjmfomhaciglnmkgj/
-ls
-cd 23.12.10_0/
-ls
-nvim manifest.json
-...
-cd dnnckbejblnejeabhcmhklcaljjpdjeh/
-ls
-cd 1.8.0.1_0/
-ls
-...
-cd ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.76.2_0/
-ls
-...
-cd gpphkfbcpidddadnkolkpfckpihlkkil/5.2.0_0/
-ls
-...
-cd hfaciehifhdcgoolaejkoncjciicbemc/
-cd 7.12_0/
-ls
-...
-ls
-cd hndfjogdceachkbgioglehonpejcdhem/10.20_0/
-ls
-...
-cd ifoakfbpdcdoeenechcleahebpibofpc/
-ls
-cd 4.9.86_0/
-ls
-nvim manifest.json
-...
-cd iikmkjmpaadaobahmlepeloendndfphd/
-cd 5.1.1_0/
-ls
-...
-ls
-cd jghecgabfgfdldnmbfkhmffcabddioke/
-cd 2.2.0_0/
-ls
-...
-cd jmjflgjpcpepeafmmgdpfkogkghcpiha/
-ls
-cd 1.2.1_0/
-ls
-nvim manifest.json
-...
-cd odfafepnkmbhccpbejgmiehpchacaeak/
-ls
-cd 1.57.2_0/
-ls
+nvim .
+cd ....
 cd ...
-ls
 ....
-ls
-...
-rm microsoft-edge -rf
-q
-q
-nvim ~/.config/alacritty/alacritty.toml
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-mocha.toml
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-latte.toml
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-frappe.toml
-curl -LO --output-dir ~/.config/alacritty https://github.com/catppuccin/alacritty/raw/main/catppuccin-macchiato.toml
-q
-q
-ls
-nvim ~/.config/alacritty/alacritty.toml
-cd ~
-mux api
+cd LazyVim/
+cd ./lua/lazyvim/plugins/extras/coding/
 nvim .
-sail up
-sail share
+nvim 
 q
-mux
-mux api
-yain firefox
-cd ~/.config/xdg
-cd ~/.config/
+q
+q
+q
+nvim
+yain firefox-pwa
+q
+cd ~/.local/share/firefoxpwa/
 ls
-ls | grep mime
-nvim mimeapps.list
-nvim ~/.config/picom.conf
-nvidia-oc 135 225
-rofi -show drun -no-X
-rofi -show run -no-X
-nvim ~/.config/picom.conf
-killall picom xborders 
-killall xborders 
-cd ~/.config/google-chrome/
+nvim firefoxpwa.log
 ls
+bzip2 ~/Downloads/firefox-126.0.1.tar.bz2 .
+cd ~/Downloads/
+thunar .
+mv firefox ~/.local/share/firefoxpwa
+cd ~/.local/share/firefoxpwa
+ls
+rm -rf ~/.local/share/firefoxpwa
+ls
+cd
+cd ~/.local/share/firefoxpwa
 cd ~/Downloads/
 ls
-nvim xbs_backup_20240601020250.json
-cls
-cls; neofetch;
-q
-cls
-mux api
-nvim .
-sail up
-sail share
-nvim ~/.config/alacritty/alacritty.toml
-q
-cd database/
+tarnow firefox-126.0.1.tar.bz2
+untar firefox-126.0.1.tar.bz2 
+tar --help firefox-126.0.1.tar.bz2 
+unzip firefox-126.0.1.tar.bz2
 ls
-cd factories/
+mv firefox runtime
 ls
-nvim CartItemsFactory.php
-bash cat .
-bash cat
+cd runtime/
 ls
-bash
-..
-n
-yain luajit
-n
-q
-q
-q
-n
+cd ../
+mv runtime ~/.local/share/firefoxpwa
+mv ~/.local/share/firefoxpwa
+cd ~/.local/share/firefoxpwa
+ls
 q
 mux api
-sail share
+lazydocker
+nvim api.http
+lazygit
 nvim .
-sail up
-nvim ~/zsh/.zshrc
-q
-q
-q
-q
-cls
-q
-mux apit
-mux api
+which phpactor
+phpactor --help
+phpactor list
+phpactor index:build
+phpactor index:clean
 nvim .
-sail up
-sail share
-q
-q
-q
-cls
-mux api
+gst
+gaa; gcap -m  "read completed"
 nvim .
-sail up
-sail share
-cd ~
-l
-ls
-q
-cd ~/zsh
-nvim env.zsh
-nvim ~/.zshenv
-xdg-settings set default-web-browser firefox.desktop
-which $BROWSEr
-which $BROWSER
-nvim ~/.profile
-unset $BROWSER
-xdg-settings set default-web-browser firefox.desktop
-cd /etc
-sudoedit ./profile
-ls
-cd /
-sudo rg BROWSER
-cd /etc/
-ls
-rg BROWSER
-nvim environment
-sudo nvim environment
-q
-xdg-settings set default-web-browser firefox.desktop
-q
-q
-q
-q
-cls
-q
-xdg-settings set default-web-browser firefox.desktop
-echo $BROWSER
-q
-echo $BROWSER
-~/zsh
-rg BROWSER
-reboot
-echo $BROWSER
-xdg-settings set default-web-browser firefox.desktop
-cd .config
-ls
-nvim mimeapps.list
-cls
-cd 
-ls
-.
-..
-cd 
-which cd
 nvim 
-nvim ~/.config/picom.conf
-xprop
-xprop | grep CLASS
+cls
+nvim
+cls
+nvim
+nvimq
+nvim
 q
-killall xborders picom
-xprop | grep CLASS
-nvim ~/.config/picom.conf
-killall xborders picom
-nvim ~/.config/picom.conf
-killall xborders picom
-xprop | grep CLASS
-xprop
-nvim ~/.config/picom.conf
-killall xborders picom
-picom
-nvim ~/.config/picom.conf
-picom
-nvim ~/.config/picom.conf
-killall xborders picom
-picom
-nvim ~/.config/picom.conf
-killall xborders picom
-q
-mux api
-nvim .
-sail up
-sail share
-q
-nvim ~/.config/tmuxinator/api.yml
+mkdir ~/.undodir
+ls~/.undodir
+ls ~/.undodir
+ls -s  ~/.undodir
+ls -S  ~/.undodir
+sudo chown muneeb ~/.undodir
+ls -S  ~/.undodir
+ls ~/.undodir
+sudo chown ~/.undodir muneeb
+sudo chown ~/.undodir
+sudo chown ~/.undodir --help
+sudo chown -hR muneeb ~/.undodir
+ls~/.undodir
+ls ~/.undodir
 q
 q
 q
 q
-mux api
-nvim .
-sail up
-yain zellij
-cd ~/.config
-git clone https://github.com/nvim-lua/kickstart.nvim kickstart
-cd kickstart/
-nvim ~/zsh/aliases.zsh
 q
+ls ~/.undodir
 q
-q
-q
-kickstart
-cd ~/.config/kickstart/
-ls
-kickstart .
-q
-kickstart ./init.lua
-nvim ~/.config/nvim
-q
-kickstart ~/.config/nvim
-q
-q
-nvim ~/.config/nvim
-n
-nv
-n
-nv
-nvim ~/.config/nvim
-nvim ~/.config/nvim/lua/plugins/disabled.lua
+ls ~/.undodir
 nvim 
+cd ~/.undodir/
+sudo cd ~/.undodir/
+cd -s ~/.undodir/
+cd -D ~/.undodir/
+su -
+rm ~/.undodir -rff
+rm ~/.undodir -rf
+~/.undodir
+q
+nvim
 mux api
+lazygit
 nvim .
-sail up
-q
-mux api
+nvim api.http
+lazydocker
 nvim .
+cd /home/muneeb/.local/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/extras/lang/
+nvim ./sql.lua
+nvim
+nvim ./sql.lua
+nvim /home/muneeb/compass-connections.json
 q
-q
-q
-mux api
+nvim 
+cd nvim
 nvim .
-sail up
-php artisan migrate
-php artisan migrate:fresh
-sail artisan migrate:fresh
-sail artisan migrate:fresh --seed
-cd ~
-laravel new lol-app
-cd lol-app/
-ls
-cd database/seeders/
-ls
-nvim DatabaseSeeder.php
-q
-sail artisan db:seed
-sail composer dump autoload
-sail composer dump-autoload
-sail artisan migrate:fresh --seed
-q
-ls
-cd database/seeders/
-ls
-exa
-ls
-touch DatabaseSeeder.php
-nvim DatabaseSeeder.php
-sail artisan migrate:fresh --seed
-...
-n
-sail artisan migrate:fresh --seed
-sail mysql
-q
-q
-q
-n
-nv
-q
-mux api
-nvim .
-sail up
-nvim ~/.config/tmuxinator/api.yml
-q
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-mux api
-nvim .
-sail artisan
-sail up
-sail up -d
-sail artisan
-sail artisan install;api
-q
-sail artisan install;api
-which api
-sail artisan install:api
-sail up -d
-sail artisan install:api
-q
-sail status
-sail artisan status
-q
-sail up
-nvim .
-q
-sail artisan migrate:regreshfresh --seed
-sail artisan migrate:refresh --seed
-sail artisan serve
-q
-sail artisan route:list
-sail artisan route:list --path
-sail artisan route:list --path=api
-q
-sail artisan route:list --path=api
-http http://localhost/api/v1/userslist
-q
-http http://localhost/api/v1/userslist
-q
-nvim ~/.config/kitty/kitty.conf
-nvim ~/.config/alacritty/alacritty.toml
+nvim
 q
 q
 q
 q
 nvim
+cd extras
+pwd
+ls
+nvim .
+fd sql
+nvim
 q
-code
-q
-mux apit
 mux api
+nvim api.http
+lazygit
+nvim .
+lazydocker
 nvim .
 q
-nvim ~/.config/tmuxinator/api.yml
-mux api
-nvim .
-sail up
-./vendor/phpmyadmin/sql-parser/bin/lint-query
 q
-sail down
-sail up -d
+q
 q
 nvim
-cd ~/watch_hub_api/
-n
-nb
-nv
-nv ~/.config/nvim/lua/plugins/edgy.lua
-n
-cd ~/.config/astro
+cd api
+nvim
+htop
+nvim
+cd tabnine-nvim/
 ls
-nvim selene.toml
-q
-lua -v
-n
-q
-cd ~/.config/nvim
-n
-cd lua/plugins/
-n
+cd ../
 ls
 tree
-n
-q
-q
-cd ~
-nvim 
-git clone https://github.com/Kampfkarren/selene
-cd selene/
-nv .
-vd watch_hub_api
-watch_hub_api
-nv
-nv .env
-q
-nvim 
-n
-yass yaml | grep merge
-yass yaml-merge
-yain perl-yaml-merge-simple
-simplesearch
-yaml-bench
-yaml2obj
-yass yaml
-nvim
-q
-cd ~/.config/nvim
-n
-q
-n
-nv ~/.config/nvim/lua/config/lsp.lua
-cd ~/.config/
-cd lazy
 ls
-cd ~/.config/lazy
+nvim ./dl_binaries.sh
 ls
-lazy .
-cd ../
-git clone https://github.com/Lazyvim/Starter lazy
-NVIM_APPNAME=lazy nvim .
-q
-NVIM_APPNAME=lazy nvim ~/.config/nvim
-NVIM_APPNAME=lazy nvim ~/.config/lazy
-cd ~/.config/nvim
-nvim .
-rm -rf ~/.local/share/nvim
-n
-q
-mux api
-q
-q
-q
-api
-cls
-mux api
-nvim .
-sail up
-nvim .
-nvim
-q
-q
-q
-nv
-q
-nv
-nvim ~/zsh/env.zsh
-nv
-q
-q
-nv
-cpanm -n Neovim::Ext
-yain cpanm
-yass  cpan
-yass  Neovim::Ext
-yass  cpan | grep Neovim::Ext
-yass  cpan
-yass perl-cpan
-yass  cpan
-yass  cpanminus
-yain  cpanminus
-cpanm -n Neovim::Ext
-sudo cpanm -n Neovim::Ext
-gem install neovim
-q
-nvim ~/zsh/env.zsh
-q
-nvim
-yain python-pynvim
-nvim 
-npm i -g neovim
-sudo npm i -g neovim
-npm install -g npm
-sudo npm install -g npm
-q
-yain julia
-q
-gem environment
-gem environment | grep gem
-q
-tmux
-nvim
-neovim-ruby-host
-neovim-ruby-host --help
-nvim ~/zsh/env.zsh
-cd /etc/
-nvim environment
-sudoedit environment
-nvim ~/.profile
-xdg-settings set default-terminal
-xdg-settings set default-terminal alacritty
-xdg-settings --get
-xdg-settings -- get
-xdg-settings get
-man xdg-settings
-xdg-settings
-xdg-settings --help
-xdg-settings --
-xdg-settings --list
-xdg-settings set default-terminal alacritty
-cd ~
-q
-q
-xdg-settings set default-terminal alacritty
-xdg-open htop
-xdg-open /bin/htop
-cd ~/.local/share/applications/
-ls
-nvim mimeapps.list
-cd /usr/share/applications/
-ls
-ls | grep alacritty
-ls | grep Alacritty
-nvim Alacritty.desktop
-nvim ~/.profile
-q
-nv
-yass ruby
-yass ruby | grep neovim
-yain ruby-neovim
-q
-nvim 
-ruby environment
-ruby --environment
-gem environment
-gem environment | grep .share
-nvim ~/zsh/env.zsh
-reboot
-lazydocker
-q
-nvim
-gem install neovim
-echo $PATH
-echo $PATH | grep ruby
-nvim ~/zsh/env.zsh
-nv
-cd ~/.config/nvim
-gst
-nvim .
-gst
-git checkout v1
-ls
-nvim .
-rm -rf ~/.local/share/nvim
-ls
-cat lua/config/options.lua
-git checkout master
-git reset --hard
-ls
-gst
-git checkout master
-ls
-gst
-git pull
-git fetch
-git remote
-lazygit
-nvim
-nvim --startup-time
-nvim --startuptime
-nvim --startuptime startup.txt
-nvim
-\
-RUNS=10\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim --startuptime "$LOG_FILE"\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-RUNS=10\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim --headless --startuptime "$LOG_FILE" -c quit\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-nvim
-\
-RUNS=10\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim --startuptime "$LOG_FILE"\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-RUNS=10\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim --headless --startuptime "$LOG_FILE" -c quit\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-RUNS=100\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim --headless --startuptime "$LOG_FILE" -c quit\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-RUNS=100\
-LOG_FILE="nvim_startup.log"\
-\
-for ((i = 1; i <= RUNS; i++)); do\
-    echo "Run $i of $RUNS"\
-    nvim . --headless --startuptime "$LOG_FILE" -c quit\
-    echo "-----------------------------------------"\
-done\
-\
-echo "Calculating average startup time..."\
-total_time=$(awk '/^000\./ {sum += $1} END {print sum}' "$LOG_FILE")\
-average_time=$(echo "scale=3; $total_time / $RUNS" | bc)\
-\
-echo "Total startup time for $RUNS runs: $total_time ms"\
-echo "Average startup time: $average_time ms"\
-
-nvim
-nvim .
-nvim --startuptime startup.txt --headless --api-info
-killall nvim
-nvim --startuptime startup.txt --headless +qa
-nvim startup.txt
-nvim --startuptime --headless +qa
-nvim --headless +qa --startuptime |echo 
-nvim --headless +qa --startuptime | cat
-nvim --headless +qa --startuptime  .
-nvim --headless +qa --startuptime >> | stdout
-nvim --headless +qa --startuptime tmp.txt ; cat tmp.txt; rm tmp.txt
-nvim 
-nvim
-q
-nvim
-q
-nvim  .
-nvim --headless +qa --startuptime tmp.txt ; cat tmp.txt; rm tmp.txt
-bash
-chad
-git clone https://github.com/muneebusmani/nvchad ~/.config/nvchad
-chad
-chad ~/.config/chad
-chad ~/.config/nvchad
-~/.config/nvchad
-chad
-chad .
-chad ./lua/plugins/init.lua
-vim ./lua/plugins/init.lua
-chad ./lua/plugins/init.lua
-vim ./lua/plugins/init.lua
-nvim ./lua/plugins/init.lua
-chad ./lua/plugins/init.lua
-nvim ~/.config/nvim/lua/plugins/nvim-cmp.lua
-gst
-../nvim
-gst
-nvim lua/config/lazy.lua
-gst
-git reset --hard
-nvim
-cd ~
-mux api
-nvim .
-sail up
-psalm
-psalm --help
-nvim .
-psalm
-psalm --help
-q
-composer require psalm/plugin-laravel
-q
-psalm --init
-nvim .
-psalm-language-server
-./vendor/bin/psalter
-psalter
-composer require --dev psalm/plugin-laravel
-./vendor/bin/psalm-plugin enable psalm/plugin-laravel
-q
-composer require --dev barryvdh/laravel-ide-helper
-q
-tmux attach
-mux api
-tmux attach api
-nvim ~/.config/nvim/lua/plugins/
-nvim
-cd watch_hub_api/
-nvim
-nvim .
-mux api
-q
-mux api
-q
-nvim ~/.config/nvim/
-nvim
-cd nvim
-ls
-nvim .
-cd ../
-ls
-git clone https://github.com/folke/lazydev.nvim lazydev
-nvim ~/zsh/aliases.zsh
-q
-lazydev
-cd ~/.config/lazydev/
-NVIM_APPNAME=lazydev nvim ~/.config/lazy
-cd ..
-mv lazydev luadev
-nvim ~/zsh/aliases.zsh
-source ~/zsh/.zshrc
-luadev
-cd laudev
-ls
-rm luadev
-rm luadev -rf
-cd lazyvim
-ls
-gst
-git diff
-nvim .
-lazy .
-which lazy
-gst
-cd ..
-rm lazyvim -rf
-git clone https://github.com/LazyVim/starter ~/.config/lazyvim
-cd lazyvim/
-ls
-lazy .
-cd ~/.config/nvim
-lazy .
-cd ~/LazyVim/
-ls
-gst
-git fetch
-gst
-cd lua/lazyvim/plugins/extras/util/
-ls
-lazy .
-mkdir sample
-ls
-rm sample =rf
-rm sample -rf
-cd 
-mkdir sample
-rm sample -rf
-mkdir sample
-sample
-ls
-lazydev .
-lazy .
-nv .
-nv
-q
-htop
-lazydocker
-cd ~/watch_hub_api/
-sail down; sail rm
-lazydocker
-cd 
-lazydocker
-lazy ~/LazyVim
-htop
-killall msedge
-mux api
-q
-q
-q
-sudoedit /etc/default/zramd
-yare zramd
-sc-daemon-rexec
-sc-daemon-reexec
-q
-htop
-cd ~/.config/tmuxinator/
-n api.yml
-nvim 
-lazy .
-q
-cd ~/.config/tmuxinator/
-nv
-nv .
-cd ~/.config/nvim
-ls
-gst
-nvim lua/plugins/neogen.lua
-nvim ../tmuxinator/api.yml
-cd ~/LazyVim/
-ls
-nvim .
-cd ~/.config/nvim
-nvim .
-gst
-rm startup.txt
-rm tmp.txt
-gst
-git add -A
-gst
-git rm --cached *
-git rm --cached * -r
-git rm --cached ./* -r
-git rm --cached ./* -rf
-ls
-gst
-gcap
-gcap "profiling for laravel"
-nvim .
-git rebase laravel
-git branch laravel
-git rebase laravel
-gst
-ls
-git checkout laravel
-ls
-nvim .
-cd ~
-laravel new lol-app
-cd laravel
-cd ~/.config/laravel
-cd ~
-cd laravel
-cd 
-z
-zoxide
-zoxide query
-cd nvim
-ls
-n
-nvim ~/watch_hub_api
-cd ~/watch_hub_api/
-n
-q
-cd ~/.config/nvim
+cd binaries/
 l
-n
-nvim ~/watch_hub_api
-nvim ~/watch_hub_api/public/index.php
-cd ~/.local/state/nvim
 ls
-nvim lsp.log
+cd 4.165.0/
+ls
+cd x86_64-unknown-linux-musl/
+ls
+./TabNine
+./TabNine --help
+./TabNine -c nvim
+./TabNine -c nvim --help
+./TabNine --mode
+./TabNine --mode --help
+./TabNine --mode lsp
+./TabNine --mode mode
+cd ~
 nvim
-cd ~/watch_hub_api/
-nvim .
-psalm --init
-q
-nvim
-psalm 
-./vendor/bin/psalm-plugin enable psalm/plugin-laravel
-q
+yain qt
+yain qt5 qt6
+yain qt4
+yain gtk
+yain gtk2
+yain gtk gtk2 gtk3 gtk4
+yain gcc
+yain gtk gtk4
+yain gtk4
+yain gtk3 gtk2
+yain gtk
 nvim 
-nv
-sail up
-sail up -d
-q
-git stash
-gst
-git branch
-ls
-gst
-git branch
-cd ~/.config/nvim
-git stash
-ls
-gst
-git checkout master
-nvim .
-git checkout laravel
-gst
-nvim .
-git stash apply
-ls
-nvim .
-git stash
-git checkout master
-vim ./lua/plugins/neogen.lua
-git checkout laravel
-git stash apply
-n
-vim ./lua/plugins/neogen.lua
-nvim .
-gst
-git restore lua/config/lazygit.lua
-git restore lua/config/lazydocker.lua
-nvim.
-n
-q
+yain gnome
+yay -Syyuu
+nvim ~/index.php
 mux api
-nvim .
-sail up
-q
-q
-cd 
-gst
-cd ~/.config/nvim
-ls
-gst
-cd lua/util/
-ls
-...
-ls
-gst
-gcap
-which gcap
-which gg
-gg
+lazydocker
 lazygit
-gst
-gsm
-gst
-gst | grep util
-git commit -am "config optimized for laravel"
-which gp
-gp
-gp origin laravel
 nvim .
-cd ~/watch_hub_api/
-ls
-n
-cd nvim
-ls
-gst
-git commit -am "bug fix"
-gp origin laravel
-gst
-git checkout master
-ls
-git stash apply
-nvim .
-git add -A
-git commit -am "will fix bugs after project"
-gp origin master
-git checkout laravel
-rm ~/.local/share/nvim -rf
-cd ~/watch_hub_api/
-n
-cd ~/.config/nvim
-nvim ./laravel.sh
-cd watch_hub_api
-nv
-sail artisan clear-compiled
+nvim api.http
+q
 sail up -d
-sail artisan clear-compiled
-nv
-php artisan ide-helper:generate
-sail artisan ide-helper:generate
-nv
-sail artisan ide-helper:generate
-composer require --dev barryvdh/laravel-ide-helper --with-all-dependencies
-nvim composer.json
-composer require --dev barryvdh/laravel-ide-helper --with-all-dependencies
-nvim composer.json
-composer require --dev barryvdh/laravel-ide-helper --with-all-dependencies
-nvim composer.json
-composer require --dev barryvdh/laravel-ide-helper --with-all-dependencies
-nvim composer.json
-composer require --dev barryvdh/laravel-ide-helper --with-all-dependencies
-nvim composer.json
-sail artisan ide-helper:generate
-nvim .
-php artisan
-sail artisan
-sail artisan route:cache
+sail artisan cache
 sail artisan cache:clear
-sail artisan view:cache
-sail artisan | grep cache
-sail artisan route:cache
-sail artisan config:cache
-sail artisan event:cache
-sail artisan package:discover
-sail up -d
-sail rm 
-sail down; sail rm
-nvim .
-sail up -d;
-q
-gst
-lazygit
-gst
-git add -A
-gst
-git stash --keep-index
-gst
-nvim ./docker-compose.yml
-lazygit
-nvim ./docker-compose.yml
-gst
-git diff
-git diff main
-gsm
-nvim app/Providers/AppServiceProvider.php
-nvim composer.json
-nvim config/app.php
-nvim psalm.xml
-gst
-git add -A
-git commit -am "some more misc changes"
-gp
-git stash drop
-cls
-git stash list
-sail status
-sail ps
-sail stop
-sail up -d
-sail down
-cd ~/.config/nvim
-gst
-git stash list
-git stash clear
-git stash list
-gst
-git add -A
-git commit -am "some more misc changes"
-gp
-gp origin laravel
-git help config
-git config --global push.autoSetupRemote
-git help config | grep push.autoSetupRemote
-git help config
-git config --global push.autoSetupRemote true
-git rebase master
-gst
-git branch
-git reset --hard
-gst
-git checkout master
-git checkout laravel
-gst
-git rebase --abort\
-
-gst
-git checkout master
-git rebase --abort\
-
-gst
-git push
-gh repo syn
-gh repo sync
-gh repo edit
-q
-mux api
-q
-nvim ~/.config/tmuxinator/api.yml
-cd nvim
-git checkout laravel
-cd ~/.local/share
-rm nvim -rf
-cd nvim
-n
-cd nvim
-git branch -D $(git branch | grep -v <branch-name>)\
-
-git branch -D $(git branch | grep -v laravel)
-gst
-git branch
-git remote remove origin
-git filter-branch --prune-empty --subdirectory-filter <path> -- --all\
-
-git filter-branch --prune-empty --subdirectory-filter ./* -- --all\
-
-gst
-ls
-git origin
-git remote
-git diff
-git branch -m master
-gst
-git commit -am "changing it to a new repo"
-gh repo create
-gst
-gh repo
-gh repo edit
-gst
-gh repo
-gh repo sync
-gh repo view
-q
-cd ~/.config
-ls
-which lazy
-lazy
-n
-q
-q
-lazy
-cd LazyVim/
-ls
-gst
-cd lua/lazyvim/plugins/extras/util/database.lua
-lazy lua/lazyvim/plugins/extras/util/database.lua
-gst
-git add -A
-git commit -m "Added Database Support with dadbod ui"
-gp
-git fetch
-gst
-gp
-git merge
-gst
-git push
-nvim .
-nvim
-cd ~/watch_hub_api/
-sail up
-sail up -d
-nv
-sail artisan migrate:refresh --seed
-q
-cd ~/LazyVim/
-lazy lua/lazyvim/plugins/extras/util/database.lua
-gst
-lazy lua/lazyvim/plugins/extras/util/database.lua
-gst
-gcap "integrated dadbod ui into edgy.nvim"
-gst
-cd nivm
-cd nvim
-lazy
-nvim
-nvim .
-rm ~/.local/share/nvim -rf
-nvim .
-gst
-git branch
-git stash
-nvim .
-git reset --hard HEAD
-git stash apply\
-
-nvim .
-gst
-git diff
-nvim .
-nvim
-cd ~/watch_hub_api/
-nvim .
-nvim
-cd nvim
-lazy
-gst
-lazy
-nvim
-nvim .
-lazy .
-nvim .
-cd ~/watch_hub_api/
-sail upd -d
-sail up -d
-q
-lazy .
-lazy
-cd ~/.config/alacritty/
-nvim 
-lazy 
-q
-lazy
-lazy 
-nvim ~/.config/nvim/lua/plugins/dadbod.lua
-q
-nvim
-q
-lazy .
-nvim
-q
-lazy
-nvim
-rm ~/.local/share/lazyvim -rf
-lazy
-cd nvim
-nvim 
-lazy ./.gitignore 
-lazy ./lua/plugins/dadbod.lua 
-nvim./lua/plugins/dadbod.lua 
-nvim ./lua/plugins/dadbod.lua 
-lazy ./lua/plugins/dadbod.lua 
-lazy /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/util/database.lua 
-cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/util/database.lua 
-cd /home/muneeb/LazyVim/
-gst
-gp
-gcap "optimized ui for database integration"
-gst
-gh repo sync
-gh repo sync --force
-gstr
-gst
-git pull 
-git gst
-gst
-git pull
-git config pull.rebase false
-git pull
-gst
-git push
-cd lazyvim
-cd ~/.config/lazyvim/
-lazy
-cd nvim
-lazy
-nvim
-cd ~/watch_hub_api/
-nvim .
-lazy
-nvim .
-nvim
-q
-nvim .
-yain mysql
-   mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sc-enable mysql --now
-sc-enable mysql
-sc-enable mysqld@.service
-sc-enable mysqld
-sc-enable mysqld --now
-yare xampp
-sudo rm -rf /opt/xampp-backups/
-yare mysql
-yain mysql
-   mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-cd /var/lib/mysql
-ls
-cd /var/lib/mysql
-sudo cd /var/lib/mysql
-sudo /var/lib/mysql
-su root
-cd -s  /var/lib/mysql
-bash
-su root
-   mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-sudo    mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql
-mysql_secure_installation
-wi/eLpuwF7kA
-mysql_secure_installation
-su root
-sail down
-mysql_secure_installation
-bash
-mysql_secure_installation
-nvim .
-cd watch_hub_api
-sail up -d
-sail down
-sail rm
-sail down
-sail rm
-lazydocker
-sail up
-lazy .
-sail up
-lazy .
-sail up
-lazy ./docker-compose.yml
-lazy .env
-q
-nvim ~/watch_hub_api/docker-compose.yml
-nvim ~/watch_hub_api/.env
-sc-disable mysqld --now
-q
-cd watch_hub_api
-nvim docker-compose.yml
-lazy docker-compose.yml
-q
-cd watch_hub_api
-sail up -d
-lazydocker
-sail mysql
-nvim .
-mysql
-q
-q
-sail down -d
-sail down
-sc-enable mysqld --now
-n
-cd watch_hub_api/
-ls
-nvim .
-sail down
-sail rm
-sail up
-sail up -d
-n
-sail down
-sail up -d
-nvim 
-sail down
-lazydocker
-cd 
-lazydocker
-cd
-cd watch_hub_api/
-sail up -d
-q
-nvim
-sail down
-lasail rm
-sail rm
-nvim
-sail down; sail up -d;
-nvim .
-sail down; sail up -d;
-nv
-sail down; sail up -d;
-nv
-sail down; sail up -d;
-sc-disable mysqld --now
-sail down; sail up -d;
-nvim .env
-sail down; sail up -d;
-sail mysql
-sail up -d;
-lazydocker
-kill 62
-sudo kill 62
-lazydocker
-yare mysql
-systemctl daemon-reload
-systemctl daemon-reecex
-systemctl daemon-reexec
-lazy
-lazydocker
-nvim .env
-lazydocker
-nvim .
-login
-grep
-lazydocker
-nvim .env
-q
-cd watch_hub_api/
-sail stop;sail rm
-q
-cd ~/watch_hub_api/
-sail up -d; lazydocker
-sail install mysql
-sail --help
-sail artisan
-sail artisan install --help
-artisan --help
-./artisan --help
-./artisan
-./artisan sail add mysql
-./artisan sail:add mysql
-htop
-q
-./artisan sail:add redis
-lazydocker
-htop
-mysql
-yare mysql
-yare mysql-clients 
-mysql
-lazydocker
-git
-gst
-git restore docker-compose.yml
-nvim docker-compose.yml
-sail mysql
-sail up -d
-sail up
-nvim docker-compose.yml
-sail up -d; lazydocker
-sc-disable mysqld.sock
-sc-stop mysqld.sock
-sc-stop mysqld
-nvim docker-compose.yml
-sail up -d; lazydocker
-nvim docker-compose.yml
-nvim 
-cd ~/watch_hub_api/
-ls
-nvim .env
-nvim docker-compose.yml
-q
-sail down; sail up -d;
-lazydocker
-nvim docker-compose.yml
-yain mysql
-mysqladmin
-mysqladmin password
-sc-enable mysqld --now
-mysqladmin password
-mysqladmin
-sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql-system
-mysql -u root -p7Oxq&lb*ZLa0
-mysql -u root -p
-mysql_secure_installation
-sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql-system
-sudo rm -rf /var/lib/mysql-system
-sudo mysqld --initialize --user=mysql --basedir=/usr --datadir=/var/lib/mysql-system
-mysql_secure_installation
-sudo systemctl stop mysql\
-
-sudo systemctl stop mysqld.service
-sudo mysqld_safe --skip-grant-tables --skip-networking &\
-
-sudo mysqld_safe --skip-grant-tables --skip-networking --datadir=/var/lib/mysql-system &\
-
-ls /var/lib/mysql-system
-q
-q
-nvim .
-cd watch_hub_api/
-nvim .
-q
-cd watch_hub_api/
-sail down; sail up -d;
-lazydocker
-nvim watch_hub_api
-sail mysql
-cd watch_hub_api/
-sail mysql
-sc-disable mysqld.sock
-sc-disable mysqld
-sc-disable mysqld --now
-sail down
-sail up -d; lazydocker
-sail --help
-cd watch_hub_api/
-sail --help
-sail build --no-cache
-gst
-docker ps
-lazydocker
-sail up
-sail up -d
-lazydocker
-mysql -h localhost -P 3307 -p
-nvim ./docker-compose.yml
-q
-sail down; sail up -d;
-mysql -h localhost -P 3307 -p
-lazydocker
-sail down; sail up -d;
-mysql -h localhost -P 3307  --protocol=TCP --default-auth=mysql_native_password -p
-mysql -h localhost -P 3307  --default-auth=mysql_native_password -p
-mysql -h localhost -P 3307  -ppassword
-sail mysql
-sc-status mysql
-sc-status mysqld.service
-yare mysql-clients
-yare mysql mysql-clients
-sc-disable mysqld --now
-nvim docker-compose.yml
-sail down; sail up -d;
-nvim docker-compose.yml
-sail mysql
-nvim docker-compose.yml
-sail mysql
-sail down; sail up -d;
-sail mysql
-lazydocker
-nvim docker-compose.yml
-sail mysql
-sail up -d
-sail mysql
-sudo rm -rf /var/lib/mysql*
-sail mysql
-gst
-git diff
-nvim docker-compose.yml
-sudo systemctl daemon-reexec
-sail up -d; lazydocker
-sail mysql
-sail 
-sail build mysql --no-cache
-sail build --no-cache
-reboot
-sail up -d; lazydocker
-cd watch_hub_api/
-sail up -d; lazydocker
-sail mysql
-mysql -h localhost -ppassword
-ls /run/mysqld
-sudo ls /run/mysqld
-simplesearch
-sail build --no-cache
-q
-nvim
-cd nvim
-gst
-nvim lua/plugins/neogen.lua
-nvim lua/plugins/dadbod.lua
-cd watch_hub_api/
-sail up
-mysql -h localhost -ppassword
-q
-mysql
-yain mysql
-cd watch_hub_api/
-sail rm
-lazydocker
-cd 
-lazydocker
-cd watch_hub_api/
-cd /var/lib
-ls
-sudo rm mysql* -rf
-ls
-cd /etc/
-ls
-ls | grep mysql
-sudo rm mysql* -rf
-cd /etc/xdg
-ls
-cd ~/
-yain mysql
-docker ps
-docker ps -a
-sc-disable docker --now
-sc-disable docker.socket --now
-yain mysql
-yare mysql mysql-clients
-yain mysql
-q
-q
-yain perl-dbd-mysq
-yain perl-dbd-mysql
-q
-mkdir ~/.local/share/mysql
-mysqld --initialize --user=mysql --basedir=/usr --datadir=~/.local/share/mysql
-mkdir ~/.local/share/mysql
-nvim ~/.local/share/mysql
-rm -rf ~/.local/share/mysql
-mysqld --initialize --user=mysql --basedir=/usr --datadir=~/.local/share/mysql
-rm -rf ~/.local/share/mysql
-mysqld --initialize --user=mysql --basedir=~/.config/mysql --datadir=~/.local/share/mysql
-sudo mysqld --initialize --user=mysql --basedir=~/.config/mysql --datadir=/var/lib/mysql
-mysql_secure_installation
-q
-sudo systemctl status mysql\
-
-sudo systemctl enable mysql --now
-sudo systemctl enable mysqld --now
-ls -l /run/mysqld/\
-
-mysql_secure_installation
-mysql -u root -p
-mysql -u muneeb -p
-cd ~/watch_hub_api/
-sail up -d; lazydocker
-sc-enable docker.socket --now
-sc-enable docker --now
-sail up -d; nvim . -c DBUIToggle
-nvim ~/watch_hub_api/docker-compose.yml
-q
-nvim docker-compose.yml
-sail up -d;
-lazydocker
-nvim docker-compose.yml
-sail down; sail up -d;
-lazydocker
-sail up
-lazydocker
-q
-sail up -d
-nvim .
-mysql -u root -P 3307 -ppassword
-mysql -u mysql -P 3307 -ppassword
-mysql -u sail -P 3307 -ppassword
-nvim docker-compose.yml
-mysql --host=0.0.0.0 -u sail -P 3307 -ppassword
-nvim .env
-mysql --host=0.0.0.0 -u sail -P 3307 -padmin123
-nvim
-nvim .env
-nvim docker-compose.yml
-nvim .
-sail artisan migrate:fresh --seed
-sail artisan migrate
-nvim docker-compose.yml
-sail down; sail up -d;
-mysql  -u sail -P 3307 -padmin123
-nvim docker-compose.yml
-sail down; sail up -d;
-mysql  -u sail -P 3307 -padmin123
-mysql --host=0.0.0.0  -u sail -P 3307 -padmin123
-nvim .
-sail artisan migrate
-sail mysql
-q
-sail down; sail up -d;
-sail artisan migrate
-nvim docker-compose.yml
-nvim ./config/database.php
-sail artisan migrate
+sail artisan route:list --verbose
+sail cache
 sail artisan 
-sail artisan cache:clear
-artisan cache:clear
-./artisan cache:clear
-sail artisan cache:clear
+sail 
+sail down; sail build --no-cache; sail up -d;
+sail artisan route:list --verbose
 nvim .
-sail down; sail up -d;
-lazydocker
-mysql --host=0.0.0.0  -u sail -P 3307 -ppassword
-nvim .env
-mysql --host=0.0.0.0  -u sail -P 3307 -ppassword
-nvim .env
-sail down; sail up -d;
-mysql --host=0.0.0.0  -u sail -P 3307 -ppassword
-mysql --host=0.0.0.0  -u root -P 3307 -ppassword
-mysql --host=0.0.0.0  -u root -P 3306 -ppassword
-mysql --host=0.0.0.0  -u root -P 3307 -ppassword
-mysql --host=0.0.0.0  -u root -P 3307 -padmin123
-php artisan cache:clear
-sail artisan cache:clear
-sail artisan migrate
-sail mysql
-sail artisan migrate
-mysql --host=0.0.0.0  -u root -P 3307 -padmin123
-nvim .env
-sail down; sail up -d;
-sail artisan migrate
-nvim .env
-sail artisan migrate
-nvim .env
-mysql --host=0.0.0.0  -u root -P 3307 -padmin123
-sc-disable mysqld --now
-nvim .env
-sail down; sail up -d;
-sail artisan migrate
-dropdb
-dropdb --help
-ls
-docker-compose
-nvim docker-compose.yml
-lazydocker
-php artisan sail:install --devcontainer
-gst
-git diff
-git reset --hard HEAD
-gst
-rm .devcontainer -rf
-gst
-ls
-rm ./vendor -rf
-sail
-composer init
-ls
-nvim composer.json
-gst
-composer update
-sc-status mysqld.service
-sc-status mysqlrouter.service
-sc-disable --now mysqlrouter.service
 q
-sail artisan
-sail up
-nvim ./watch_hub_api/.env
-nvim ./watch_hub_api/docker-compose.yml
 q
-lazydocker
-git revert 3afdf0c
-gst
-git reset 
-git reset  --hard
-git revert 3afdf0c
-git reset --hard 3afdf0c
-gst
+q
+q
+q
+cq
+qq
+q
+yain gnome
+yain fprintd fwupd dleyna-server ocaml
+q
+nvim
+cd ~/.config/
 ls
+cd gtk-3.0/
+lls
+ls
+nvim bookmarks
+exit
+nvim ~/.config/i3/config
+killall picom xborders 
+nvim
+nvim ~/.nvidia-settings-rc
+picom
+xborders
+picom | xborders
+nvidia-smi
+nvidia-settings 
+nvidia-settings --help
+yain nvidia-settings
+nvidia-settings
+nvidia-smi
+optimus-manager-qt
+yain optimus-manager-qt
+optimus-manager-qt
+nvim ~/.profile
+q
+exit
+optimus-manager-qt
+echo $QT_QPA_PLATFORM
+export $QT_QPA_PLATFORM=wayland
+QT_QPA_PLATFORM="wayland" optimus-manager-qt
+nvim ~/.profile
+sc-restart display-manager
+optimus-manager-qt
+optimus-manager
+yass xwayland
+killall picom xborders 
+nvim ~/.config/i3/config
+yare polkit-gnome
+yare polkit-xfce4
+yass polkit
+yass desktop-portal
+yare xdg-desktop-portal-dde
+yain xdg-desktop-portal-dde
+yare xdg-desktop-portal-gtk
+yare xdg-desktop-portal-gtk --no-deps
+yare xdg-desktop-portal-gtk -dd
+yare xdg-desktop-portal-gnome
+yare xdg-desktop-portal-gnome -dd
+yain xfce4-polkit
+yass polkit
+yass polkit | grep xfce
+yain xfce-polkit
+nvim ~/.config/i3/config
+/usr/lib/xfce-polkit/xfce-polkit
+yay -Qqs polki
+/usr/lib/xfce-polkit/xfce-polkit
+polkit
+yare xfce-polkit
+yain deepin-polkit
+yass deepin
+yass deepin | grep polkit
+yain deepin-polkit-agent
+yass polkit
+yasss polkit | grep gnome
+yain polkit-gnome
+yasss polkit
+yasqs polkit
+yay -Qqs polkit
+nvim ~/.config/i3/config
+yass i3
+yasss i3
+yasss i3 | grep round
+yass i3 | grep round
+yare gnome
+nvim ~/.config/i3/config
+yass polkit
+reboot
+nvim ~/.config/gtk-3.0/settings.ini
+yare gnome
+gnome
+mux api
+lazydocker
+lazygit
 nvim .
-gst
-sail up
-htop
-q
-lazydocker
-sail up -d
-sail artisan
-sail artisan migrate
-nvim docker-compose.yml
-sail down; sail up -d;
-lazydocker
-mysql --host=0.0.0.0  -u sail -ppassword
+nvim api.http
 nvim .
-yare mysql mysql-clients
-yare mariadb
+nvim
+yare phpactor
+q
+cd ~
+cd .config
+gh repo clone LazyVim/Starter 
+NVIM_APPNAME=starter nvim .
+q
+cd api
+NVIM_APPNAME=starter nvim .
+nvim
+nvim .
 q
 q
-nvim ~/.config/tmuxinator/api.yml
-nvim ~/.tmux.conf
-cd ~/watch_hub_api/
-touch .tmux.conf
-nvim .tmux.conf
+cd api
+nvim .
+q
+cd api
+nvim ~/zsh/.zshrc
+nvim .
 tmux
-nvim .tmux.conf
-q
-q
-q
-q
-nvim ~/watch_hub_api/.tmux.conf
-nvim ~/.config/tmuxinator/api.yml
-q
-mux api
 nvim .
-lazydocker
-nvim .
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-sudo -S muneeb123 systemctl restart docker
-sudo systemctl restart docker -S muneeb123
-sudo --help
-sudo systemctl restart docker -p muneeb123
-q
-sudo systemctl restart docker -p muneeb123
-read -s -p "Enter Password for sudo: " sudoPW\
-echo $sudoPW | sudo -S systemctl restart docker;
-read -s -p "Enter sudo password: " sudo_password\
-\
-echo "$sudo_password" | sudo -S <your_command_here>
-read -s -p "Enter sudo password: " sudo_password\
-echo "$sudo_password" | sudo -S systemctl restart docker
-sc-restart docker
-sudo su
-su -
-cd watch_hub_api/
-ls
-git status
-git add 0A
-git add -A
-git commit -m "Fixed Stupid issues"
-git push
-git push --force
-gst
-q
-mux api
-nvim .
-lazydocker
-nvim ~/.tmux.conf
-q
-q
-q
-nvim ~/.config/tmuxinator/api.yml
-gst
-rm lol-app -rf
-cd .config
-ls
-git add picom.conf
-git add greenclip.toml
-nvim greenclip.toml
-nvim starship.toml
-ga starship.toml
-which ga 
-git add alacritty/
-git add kitty
-git add tmuxinator/
-git add warp-terminal
-cd Optimus\ Manager/
-ls
-nvim Optimus\ Manager\ Qt.conf
-..
-gst
-ls
-git add nvim
-git add nvchad
-git rm --cached .config/nvchad
-git rm --cached nvchad
-git rm --cached nvchad -f
-which lazy
-cd lazy
-ls
-cd ..
-rm lazy/ -rf
-ls
-cd laravel
-ls
-gst
-cd ../
-rm laravel -rf
-ga lazy*
-cd lazyvim
-ls
-gst
-git remote
-git remote -v
-git remove remote
-git remote  remove
-git remote origin
-git remote origin main
-git remote origin
-git remote mian
-git remote rename
-git remote rename https://github.com/Lazyvim/Starter https://github.com/muneebusmani/lazydev
-git remote -v
-git remote rename https://github.com/LazyVim/starter https://github.com/muneebusmani/lazydev
-git remote rename origin https://github.com/muneebusmani/lazydev
-git remote rename origin 
-git remote 
-git remote set-url
-git remote set-url https://github.com/muneebusmani/lazydev
-git remote set-url origin https://github.com/muneebusmani/lazydev
-gh repo create 
-gst
-nvim lua/config/lazy.lua
-nvim lua/plugins/edgy.lua
-nvim ./lua/config/lazy.lua
-lazy ./lua/config/lazy.lua
-cd ~/.config
-lazy .
-gst
-cd .config
-gst
-ls
-which ls
-exa
-exa --help
-exa -l --git
-npm install -g box-cli-wrapper\
-
-sudo npm install -g box-cli-wrapper\
-
-yass box-cli
-sudo npm install --global @box/cli
-box
-box autocomplete
-nvim ~/zsh/box.zsh
-. <(box autocomplete:script zsh)\
-
-nvim ~/zsh/lazyload.zsh
-q
-box 
-box
-q
-mux api
-nvim .
+sail up -d
 lazydocker
 q
-mux api
-lazydocker
-http http://localhost/api/v1/userslist
+sail down
+sail artisan cache:clear
+sail up -d
+sail artisan cache:clear
 sail artisan migrate:fresh --seed
 nvim .
-sail artisan db:seed
-yain httpie 
-sudo pacman -S postman-bin
-q
-q
-http http://localhost/api/v1/userslist
-http http://localhost/api/v1/users
-sail artisan
-sail artisan route:clear
-sail artisan route:cache
-sail artisan route:list
-http http://localhost/api/v1/users
-http http://localhost/api/v1/user_profiles
-sail artisan route:clear
-sail artisan route:cache
-http http://localhost/api/v1/user_profiles
-http http://localhost/api/v1/users
-http http://localhost/api/v1/users 
-http http://localhost/api/v1/user_profiles
-http http://localhost/api/v1/users 
-gst
-sail artisan ide-helper:
-sail artisan ide-helper:generate
-sail artisan ide-helper:models
-sail artisan ide-helper:meta
-sail artisan ide-helper:eloquent
-nvim .
-sail artisan cache:clear
-http http://localhost/api/v1/users 
-n
-yain mysql
-sc-disable mysqld 
-sc-disable mysqld --now
-sc-disable mysqlrouter --now
-n
-nvim
-nvim ~/.config/nvim
-cd ~/.config/nvim
-gst
-grep undotree
-grep undotree .
-grep undotree ./**
-rm ./nvim_startup.log
-grep undotree ./**
-grep undotree ./**/**
-grep undotree ./**/**/**
-grep undotree ./**/**/**/**
-grep undotree ./**/**/**/**/**
-grep undotree ./**/**/
-grep undotree ./**/*/
-grep undotree ./*/*/
-grep undotree ./**
-cd lua
-rg undotree
-nvim 
-rg outline
-nvim config/lazy.lua
-lazy
-lazy config/lazy.lua
-nvim config/lazy.lua
-rm ~/.local/share/nvim -rf
-nv .
-nvim config/lazy.lua
-~/.local/share/nvim/lazy/luvit-meta/library
-ls
+sail mysql
 cd nvim
-gst
-nvim lua/plugins/outline.lua
-cd /home/muneeb/LazyVim/lua/lazyvim/plugins/extras/util/
-nvim database.lua
-lazy database.lua
-gst
-gcap "some more misc changes"
-lazy ~/.config/lazyvim/lua/plugins/colorscheme.lua
-nvim -v
-nvim -V1 -v
-q
-q
-nvim .
-gst
-gaa
-gst
-gcap "implemented routes fetching"
-nvim
-q
-gcap "implemented routes fetching"
-gst
-git branch api
-git checkout api
-gst
-git push
-cd ~/LazyVim
-git diff
-nvim ./lua/lazyvim/plugins/extras/util/database.lua
-gh repo
-gh repo delete LazyVim
-gh auth refresh -h github.com -s delete_repo
-gh repo delete LazyVim
-cd ~
-rm LazyVim -rf
-gh repo clone LazyVim/LazyVim
-cd LazyVim/
+z
+yain zoxide
+z
+bash
+zoxide
+z
+_zsh
 ls
-gh repo
-gh repo fork
+yare zoxide
+yain z
+z
+q
+cd nvim
+cd
+which z
+echo $PATH
+yay -Syyuu
+z
+fish
+yain fish
+yay -Syyuu
+q
+cd
+nvim ~/zsh/.zshrc
+tmux
+nvim
+q
+htop
+nvim
+builtin cd
+builtin cd 
+builtin cd ~/zsh
+ls
 nvim .
-lazy .
-lazy
-gst
-gcap "Added Database Support"
-git remote
-git remote upstream -v
-git remote 0v
-git remote -v
-gaa
-gst
-git commit "Added Database Support"
-git commit -m "Added Database Support"
-git push origin main
-gh repo
-gst
-git diff
-git push
-lazy ./lua/lazyvim/plugins/extras/util/database.lua 
-gst
-gaa
-gc -m "fixed a minor typo"
-gp
-gp origin master
-gp origin main
-nvim 
-gh auth --help
-gh auth refresh -h github.com -s --help
-man gh
-nvim ~/zsh/history.zsh
-gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org\
-
-gh auth status\
-
-nvim 
-gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org,read:project,write:project\
-
-gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org,read:project
-nvim
+nvim /etc/environment
+nvim ~/.profile
 q
-q
-q
-nvim
-cd watch_hub_api/
-sail upd -d
-sail up -d
-nvim
-git 
-gh auth login
-git auth
-git login
-git | grep auth
-gh auth
-gh auth token 
-gh auth refresh
-rm ~/.git-credentials -rf
-git status
-cd ~
-cd watch_hub_api/
-git pull
-touch lol.txt
-gcap "test"
-gaa
-gcap "test"
-q
-git status
-gcap "some misc changes"
-rm ~/.gitconfig
-rm ~/.git-credentials
-git push
-cd ~/.config
-git clone https://github.com/Conarius/Neovim-IDE ide
+cd
 nvim ~/zsh/aliases.zsh
-source ~/zsh/.zshrc
-ide
-cd ide
-ide
-cd ~/watch_hub_api/
-ide
-ide ./_ide_helper.php
+yare z
+yain zoxide
+zoxide
+zoxide init
+zoxide init zsh
+. <(zoxide init zsh)
+z
+nvim ~/zsh/laz
+nvim ~/zsh/lazyload.zsh
+nvim ~/zsh/.zshrc
+cd $ZDOTDIR/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
+cd ~/zsh/plugins/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
+cd ~/zsh/plugins/zsh-navigation-tools/
+ls
+nvim zsh-navigation-tools.plugin.zsh
 q
-cd ~/watch_hub_api/
-nvim .
+zsh
 q
-mux api
-nvim .
-lazydocker
-yain resto
-yass  rest
-yass  rest | grep client
-go install github.com/abdfnx/resto@latest
-resto
-cd ~/go/bin/
-ls
-./resto
-nvim
-sail down
-docker 
 q
-killall msedge
-cd lazyvim
-nv ./lua/lazyvim/plugins/extras/util/database.lua 
-dart
-dart compile
-dart help
-dart fix
-dart analyze
-dart pub global activate dart_style
-dartfmt
-nvim ~/zsh/env.zsh
-exec zsh
-dartfmt
 q
-nvim
-gh repo clone mason-registry
-cd mason-registry/
-git branch
-git branch dart
-git checkout dart
-nvim .
-dart --lsp
-dart analyze --lsp
-dart analyze --help
-dart create
-dart create cli
+q
+q
+z
+cd nvim
 ls
-dart create cli --help
-dart create cli --help sample-dart
-dart create cli sample-dart
-dart create sample-dart
-cd sample-dart/
+starship
+starship prompt
+starship preset
+starship preset --help
+starship preset pure-preset
+starship preset pure-preset -o ~/.config/starship.toml
+a
+lm
+l
+hey
+lmao
+nvim ~/zsh/starship.zsh
+nvim ~/.config/starship.toml
+lmao
+gst
+nvim ~/zsh/starship.zsh
+cd api
 ls
-echo $DART_SDK
-which dart
-which flutter
-git clone https://aur.archlinux.org/packages/flutter ~/flutter-pkg
-git clone https://aur.archlinux.org/packages/flutter.git  ~/flutter-pkg
-git clone https://aur.archlinux.org/flutter.git
-cd flutter/
+yass posh
+yain oh-my-posh-bin
+oh-my-posh
+which oh-my-posh
+q
+cd /usr/lib
 ls
-nvim PKGBUILD
-cd /usr/
-ls
-ls include
+ls | grep posh
 cd /
-cd ./opt/flutter/
+rg posh
+fd posh
+cd /usr/share
 ls
-flutter config
-flutter config --help
-q
-flutter config --enable-cli-animations
-flutter config --cli-animations
-flutter config --enable-ios --enable-android --enable-web --enable-macos-desktop --enable-linux-desktop --enable-custom-devices --enable-flutter-preview
-q
-cd ~/sample-dart/
-cd ~
-rm sample* -rf
-flutter create sample
-cd sample/
-ls
-nvim .
-cd /opt/flutter/
-ls
-cd bin
-ls
-cd cache
-ls
-..
-dart language-server
-dart language-server --help
-cd ~/sample/
-ls
-cd ~
-touch lol.dart
-nvim lol.dart
-nvim
-dart language-server --protocol
-q
-q
-q
-cls
-cd ~
-nvim
-cd nvim
-git restore lua/plugins/nvim-lint.lua
-gst
-git log
-cd ~/.cache
-ls
-git clone https://github.com/muneebusmani/Nvim
-cd ./nvim/
-ls
-cd ./Nvim
-cd ../Nvim
-ls
-git reset --hard ea4e1e0
-gst
-ls
-nvim ./lua/plugins/nvim-lint.lua 
-cd ../
-rm Nvim -rf
-cd ~/
-nvim
-dart language-server --protocol
-dart language-server --protocol=analyzer
-q
-nvim lol.dart
-nvim
-nvim lol.dart
-nvim
-echo "void main() => print('Hello, world!');" | dart analyze /dev/stdin\
-
-q
-q
-nvim
-nvim ~/lol.dart
-nvim
-nvim ~/lol.dart
-nvim
-dart analyze --help
-dart analyze a
-dart analyze 
-dart analyze --format machine -
-dart analyze --format 
-q
-nvim ~/lol.dart
-cd nvim
-ls
-nvim .
-git stash
-gst
-git checkout dart
-git branch dart
-git checkout dart
-nvim .
-git stash apply
-git checkout master
-gst
-git stash apply
-ls
-nvim .
-gaa
-gcap "making new config for dart"
-gh auth refresh -h github.com -s repo,admin:repo_hook,workflow,user,delete_repo,read:org,write:org,admin:org,read:project
-gst
-gcap "making new config for dart"
-git config --global user.name "muneebusmani"
-git config --global user.email "muneebusmani8355@gmail.com"
-gcap "making new config for dart"
-git checkout dart
-gst
-ls
-git push origin
-nvim .
-git stash apply
-git branch master
-git checkout master
-git reset
-git reset --hard
-gst
-git checkout master
-git branch --help
-git branch -D dart
-git branch dart
-git checkout dart
-nvim .
-nvim
-dartfmt
-~/.pub-cache/bin/dartfmt
-~/.pub-cache/bin/dartformat
-~/.pub-cache/bin/dartformat --help
-nvim ~/lol.dart
-git checkout master
-gst
-git reset --hard
-gst
-nvim ~/lol.dart
-nvim 
-git diff 5811236 
-git diff 5811236
-git diff 5811236 --help
-git status
-git checkout dart
-gst
-nvim .
-nvim ~/lol.dart
-nvim
-cd nvim
-cd ~/.config/nvim
-lazy
-nvim ~/lol.dart
-nvim 
-nvim ~/lol.dart
-nvim
-gst
-gaa
-gc "added dart lsp"
-gc -m "added dart lsp"
-lazy 
-nvim ~/lol.dart
-dartfmt
-dartformat
-nvim ~/zsh/env.zsh
-q
-nvim 
-dartfmt
-nvim ~/loL.dart
-nvim
-nvim ~/loL.dart
-nvim
-dartfmt
-dartfmt --help
-dartfmt -w ~/lol.dart
-nvim 
-nvim ~/loL.dart
-nvim
-nvim ~/loL.dart
-dart format
-dart format ~/lol.dart
-nvim ~/lol.dart
-q
-dart format ~/lol.dart
-dart format ~/lol.dart 
-dart format ~/lol.dart  --help
-dart format ~/lol.dart -o none
-dart format ~/lol.dart  --output none
-nvim ~/lol.dart
-cd nvim
-gst
-nvim ./lua/config/autocmds.lua 
-nvim ~/lol.dart
-nvim ./lua/config/autocmds.lua 
-gst
-gaa
-gcap "linting formatting and lsp completed for dart"
-git config --global push.autoSetupRemote true
-gcap "linting formatting and lsp completed for dart"
-gst
-nvim
-nvim ~/lol.dart
-gst
-nvim
-q
-nvim ~/lol.dart
-cd sample
-nvim .
-nvim
-rm ~/.local/share/nvim -rf
-rm ~/.cache/nvim -rf
-nvim
-nvim ~/.config/nvim/lua/plugins/generic/edgy.lua
-nvim
-nvim ~/.config/nvim/lua/plugins/generic/edgy.lua
-nvim ~/.config/nvim/lua/plugins/generic/neogen.lua
-q
-nvim ~/.config/nvim/lua/plugins/generic/supertab.lua
-gst
-cd ~/.config
-git add ./htop/ ./i3/ ./alacritty ./btop
-gst
-git add zed
-cd ~
-gst
-cd i3
-gst
-nvim config
-gcap "idk what changed "
-../
-rofi/
-gcap "idk what changed "
-gaa
-gcap "idk what changed "
-..
-gst
-cd ~/.local/share/rofi
+cd oh-my-posh/
 ls
 cd themes/
 ls
-cd ../
-git add ./rofi
-ls
-cd nvim
-nvim .
-nvim
-gst
-gaa
-ls
-gst
-nvim .luarc.json
-gcap "optimized for Dart/Flutter"
-nvim README.md
-dart
+pwd
+nvim ~/zsh/starship.zsh
+oh-my-posh
+oh-my-posh init
+oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_frappe.omp.json
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_frappe.omp.json)
 q
-gaa
-gst
-git commit -m "complete support for dart/flutter"
-nvim README.md
-cd ~/sample
-nvim .
-nvim
-gst
-cd nvim
-q
-gst
-gaa
-gcap "Added more docs"
-git branch -D master
-git branch --help
-git branch -m master
-gst
-git origin
-git remote origin
-git remote -v
-git remote set-url origin https://github.com/muneebusmani/dart
-git remote -v
-git push
-git push origin HEAD
-gh repo create
-git push
-git remote
-git remote --help
-git remote remove origin
-gh repo create
-gh repo delete dart
-gh repo create
-gst
-cd ~/
-git add ~/zsh
-gst
-cd .config/lazyvim
-ls
-cd lua
-ls
-cd plugins/
-ls
-...
-..
-mv lazyvim lazydev
-gst
-cd luavim
-lazydev
-ls
-cd ~/.local/share
-mv lazyvim lazydev
-lazy
-which lazy
-nvim ~/zsh/aliases.zsh
-mv lazydev luavim
-cd ~/.config/nvim
-mv lazydev luavim
-lazy
-cd ~
-cd nvim
-../
-mv lazydev luavim
-q
-luavim
-cd nvim
-..
-gh repo clone laravel laravim
-gh repo clone dart ~/.config/dartvim
-q
-nvim ~/zsh/aliases.zsh
-gh repo clone dart ~/.config/dartvim
-q
-q
-q
-luavim
-dartvim
-laravim
-q
-q
-cd watch_hub_api/
-laravim
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_frappe.omp.json)
+cd /
 cd 
-luavim
-dartvim
-laravim
+nvim ~/zsh/.zshrc
+nvim ~/zsh/ohmyposh.zsh
+nvim ~/zsh/ohmyposh.toml
+nvim ~/zsh/ohmyposh.zsh
+nvim ~/zsh/.zshrc
 q
-cd ~/.config/dartvim
-cd ./lua/plugins/generic/
+cls
+cls
+cd api
 ls
-..
-cp generic ~/
-cp generic -rf
-cp generic -r
-cd ~/generic
-ls
-cp generic -r ~/
-cd ~/generic
-ls
-nvim init.lua
-ls
-nvim README.md
-gh repo create
-git init
-git add -A
-git commit -m "created a generic plugin repo"
-gh repo create
-cd dartvim
-luavim .
-git add -A
-git commit -m "created a generic plugin repo"
-git push
-luavim
-dartvim .
-cd generic
-ls
-gst
-nvim .
-gst
-gaa
-gcap "Added more changes"
-dartvim
-nvim .
-cd laravim
-cd dartvim
-luavim .
-dartvim .
+cd
+nvim ~/zsh/.zshrc
 q
-gst
-cd ~/generic
-gst
-laravim
-cd dartvim
-ls
-nv
-dartvim
-ls
-gst
-gcap "Added more changes"
-git submodule add https://github.com/muneebusmani/generic ./lua/plugins/generic
-gst
-gaa
-nvim ./.gitignore 
-dartvim
-nvim ./lua/config/lazy.lua 
-dartvim
-nvim ./lua/plugins/generic/init.lua
-dartvim
-ls
-cd lua/plugins/generic/
-ls
-mv lua/* ../
-ls
-cd ../
-ls
-gst
-git clean -d -n 
-git clean -d
-git clean -d -f
-gst
-cd generic
-ls
-git restore ./lua/*
-git restore lua/*
-cd lua
-git restore
-gst
-gsm
-git restore *
+nvim ~/zsh/.zshrc
+nvim ~/zsh/starship.zsh
+nvim ~/.config/starship.toml
+q
+nvim ~/.config/starship.toml
+q
+nvim ~/.config/starship.toml
+q
+lamao
+nvim ~/.config/starship.toml
+bleopt
 bash
-ls
-gst
-mv * ../
-..
-ls
-gst
-rm lua/ -rf
-ls
-rm init.lua
-gst
-gaa
-gst
-gcap "Added more changes"
-..
-nv config/lazy.lua
-dartvim
-gst
-cd plugins/generic/
-gst
-cd dartvim
-gaa
-gst
-gc -m "optimized"
-cd generic
-ls
-cd undotree.lua
-nvim undotree.lua
-laravim
 q
+q
+cd api
+git clone --recursive https://github.com/akinomyoga/ble.sh.git\
+cd ble.sh\
+make
+source out/ble.sh
+source out/ble.sh | bash
+bash source out/ble.sh
+nvim ~/zsh/ohmyposh.zsh
+nvim ~/zsh/.zshrc
+q
+nvim ~/zsh/.zshrc
+nvim ~/zsh/ohmyposh.zsh
+q
+cls
+cd LazyVim
+cd nvim
+cd extras
+pwd
+pwd
+cd
+oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_macchiato.omp.json 
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_macchiato.omp.json)
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_latte.omp.json)
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_frappe.omp.json)
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_macchiato.omp.json)
+. <(oh-my-posh init zsh -c /usr/share/oh-my-posh/themes/catppuccin_mocha.omp.json)
+nvim ~/zsh/ohmyposh.zsh
+q
+cls
+nvim ~/zsh/ohmyposh.zsh
+nvim ~/zsh/.zsh
+nvim ~/zsh/.zshrc
+q
+zoxide
+zoxide query
+zoxide query
+cd api
+ls
+sail up -d
+./vendor/bin/carbon
+./vendor/bin/carbon --help
+yain silicon
+nvim
+silicon
+starship preset --help
+q
+nvim
+nvim
+nvim
+nvim
+q
+nvim
+nvim
+nvim
+nvim
+nvim
+cd ~/.local/share/nvim/lazy
+cd silicon.nvim/
+ls
+nvim .
+./install.sh build
+ls
+nvim
+nvim
+nvim
+nvim
+nvim
+ls
+nvim
+nvim
+nvim
+nvim
+cd api
+nvim .
+nvim .
+nvim .
+cd nvim
 gst
 gaa
-gcap "modularized common extras"
+gcap "optimized"
+nvim
+nvim
+nvim
+nvim
+nvim
+cd ~/LazyVim/
+gh repo LazyVim Delete
+gh repo Delete
+gh repo delete LazyVim
+rm ~/LazyVim
+rm ~/LazyVim -rf\ 
+rm ~/LazyVim -rf
+cd
+gh repo clone LazyVim
+cd lazy
+cd extra
+ls
+pwd
+cd lazy extra
+pwd
+ls
+cd ./lang/
+nvim .
+nvim 
+nvim 
+nvim 
+nvim ./php.lua
+cd local share null
+cd local share 
+cd nvim null
+cd nvim none
+cd nvim extras
+cd nvim 
+ls
+cd lazy/none-ls.nvim/
+ls
+nvim .
+cd ~/LazyVim/
+gst
+nvim ./lua/lazyvim/plugins/extras/lang/php.lua 
+git branch php
+git checkout php
+gst
+gaa
+nvim ./lua/lazyvim/plugins/extras/lang/php.lua 
+gst
+gaa
+gcap "fix(php): Added Formatting for php"
+git push origin --force
+gh repo 
+nvim
+nvim //
+nvim .
+gst
+git push
+gst
+git push
+yain ollama
+ollama
+ollama list
+ollama serve
+ollama list
+htop
+ollama 
+ollama  pull gemma
+q
+q
+sc-enable ollama
+ollama
+ollama list
+sc-enable ollama --now
+ollama list
+ollama list --help
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+q
+mux api
+lazygit
+lazydocker
+nvim api.http
+nvim .
+gst
+gcap "Issues in code"
+git remote -v
+git remote -v >> ~/repo
+nvim ~/repo
+nvim
+sail up -d
+q
+phpactor
+nvim
+phpactor
+phpactor index:clean
+q
+nvim
+q
+q
+q
+q
+cd api
+sail up -d
+q
+./vendor/bin/psalm --init
+./vendor/bin/psalm-plugin enable psalm/plugin-laravel
+./vendor/bin/psalm --init
+q
+sail artisan down
+sail artisan up
+sail artisan migrate:refresh --seed
+route
+sail artisan cache:clear
+fastfetch
+cls
+cls
+cls
+fastfetch
+neofetch
+cls
+ls
+cls
+neofetch
+nvim ~/.config/alacritty/alacritty.toml
+nvim
+cd ~/LazyVim
+ls
+git branch laravel
+git checkout laravel
+gst
+tree | grep php
+git diff
+git log 
+git checkout master
+git checkout main
+gst
+tree | grep php
+nvim 
+nvim 
+tmux
+cd
+mkdir laravel_ide.nvim
+cd laravel_ide.nvim/
+ls
+nvim .
+git init
+touch README.md
+nvim README.md
+gaa
+gcap "Initial Commit"
+gh repo create
+git log
+nvim .
+q
+coc
+NVIM_APPNAME=coc-nvim nvim ~/watch_hub_api
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+cd coc-nvim
+ls
+nvim .
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+NVIM_APPNAME=coc-nvim nvim ~/lolapp
+nvim
+nvim
+nvim
+cd lolapp
+nvim .
+nvim .
+yain laravel-dev-generators
+yass laravel-dev
+cd ~/laravel-dev-tools/
+./laravel-dev-tools app:build
+cd builds/laravel-dev-tools
+cd builds/
+ls
+./laravel-dev-tools
+./laravel-dev-tools config
+./laravel-dev-tools models
+./laravel-dev-tools run-command
+./laravel-dev-tools snippets
+cd
+larvel-dev-tools
+./laravel-dev-tools/builds/laravel-dev-tools
+./laravel-dev-tools/builds/
+sudo cp ./laravel-dev-tools /usr/local/bin
+cd
+cd nvim
+nvim
+nvim
+nvim
+nvim
+nvim ~/watch_hub_api
+nvim 
+nvim
+cd
+composer update --global
+composer global update
+laravel new example-app
+laravel new example-app
+cd example-app/
+ls
+nvim .
+q
+cd example-app/
+code .; exit
+/home/muneeb/.vscode/extensions/
+ls
+ls | grep intelephense
+cd bmewburn.vscode-intelephense-client-1.10.4/
+ls
+nvim .
+/home/muneeb/.vscode/extensions/
+cd bmewburn.vscode-intelephense-client-1.10.4/
+code .; exit
+http post https://intelephense.com/activate
+https post https://intelephense.com/activate
+/home/muneeb/.vscode/extensions/
+cd bmewburn.vscode-intelephense-client-1.10.4/
+code .; exit
+cd bmewburn.vscode-intelephense-client-1.10.4/
+/home/muneeb/.vscode/extensions/
+ls
+cd bmewburn.vscode-intelephense-client-1.10.4/
+ls
+nvim .
+/home/muneeb/.vscode/extensions/
+cd bmewburn.vscode-intelephense-client-1.10.4/
+ls
+cd node_modules/intelephense/lib/
+ls
+nvim .
+code .; exit
+killall code
+/home/muneeb/.vscode/extensions/
+cd ~
+/home/muneeb/.vscode/extensions/bmewburn.vscode-intelephense-client-1.10.4
+tmux
+cd
+nvim 
+nvim ~/activate-intelephense.sh
+pwd
+nvim 
+~/intelephense
+ls
+nvim ./license.txt
+nvim ~/index.php
+nvim ~/index.php
+tad
+tmux attac
+q
+ls
+nvim ~/activate-intelephense.sh
+cd mason
+ls
+pwd
+cd local lazy mason
+cd local lazy
+ls
+cd mason intelephense
+cd mason 
 cd ../
+cd -
+pwd
+cd -
+cd -
+cd -
+cd -
+cd local mason
+cd local nvim mason
+cd local nvim 
+ls
+cd ./mason/
+ls
+cd bin
+;s
+ls
+cd ../
+ls
+cd registries/
+ls
+cd github/
+ls
+cd mason-org/
+ls
+cd mason-registry/
+ls
+nvim .
+cd ../../
+ls
+...
+ls
+cd share
+ls
+cd mason-schemas/
+ls
+cd lsp/
+ls
+....
+packages
+ls
+cd intelephense/
+ls
+nvim .
+fd extension.js
+tree | grep extension.js
+nvim .
+cd local share nvim mason intelephense
+ls
+cd node_modules/intelephense/lib/
+ls
+code .
+cd ~/zsh/
+ls
+nvim ./intelephense.sh
+chmod +x ./intelephense.sh
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim ~/intelephense/license.txt
+cd ~/lolapp
+ls
+code .
+nvim
+nvim
+nvim
+nvim
+cd lolapp
+nvim .
+nvim .
+nvim .
+cd api
+nvim .
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+q
+nvim 
+cd api
+nvim .
+nvim .
+nvim
+sail up -d
+sail artisan ide-helper:generate
+sail artisan ide-helper:
+sail artisan ide-helper:models
+sail artisan ide-helper:meta
+sail artisan ide-helper:eloquent
+exit
+nvim
+http http://localhost/api/v1/cart_items/1
+http http://localhost/api/v1/shopping_carts/1
+nvim .
+sail artisan route:clear
+http http://localhost/api/v1/shopping_carts/1
+sail artisan cache:clear
+http http://localhost/api/v1/shopping_cart
+sail artisan cache:clear
+sail down; sail up -d;
+q
+q
+nvim .
+nvim .
+nvim .
+sail artisan cache:clear
+sail down; sail up -d;
+composer require barryvdh/laravel-debugbar --dev
+cls
+sail down; sail up -d;
+nvim ~/.config/alacritty/alacritty.toml
+nvim ~/.config/alacritty/alacritty.toml
+nvim ~/.config/alacritty/alacritty.toml
+q
+tmux
+cd ~/watch_hub_api/
+nvim .
+nvim ~/.config/alacritty/alacritty.toml
+nvim ~/.config/alacritty/alacritty.toml
+q
+q
+q
+nvim ~/.config/alacritty/alacritty.toml
+q
+nvim ~/.config/alacritty/alacritty.toml
+nvim ~/.config/alacritty/alacritty.toml
+q
+nvim ~/.config/alacritty/alacritty.toml
+tmux attach
+cls
+cd watch_hub_api/
+nvim .
+lazydocker
+q
+nvim ~/.config/tmuxinator/api.yml
+q
+rm .tmux.conf
+cd 
+nvim ~/.tmux.conf
+q
+mux api
+nvim api.http
+nvim .
+lazygit
+lazydocker
+q
+nvim ~/.config/tmuxinator/api.yml
+nvim ~/.config/alacritty/alacritty.toml
+q
+mux api
+nvim ~/.config/alacritty/alacritty.toml
+mux api
+q
+nvim ~/.config/alacritty/alacritty.toml
+q
+cd ~/Downloads/
+ls
+ls
+ls phpactor.vsix
+./phpactor.vsix
+nvim phpactor.vsix
+ls
+mv PHP.VS.1.80.19712.2022.vsix PHP.VS.1.80.19712.2022.zip
+thunar .
+ls
+rm ./*.dll
+ls
+ls
+mv jetbra ~/jetbra
+rm -rf ./*
+ls
+mv ~/jetbra .
+ls
+cd jetbra/
+ls
+cd jetbra/
+ls
+cd ../
+ls
+mv jetbra ~
+ls
+cd ~
+ls
+q
+q
+ls
+q
+nvim ~/.config/i3/i3blocks.conf
+nvim
+q
+q
+zellij
+q
+q
+nvim ~/zsh/catppuccin.toml
+nvim ~/.config/starship.toml
+nvim ~/zsh/catppuccin.toml
+nvim ~/.config/starship.toml
+nvim ~/.config/starship.toml
+nvim ~/.config/starship.toml
+ls
+nvim ~/.config/starship.toml
+nvim ~/.config/starship.toml
+nvim ~/.config/starship.toml
+gst
+starship preset --help
+rm ~/.config/starship.toml
+cd 
+ls
+fish
+yain fish
+nvim
+nvim
+yain nu
+yain nushell
+nu
+nvim
+nvim
+nvim
+nvim ~/.config/nushell
+htop
+chsh -s nu
+chsh -s $(which nu)
+exec $0
+q
+nu
+exit
+nvim ~/.config/alacritty/alacritty.toml
+q
+q
+cd lang
+ls
+pwd
+nvim ./nushell.lua
+zoxide
+zoxide init nu
+zoxide init nushell
+exit
+cd
+zoxide init nushell
+nu
+q
+git branch -D alravel
+git branch -D laravel
+git checkout main
+git status
+git reset --hard HEAD
+git reset --hard
+git reset --hard 5185404 
+git fetch
+git merge
+git log
+q
+git pull
+nvim ./php.lua
+git checkout laravel
+nvim ./laravel.lua
+cd -
+q
+git reset --hard upstream/main
+nvim ./laravel.lua
+nvim ./laravel.lua
+exit
+ls
+cd ~/.vscode
+nushell
+nu
+q
+killall firefox
+firefox
+htop
+cls
+composer global require tightenco/tlint
+tlint
+tlint --help
+tlint --only
+tlint --only --help
+q
+nvim .
+q
+cd
+cls
+q
+nu
+exit
+npm
+which npm
+q
+nvim
+nvim
+nvim
+nvim
+nvim
+cd nvim
+rg null
+nvim ./lua/plugins/laravel.lua 
+nvim ./lua/plugins/laravel.lua 
+nvim ./lua/plugins/laravel.lua 
+nvim
+cd api
+nvim 
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd local share nvim lazy 
+ls
+cd LazyVim extras
+ls
+pwd
+nvim .
+nvim
+nvim ~/index.php
+killall phpactor
+htop
+nvim
+cd ~/watch_hub_api/
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim ./docker-compose.yml
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+mvo,
+nvim
+nvim
+nvim
+NVIM
+nvim
+nvim
+nvim
+artisan mkae
+artisan make
+sail artisan make
+sail up -d
+sail artisan make
+sail artisan make:
+sail artisan make:view
+q
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim ~/watch_hub_api
+nvim
+cd w
+nvim
+nvim ~/.local/share/nvim/mason/packages/phpactor/phpactor.schema.json
+q
+nvim
+nvim
+nvim
+nvim
+nvim
+nvim
+cd diagnostics
+cd mason
+cd local share nvim mason diagnostics
+cd local share nvim mason 
+ls
+cd ../
+cd local share nvim lazy none diagnostics
+cd local share nvim lazy none 
+ls
+cd lua
+ls
+cd null-ls/
+ls
+cd builtins/
+ls
+cd diagnostics/
+l
+ls
+../
+ls
+rg standard
+rg php
+nvim
+nvim
+nvim
+nvim
+phpstan
+phpstan --help
+q
+q
+cd -
+cd -
+cd api
+nv
+./vendor/bin/phpstan
+./vendor/bin/phpstan --help
+./vendor/bin/psalm-language-server
+./vendor/bin/psalm-language-server --help
+cd none
+cd diagnostics
+ls
+cd ../
+cd formatting/
+ls
+nvim ./dart_format.lua
+cd ~/LazyVim
+gst
+nvim ./lua/lazyvim/plugins/extras/lang/laravel.lua 
+nvim ./lua/lazyvim/plugins/extras/lang/laravel.lua 
+nvim ./lua/lazyvim/plugins/extras/lang/laravel.lua 
+rm meta
+rg meta
+cd lang
+pwd
+rg meta
+rg desc
+cd ../
+rg meta
+q
+cd coding
+ls
+nvim yanky.lua
+q
+nvim .
+cp ~/.config/nvim/queries/blade ~/LazyVim/queries/blade
+cp ~/.config/nvim/queries/blade ~/LazyVim/queries/blade -rf
+ls
+nvim
+cd nvim
+ls
+tree --help
+nvim
+cd lazy
+pwd
+git stash
+git checkout main
+git reset --hard upstream/main
+git fetch
+gh repo sync
+git stash --help
+git stash --show
+git stash show
+nvim .
+nvim .
+gst
+rm -rf queries
+gst
+git rm queries/
+git rm queries/ -r
+gst
+git reset --hard upstream/main
+gst
+git log
+gst
+nvim .
+rg fs
+rg fssharp
+rg fsharp
+q
+gst
+nvim ./lua/lazyvim/plugins/extras/lang/fsharp.lua 
+git branch fsharp
+gst
+git checout fsharp
+git checkout fsharp
+gst
+git add -A
+nvim ./lua/lazyvim/plugins/extras/lang/fsharp.lua 
 gst
 gaa
-gcap "modularized common extras"
-cd laravim
-...
-..
-laravim/
-ls
-luavim .
-dartvim
-cd dartvim
-dartvim
+gcap "feat(extras): Added fsharp support"
+nvim ./lua/lazyvim/plugins/extras/lang/fsharp.lua 
+nvim ./lua/lazyvim/plugins/extras/lang/fsharp.lua 
+gcap "fixed extra mason spec"
+git checkout dart
+git checkout main
 gst
-gcap "fixed a typo for extras usage"
+git log
+git reset --hard upstream/main
+gst
+git reset --hard upstream/main
+git fetch
+git fetch upstream
+gst
+nvim ./lua/lazyvim/plugins/extras/lang/dart.lua
+nvim ./lua/lazyvim/plugins/extras/lang/dart.lua
+cd lol
+cd ../lol
+ls
+NVIM_APPNAME=starter nvim
+NVIM_APPNAME=starter nvim ~/lol
 q
-: 1717459915:0;cd ~/LazyVim/
-: 1717459916:0;ls
-: 1717459917:0;gst
-: 1717459921:0;nvim .
-: 1717459943:0;laravim/
-: 1717459947:0;cd laravim
-: 1717459949:0;laravim
-: 1717460004:0;git submodule add https://github.com/muneebusmani/generic ./lua/plugins/generic
-: 1717460010:0;cd generic
-: 1717460011:0;gst
-: 1717460014:0;ls
-: 1717460020:0;gst
-: 1717460025:0;git log
-: 1717460034:0;..
-: 1717460036:0;gst
-: 1717460067:0;cd laravim
-: 1717460074:0;cd ./lua/plugins/generic/edgy.lua
-: 1717460078:0;laravim .
-: 1717460320:0;gst
-: 1717460324:0;laravim .
-: 1717460489:0;gst
-: 1717460498:0;cd ./lua/plugins/generic/
-: 1717460499:0;gst
-: 1717460508:0;...
-: 1717460509:0;..
-: 1717460510:0;gst
-: 1717460517:0;gaa
-: 1717460523:0;gcap "modularized common stuff"
-: 1717460535:0;cd ~
-: 1717460537:0;gst
-: 1717460550:0;cd ~/.config
-: 1717460552:0;ls
-: 1717460568:0;cd laravim
-: 1717460568:0;ls
-: 1717460569:0;gst
-: 1717460574:0;cd ../dartvim
-: 1717460575:0;gst
-: 1717460577:0;cd ../
-: 1717460580:0;cd luavim
-: 1717460581:0;gst
-: 1717460588:0;nvim .
-: 1717460618:0;gaa
-: 1717460620:0;gcap "modularized common stuff"
-: 1717460624:0;gst
-: 1717460626:0;cd ../
-: 1717460636:0;rm luavim laravim dartvim
-: 1717460639:0;rm luavim laravim dartvim -rf
-: 1717460642:0;cd ~/.cache
-: 1717460644:0;rm luavim laravim dartvim -rf
-: 1717460650:0;cd ~/.local/share/nvim
-: 1717460651:0;rm luavim laravim dartvim -rf
-: 1717460656:0;cd .config
-: 1717460682:0;git submodule add https://github.com/muneebusmani/luavim ~/.config/luavim
-: 1717460714:0;git submodule add https://github.com/muneebusmani/lazydev ~/.config/luavim
-: 1717460722:0;nvim ~/.gitmodules
-: 1717460745:0;git submodule add https://github.com/muneebusmani/dart ~/.config/dartvim
-: 1717460758:0;git submodule add https://github.com/muneebusmani/laravel ~/.config/laravim
-: 1717460766:0;gst
-: 1717460781:0;cd kitty
-: 1717460782:0;gaa
-: 1717460786:0;gcap "idk"
-: 1717460790:0;cd ~
-: 1717460799:0;gcap "hella lot updates"
-: 1717460812:0;nvim ~/zsh/env.zsh
-: 1717460825:0;gcap "hella lot updates"
-: 1717460837:0;gst
-: 1717460866:0;git rm --cached ~/zsh/history.zsh
-: 1717460881:0;git commit -am "hella lot updates"
-: 1717460886:0;git push
-: 1717460903:0;nvim ~/zsh/env.zsh
-: 1717460960:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e
-: 1717461031:0;git rebase -i 2a374171f813ec273300f6d44e9b5311207e3710
-: 1717461067:0;cd ~/zsh/
-: 1717461078:0;mv history.zsh history.zsh.bk
-: 1717461264:0;git rebase -i 05d7430307b98c760f747416ff085b899e54e44e
-: 1717461275:0;git add ./*
-: 1717461281:0;gcap "hella lot updates"
+NVIM_APPNAME=starter nvim ~/lol
+cd extras lang
+rg dart
+cd none
+rg dart
+dcm
+dcm init
+dcm init baseline
+cd ~/lol
+dcm init baseline
+dcm init ./
+dcm init baseline ./
+qdcm 
+q
+q
+q
+cd -
+cd extras lang
+nvim .
+cd none
+rg dart
+cd builtins/
+cd ../
+ls
+rg dart
+git branch  flutter
+git checkout flutter
+git reset --hard upstream/main
+nvim ./flutter.lua
+gst
+nvim 
+nvim ./flutter.lua
+cd ~/LazyVim
+gst
+gaa
+gcap "added dart support"
+nvim
+q
+q
+gst
+gcap "added zsh support"
+cd nvim
+ls
+nvim .
+nvim ~/lol
+nvim ~/lol
+nvim ~/lol
+nvim 
+cd lazy
+gst
+gck
+nu
+exit
+q
+q
+bash
+q
+nu
+q
+nvim ~/.tmux.conf
+q
+which $SHELL
+chsh -s $(which nu)
+q
+a
+lmao
+which $SHELL
+chsh -s $(which bash)
+q
+q
+cls
+nvim ~/LazyVim
+cd lazy
+ls
+git status
+nu
+gst
+q
+exit
+q
+sc-enable bluetooth
+sc-enable bluetooth --now
+q
+yay -S switchboard-plug*
+yay -S switchboard-plug\*
+yay -Ss switchboard-plug
+yainli switchboard-plug
+yasss switchboard-plug
+yasss switchboard-plug | grep -v '-git'
+yasss switchboard-plug | grep -v 'git'
+yain $(yasss switchboard-plug | grep -v 'git')
+yain nm-connection-editor
+nm-connection-editor
+cd /usr/share/applications/
+ls
+ls | grep settings
+ls | grep system
+ls switchboard
+ls | grep switchboard
+nvim ./io.elementary.switchboard.desktop
+io.elementary.switchboard
+yain $(yasss switchboard-plug | grep -v 'git')
+yare $(yasss switchboard-plug | grep -v 'git')
+yare $(yasss switchboard-plug | grep -v 'git') | grep blue
+yare $(yasss switchboard-plug | grep -v 'git' | grep blue)
+yain switchboard-plug-bluetooth
+yare $(yasss switchboard-plug | grep -v 'git')
+yain $(yasss switchboard-plug | grep -v 'git')
+q
+yare $(yasss switchboard-plug | grep -v 'display')
+yare $(yasss switchboard-plug | grep -v 'git' | grep display)
+yare $(yasss switchboard-plug | grep -v 'git' | grep keyboard)
+yare $(yasss switchboard-plug | grep -v 'git' | grep power)
+yare $(yasss switchboard-plug | grep -v 'git' | grep sound)
+yare $(yasss switchboard-plug | grep -v 'git' | grep desktop)
+yare $(yasss switchboard-plug | grep -v 'git' | grep privacy)
+yare $(yasss switchboard-plug | grep -v 'git' | grep universal)
+yare $(yasss switchboard-plug | grep -v 'git' | grep access)
+echo $(yasss switchboard-plug | grep -v 'git' | grep access)
+echo $(yasss switchboard-plug | grep -v ')
+echo $(yasss switchboard-plug | grep -v )
+yasss switchboard-plug
+echo $(yasss switchboard-plug | grep -v 'git' | grep wacom)
+yare $(yasss switchboard-plug | grep -v 'git' | grep wacom)
+yare $(yasss switchboard-plug | grep -v 'git' | grep a11y)
+cd ~/.config/nvim
+cd ../i3
+nvim ./config
+q
+pavucontrol
+pavucontrol
+killall firefox
+GTK_DEBUG=interactive pavucontrol
+GTK_DEBUG=interactive pavucontrol
+GTK_DEBUG=interactive pavucontrol
+GTK_DEBUG=interactive pavucontrol
+GTK_DEBUG=interactive pavucontrol
+yass gtk4
+yass gtk4 | grep switch
+yass switcher
+yass switcher | grep theme
+yain theme-switcher-git
+theme-switcher
+theme-switcher catppuccin-mocha-flamingo
+ls /usr/share/themes
+ls /usr/share/themes | grep flamingo
+theme-switcher catppuccin-mocha-flamingo-standard+default
+theme-switcher catppuccin-mocha-flamingo-standard
+theme-switcher catppuccin-mocha-flamingo-standard\+default
+theme-switcher --help
+theme-switcher -h
+theme-switcher
+nvim /usr/bin/theme-switcher
+gsettings set org.gnome.desktop.interface gtk-theme catppuccin-mocha-flamingo-standard+default
+GTK_THEME=catppuccin-mocha-flamingo-standard+default pavucontrol
+nvim ~/.profile
+q
+yay -S brightness-controller-git
+brightness-controller
+yain xfce4-power-manager
+xfce4-popup-applicationsmenu
+xfce4-popup-directorymenu
+xfce4-kiosk-query
+xfce4-panel
+xfce4-about
+yare xfce4-power-manager
+yain xfce4-power-manager
+xfce4-power-manager
+xfce4-power-manager-settings
+yare xfce4-power-manager
+ls | grep php
+rm index.php
+ls | grep bun
+nvim bunfig.toml
+warp-cli disconnect
+nvim bunfig.toml
+nvim ~/.config/nushell
+cd ~/.config/nushell
+ls
+nvim .
+q
+yay -S xfce4-clipman-plugin
+q
+cls
+sudo kill 135955
+sc-restart display-manager 
+reboot
+kill 20337
+cd i3
+nvim ./i3blocks.conf
+q
+yare slimbookintelcontroller
+cd ~/coding
+ls
+ls
+ls
+cd
+ls
+zsh
+chsh -s $(which zsh)
+chsh -s $(which zsh)
+q
+q
+ls
+which $SHELL
+which $SHELL
+nvim ~/.profile
+q
+which $SHELL
+which $0
+which $1
+which $0
+chsh -s $(which zsh)
+chsh -s $(which bash)
+which $SHELL
+q
+cd zsh
+ls
+nvim ./.zshrc
+q
+q
+q
+q
+q
+which $SHELL
+nu
+q
+q
+q
+q
+q
+q
+tmux kill-server
+tmux
+cd zshls
+ls
+git status
+cd config
+ls
+yazi
+ls
+git add ./bat
+git add ./btop
+git add ./zed
+ls ./zed
+git rm --cached ./zed
+git rm --cached ./zed -r
+gst
+ls
+cd systemd/
+ls
+cd user/
+ls
+ls
+ls
+cat tmux.service
+cd ../../
+ls
+git add neofetch
+git add nvim
+rm kitty
+rm kitty -rf
+gh repo clone kitty
+ls
+rm kitty -rf
+cd ~
+git submodule sync --recursive
+nvim ~/.gitmodules
+q
+q
+: 1721873788:0;git submodule sync --recursive
+: 1721873790:0;git submodule 
+: 1721873795:0;git submodule update
+: 1721873815:0;git submodule init
+: 1721873822:0;git submodule update
+: 1721873831:0;git submodule update .config/kitty
+: 1721873836:0;git submodule update .config/kitty --init
+: 1721873843:0;git submodule update --init ~/.config/kitty
+: 1721873848:0;nvim ~/.gitmodules
+: 1721873867:0;git submodule update --init /home/muneeb/.config/kitty
+: 1721873873:0;nvim ~/.gitmodules
+: 1721873913:0;git submodule add ~/.config/kitty https://github.com/muneebusmani/kitty
+: 1721873925:0;git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
+: 1721873933:0;git rm --cached ./.config/kitty
+: 1721873963:0;git add ~/.config/kitty
+: 1721873965:0;git rm --cached ./.config/kitty
+: 1721873979:0;git add ~/.gitmodules
+: 1721873983:0;git rm --cached ./.config/kitty
+: 1721873988:0;git submodule add https://github.com/muneebusmani/kitty ./.config/kitty
+: 1721874024:0;nvim ~/.gitmodules
+: 1721874050:0;git submodule add https://github.com/muneebusmani/kitty ~/.config/kitty
+: 1721874061:0;rm ~/.config/kitty
+: 1721874063:0;rm ~/.config/kitty -rf
+: 1721874068:0;git add ~/.config/kitty
+: 1721874083:0;git commit -am "commited staged changes"

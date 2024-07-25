@@ -13,3 +13,13 @@ export RUBY_DIR="$HOME/.local/share/gem/ruby/3.0.0/bin"
 export PUB_CACHE="$HOME/.pub-cache/bin"
 export PATH="$PUB_CACHE:$RUBY_DIR:$HOME_BIN:$DOTNET_TOOL:$FZF_BIN_DIR:$BUN:$COMPOSER_PATH:$PATH"
 export STARSHIP_LOG="error"
+export PROTO_HOME="$HOME/.proto"
+export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH"
+# export PATH="${PATH}:${HOME}/npm/bin"
+# export PNPM_HOME="/home/muneeb/.local/share/pnpm"
+# case ":$PATH:" in
+#   *":$PNPM_HOME:"*) ;;
+#   *) export PATH="$PNPM_HOME:$PATH" ;;
+# esac
+export BW_SESSION="LTYcaP9ooCcdyTwZEdnMLO6U1xwymt43O7LlgbJb2iDnBTjygsYsnn7ORqLvEh3zjf9A4+FNXA5Nc6aODa3idA=="
+alias bw="NODE_OPTIONS=\"--no-deprecation\" bw"
