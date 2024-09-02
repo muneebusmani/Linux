@@ -19,9 +19,6 @@
 [submodule "zsh/plugins"]
 	path = zsh/plugins
 	url = https://github.com/muneebusmani/plugins
-[submodule "zsh/plugins/zsh-lazyload/"]
-	path = zsh/zsh-lazyload/
-	url = https://github.com/qoomon/zsh-lazyload
 [submodule "/home/muneeb/.config/kitty"]
 	path = /home/muneeb/.config/kitty
 	url = https://github.com/muneebusmani/kitty
